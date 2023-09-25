@@ -3797,7 +3797,7 @@
         },
         {
             "user": {
-                "id": "af30b7a1-fc37-485f-94bf-f00e39805d8c",
+                "id": "1cb0a300-eb5b-4043-9383-e5db200e57e3",
                 "zone": [
                     {
                         "name": "World",
@@ -3810,12 +3810,22 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Croatia",
+                        "name": "France",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "Ixxonn"
+                "name": "Maxtrak"
             },
             "wrs": 1,
             "duration": 0
@@ -7730,7 +7740,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 239
+            "wrs": 240
         },
         {
             "zone": [
@@ -8020,14 +8030,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Croatia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "United States",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 17
@@ -8040,17 +8050,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "United States",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Croatia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 17
+            "wrs": 16
         },
         {
             "zone": [
@@ -18161,6 +18171,41 @@
         },
         {
             "user": {
+                "id": "1cb0a300-eb5b-4043-9383-e5db200e57e3",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Maxtrak"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "fcae33dd-70f2-4da1-b493-cd77c4399d0e",
                 "zone": [
                     {
@@ -19790,41 +19835,6 @@
                     }
                 ],
                 "name": "JaffaPadawan"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "1cb0a300-eb5b-4043-9383-e5db200e57e3",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hauts-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nord",
-                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Maxtrak"
             },
             "wrs": 3,
             "duration": 0
@@ -38499,7 +38509,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 3467
+            "wrs": 3468
         },
         {
             "zone": [
@@ -47973,6 +47983,40 @@
         },
         {
             "user": {
+                "id": "1cb0a300-eb5b-4043-9383-e5db200e57e3",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Maxtrak"
+            },
+            "wrs": 4
+        },
+        {
+            "user": {
                 "id": "c2afe633-bdea-4147-8cc9-40d363b75ade",
                 "zone": [
                     {
@@ -49448,40 +49492,6 @@
                     }
                 ],
                 "name": "JaffaPadawan"
-            },
-            "wrs": 3
-        },
-        {
-            "user": {
-                "id": "1cb0a300-eb5b-4043-9383-e5db200e57e3",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hauts-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nord",
-                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Maxtrak"
             },
             "wrs": 3
         },
@@ -68911,7 +68921,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1891
+            "wrs": 1892
         },
         {
             "zone": [
