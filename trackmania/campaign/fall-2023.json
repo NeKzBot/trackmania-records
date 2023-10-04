@@ -17042,7 +17042,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
+                        "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
                         "zone": [
                             {
                                 "name": "World",
@@ -17055,28 +17055,18 @@
                                 "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "France",
+                                "name": "Sweden",
                                 "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "Île-de-France",
-                                "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "Seine-et-Marne",
-                                "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301fade2-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "TM.Heav"
+                        "name": "Wildcard_TM"
                     },
-                    "date": "2023-10-03T23:22:51+00:00",
-                    "replay": "7338b54b-2a33-4aef-9481-f7c77dcd9f4c",
+                    "date": "2023-10-04T21:19:59+00:00",
+                    "replay": "9908be27-b5cd-4f0a-ad05-a11ca4d890dd",
                     "duration": 0,
-                    "score": 67548,
-                    "delta": 19
+                    "score": 67458,
+                    "delta": 90
                 }
             ],
             "history": [
@@ -17630,12 +17620,40 @@
                     "duration": 0,
                     "score": 67548,
                     "delta": 19
+                },
+                {
+                    "user": {
+                        "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Sweden",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "Wildcard_TM"
+                    },
+                    "date": "2023-10-04T21:19:59+00:00",
+                    "replay": "9908be27-b5cd-4f0a-ad05-a11ca4d890dd",
+                    "duration": 0,
+                    "score": 67458,
+                    "delta": 90
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 922133
+        "totalTime": 922043
     },
     "leaderboard": [
         {
@@ -17759,41 +17777,6 @@
                     }
                 ],
                 "name": "JurixTM"
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Seine-et-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fade2-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "TM.Heav"
             },
             "wrs": 2,
             "duration": 0
@@ -18142,29 +18125,69 @@
             },
             "wrs": 1,
             "duration": 0
+        },
+        {
+            "user": {
+                "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Seine-et-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fade2-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "TM.Heav"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Wildcard_TM"
+            },
+            "wrs": 1,
+            "duration": 0
         }
     ],
     "countryLeaderboard": [
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "France",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 5
-        },
         {
             "zone": [
                 {
@@ -18184,6 +18207,26 @@
                 }
             ],
             "wrs": 5
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "France",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 4
         },
         {
             "zone": [
@@ -18238,9 +18281,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Poland",
+                    "name": "Sweden",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 2
@@ -18258,12 +18301,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Sweden",
+                    "name": "Poland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1
+            "wrs": 2
         },
         {
             "zone": [
@@ -21063,6 +21106,31 @@
                     }
                 ],
                 "name": "Paardenvechter"
+            },
+            "wrs": 2,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Wildcard_TM"
             },
             "wrs": 2,
             "duration": 0
@@ -23881,31 +23949,6 @@
             },
             "wrs": 1,
             "duration": 0
-        },
-        {
-            "user": {
-                "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Sweden",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Wildcard_TM"
-            },
-            "wrs": 1,
-            "duration": 0
         }
     ],
     "historyCountryLeaderboard": [
@@ -23982,6 +24025,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Sweden",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 31
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Netherlands",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
@@ -24008,26 +24071,6 @@
                 }
             ],
             "wrs": 31
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Sweden",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 30
         },
         {
             "zone": [
