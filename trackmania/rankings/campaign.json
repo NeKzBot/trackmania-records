@@ -412,6 +412,41 @@
         },
         {
             "user": {
+                "id": "cd32b288-a361-483a-9c48-68417eb83c74",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nouvelle-Aquitaine",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fb84d-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Deux-Sèvres",
+                        "parentId": "301fb84d-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fc272-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Flechetas"
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a5af97bc-d185-404f-a7d1-5c4e48d05db6",
                 "zone": [
                     {
@@ -472,66 +507,6 @@
         },
         {
             "user": {
-                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Denmark",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SolivaganTz"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "cd32b288-a361-483a-9c48-68417eb83c74",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nouvelle-Aquitaine",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fb84d-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Deux-Sèvres",
-                        "parentId": "301fb84d-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fc272-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Flechetas"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "fb678553-f730-442a-a035-dfc50f4a5b7b",
                 "zone": [
                     {
@@ -558,6 +533,31 @@
                 "name": "mime-chan"
             },
             "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Denmark",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SolivaganTz"
+            },
+            "wrs": 5,
             "duration": 0
         },
         {
@@ -4360,7 +4360,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 64
+            "wrs": 65
         },
         {
             "zone": [
@@ -4535,9 +4535,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Denmark",
+                    "name": "United Kingdom",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 12
@@ -4555,12 +4555,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "United Kingdom",
+                    "name": "Denmark",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 12
+            "wrs": 11
         },
         {
             "zone": [
@@ -6221,6 +6221,41 @@
         },
         {
             "user": {
+                "id": "cd32b288-a361-483a-9c48-68417eb83c74",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nouvelle-Aquitaine",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fb84d-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Deux-Sèvres",
+                        "parentId": "301fb84d-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fc272-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Flechetas"
+            },
+            "wrs": 53,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a98c34ef-5896-417b-bdfe-35c8ed25c4bc",
                 "zone": [
                     {
@@ -6272,41 +6307,6 @@
                 "name": "WirtualTM"
             },
             "wrs": 53,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "cd32b288-a361-483a-9c48-68417eb83c74",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nouvelle-Aquitaine",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fb84d-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Deux-Sèvres",
-                        "parentId": "301fb84d-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fc272-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Flechetas"
-            },
-            "wrs": 52,
             "duration": 0
         },
         {
@@ -46979,7 +46979,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2239
+            "wrs": 2240
         },
         {
             "zone": [
@@ -49496,7 +49496,7 @@
                 ],
                 "name": "Flechetas"
             },
-            "wrs": 19
+            "wrs": 20
         },
         {
             "user": {
@@ -88948,7 +88948,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1001
+            "wrs": 1002
         },
         {
             "zone": [
