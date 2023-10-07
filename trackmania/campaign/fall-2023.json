@@ -9244,7 +9244,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
+                        "id": "36f2e9f5-fbfb-4ae2-8822-9bc69a711a4a",
                         "zone": [
                             {
                                 "name": "World",
@@ -9252,23 +9252,28 @@
                                 "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Europe",
+                                "name": "North America",
                                 "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Denmark",
-                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                                "name": "Canada",
+                                "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Alberta",
+                                "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e6e5b-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "SolivaganTz"
+                        "name": "zodiark."
                     },
-                    "date": "2023-10-05T19:30:55+00:00",
-                    "replay": "017f2b8f-d11e-45ad-b487-cd9617ccf8dd",
-                    "duration": 1,
-                    "score": 36170,
-                    "delta": 76
+                    "date": "2023-10-07T11:38:21+00:00",
+                    "replay": "8d5557be-b838-4205-bb75-f146e3b9ad67",
+                    "duration": 0,
+                    "score": 36164,
+                    "delta": 6
                 }
             ],
             "history": [
@@ -9987,6 +9992,39 @@
                     "duration": 1,
                     "score": 36170,
                     "delta": 76
+                },
+                {
+                    "user": {
+                        "id": "36f2e9f5-fbfb-4ae2-8822-9bc69a711a4a",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "North America",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Canada",
+                                "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Alberta",
+                                "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e6e5b-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "zodiark."
+                    },
+                    "date": "2023-10-07T11:38:21+00:00",
+                    "replay": "8d5557be-b838-4205-bb75-f146e3b9ad67",
+                    "duration": 0,
+                    "score": 36164,
+                    "delta": 6
                 }
             ]
         },
@@ -19324,34 +19362,9 @@
         }
     ],
     "stats": {
-        "totalTime": 920221
+        "totalTime": 920215
     },
     "leaderboard": [
-        {
-            "user": {
-                "id": "e975fb83-c2b4-4830-9ec6-d8253f315865",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Erizel"
-            },
-            "wrs": 2,
-            "duration": 0
-        },
         {
             "user": {
                 "id": "36f2e9f5-fbfb-4ae2-8822-9bc69a711a4a",
@@ -19379,12 +19392,12 @@
                 ],
                 "name": "zodiark."
             },
-            "wrs": 2,
+            "wrs": 3,
             "duration": 0
         },
         {
             "user": {
-                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
+                "id": "e975fb83-c2b4-4830-9ec6-d8253f315865",
                 "zone": [
                     {
                         "name": "World",
@@ -19397,12 +19410,12 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Denmark",
+                        "name": "Norway",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "SolivaganTz"
+                "name": "Erizel"
             },
             "wrs": 2,
             "duration": 0
@@ -19593,6 +19606,31 @@
                     }
                 ],
                 "name": "Galeniium"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Denmark",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SolivaganTz"
             },
             "wrs": 1,
             "duration": 0
@@ -20072,27 +20110,7 @@
                     "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Denmark",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 2
+            "wrs": 3
         },
         {
             "zone": [
@@ -20110,6 +20128,26 @@
                     "name": "Poland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 1
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Denmark",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -20203,7 +20241,7 @@
                 ],
                 "name": "zodiark."
             },
-            "wrs": 23,
+            "wrs": 24,
             "duration": 0
         },
         {
@@ -25996,7 +26034,7 @@
                     "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 41
+            "wrs": 42
         },
         {
             "zone": [
