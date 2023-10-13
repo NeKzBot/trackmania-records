@@ -6208,7 +6208,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "3552887e-a795-45e3-8f96-09ae42d9f5d4",
+                        "id": "2a13aa7d-992d-4a7c-a3c5-d29b08b7f8cb",
                         "zone": [
                             {
                                 "name": "World",
@@ -6221,28 +6221,18 @@
                                 "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Russia",
+                                "name": "Sweden",
                                 "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "Центральный федеральный округ",
-                                "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "30224326-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "Москва",
-                                "parentId": "30224326-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "8cf7f77c-6025-4e55-af94-4a3b772d11d2"
+                                "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "Na1ve.."
+                        "name": "keby.."
                     },
-                    "date": "2023-10-12T23:15:56+00:00",
-                    "replay": "30d3d4af-3d4d-4bc9-aa11-49dec67a5501",
+                    "date": "2023-10-13T16:30:28+00:00",
+                    "replay": "49afbaac-2fb9-4c1c-8431-70089c09ae28",
                     "duration": 0,
-                    "score": 42968,
-                    "delta": 43
+                    "score": 42960,
+                    "delta": 8
                 }
             ],
             "history": [
@@ -6889,12 +6879,40 @@
                     "duration": 0,
                     "score": 42968,
                     "delta": 43
+                },
+                {
+                    "user": {
+                        "id": "2a13aa7d-992d-4a7c-a3c5-d29b08b7f8cb",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Sweden",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "keby.."
+                    },
+                    "date": "2023-10-13T16:30:28+00:00",
+                    "replay": "49afbaac-2fb9-4c1c-8431-70089c09ae28",
+                    "duration": 0,
+                    "score": 42960,
+                    "delta": 8
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 519571
+        "totalTime": 519563
     },
     "leaderboard": [
         {
@@ -6919,7 +6937,7 @@
                 ],
                 "name": "keby.."
             },
-            "wrs": 4,
+            "wrs": 5,
             "duration": 0
         },
         {
@@ -7151,41 +7169,6 @@
             },
             "wrs": 1,
             "duration": 0
-        },
-        {
-            "user": {
-                "id": "3552887e-a795-45e3-8f96-09ae42d9f5d4",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Russia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Центральный федеральный округ",
-                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30224326-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Москва",
-                        "parentId": "30224326-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "8cf7f77c-6025-4e55-af94-4a3b772d11d2"
-                    }
-                ],
-                "name": "Na1ve.."
-            },
-            "wrs": 1,
-            "duration": 0
         }
     ],
     "countryLeaderboard": [
@@ -7207,7 +7190,7 @@
                     "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4
+            "wrs": 5
         },
         {
             "zone": [
@@ -7308,26 +7291,6 @@
                 }
             ],
             "wrs": 1
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Russia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 1
         }
     ],
     "historyLeaderboard": [
@@ -7388,7 +7351,7 @@
                 ],
                 "name": "keby.."
             },
-            "wrs": 15,
+            "wrs": 16,
             "duration": 0
         },
         {
@@ -9626,7 +9589,7 @@
                     "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 16
+            "wrs": 17
         },
         {
             "zone": [
@@ -10032,7 +9995,7 @@
                 ],
                 "name": "keby.."
             },
-            "wrs": 8
+            "wrs": 9
         },
         {
             "user": {
@@ -12254,7 +12217,7 @@
                     "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 9
+            "wrs": 10
         },
         {
             "zone": [
