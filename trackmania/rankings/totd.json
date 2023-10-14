@@ -1492,6 +1492,31 @@
         },
         {
             "user": {
+                "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oceania",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "New Zealand",
+                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "baiwack"
+            },
+            "wrs": 5,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "abed9589-1509-4d56-83fa-7f2a72dbacb4",
                 "zone": [
                     {
@@ -1811,31 +1836,6 @@
                     }
                 ],
                 "name": "crispp.."
-            },
-            "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "New Zealand",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "baiwack"
             },
             "wrs": 4,
             "duration": 0
@@ -2656,41 +2656,6 @@
                     }
                 ],
                 "name": "Siqaa."
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "52b906c3-3d3e-42bb-964a-e1b73cf6c1f9",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Outre-mer",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fe667-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Réunion",
-                        "parentId": "301fe667-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fea75-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Max.347"
             },
             "wrs": 2,
             "duration": 0
@@ -4801,6 +4766,41 @@
                     }
                 ],
                 "name": "Mantaaa81"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "52b906c3-3d3e-42bb-964a-e1b73cf6c1f9",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Yvelines",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fb040-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Max.347"
             },
             "wrs": 1,
             "duration": 0
@@ -7800,7 +7800,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 243
+            "wrs": 242
         },
         {
             "zone": [
@@ -8190,6 +8190,26 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Oceania",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "New Zealand",
+                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 6
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Africa",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e1f9b-7e13-11e8-8060-e284abfd2bc4"
@@ -8238,26 +8258,6 @@
                     "name": "Brazil",
                     "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 5
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Oceania",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "New Zealand",
-                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 5
@@ -12351,6 +12351,31 @@
         },
         {
             "user": {
+                "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oceania",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "New Zealand",
+                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "baiwack"
+            },
+            "wrs": 27,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "e8b72453-7716-441e-9e72-14817d2e563a",
                 "zone": [
                     {
@@ -12475,31 +12500,6 @@
                     }
                 ],
                 "name": "Yamii-chan"
-            },
-            "wrs": 26,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "New Zealand",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "baiwack"
             },
             "wrs": 26,
             "duration": 0
@@ -39434,7 +39434,7 @@
                     "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 33
+            "wrs": 34
         },
         {
             "zone": [
@@ -45276,6 +45276,30 @@
         },
         {
             "user": {
+                "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oceania",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "New Zealand",
+                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "baiwack"
+            },
+            "wrs": 10
+        },
+        {
+            "user": {
                 "id": "f3ec2968-b71e-4865-b2bc-7fcbf123d298",
                 "zone": [
                     {
@@ -45552,30 +45576,6 @@
                     }
                 ],
                 "name": "Cocow_"
-            },
-            "wrs": 9
-        },
-        {
-            "user": {
-                "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "New Zealand",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "baiwack"
             },
             "wrs": 9
         },
@@ -70171,14 +70171,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "Oceania",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Estonia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "New Zealand",
+                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 16
@@ -70191,17 +70191,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Oceania",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "New Zealand",
-                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Estonia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 15
+            "wrs": 16
         },
         {
             "zone": [
