@@ -517,6 +517,31 @@
         },
         {
             "user": {
+                "id": "a198e640-779a-47c0-97b5-9d38a351e7fa",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Tekky.."
+            },
+            "wrs": 15,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "eb30a7cb-d9c0-49e7-92b4-1eadeeddcd12",
                 "zone": [
                     {
@@ -576,31 +601,6 @@
                     }
                 ],
                 "name": "Micka_TM."
-            },
-            "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "a198e640-779a-47c0-97b5-9d38a351e7fa",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Tekky.."
             },
             "wrs": 14,
             "duration": 0
@@ -2618,41 +2618,6 @@
                 "name": "Ricso5"
             },
             "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2eeb3522-ae19-41e1-89b6-0e84c100e994",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "England",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South East England",
-                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a755-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Epos."
-            },
-            "wrs": 2,
             "duration": 0
         },
         {
@@ -4736,6 +4701,41 @@
                     }
                 ],
                 "name": "Tunixx"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "2eeb3522-ae19-41e1-89b6-0e84c100e994",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "England",
+                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South East England",
+                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a755-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "EposUK"
             },
             "wrs": 1,
             "duration": 0
@@ -7990,7 +7990,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 44
+            "wrs": 43
         },
         {
             "zone": [
@@ -8170,7 +8170,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 16
+            "wrs": 17
         },
         {
             "zone": [
@@ -9791,7 +9791,7 @@
                 ],
                 "name": "Tekky.."
             },
-            "wrs": 96,
+            "wrs": 97,
             "duration": 0
         },
         {
@@ -39444,7 +39444,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 196
+            "wrs": 197
         },
         {
             "zone": [
@@ -41861,30 +41861,6 @@
         },
         {
             "user": {
-                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "levonn"
-            },
-            "wrs": 44
-        },
-        {
-            "user": {
                 "id": "a198e640-779a-47c0-97b5-9d38a351e7fa",
                 "zone": [
                     {
@@ -41904,6 +41880,30 @@
                     }
                 ],
                 "name": "Tekky.."
+            },
+            "wrs": 45
+        },
+        {
+            "user": {
+                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "levonn"
             },
             "wrs": 44
         },
@@ -70405,7 +70405,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 104
+            "wrs": 105
         },
         {
             "zone": [
