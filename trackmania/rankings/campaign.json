@@ -172,6 +172,31 @@
         },
         {
             "user": {
+                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Denmark",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SolivaganTz"
+            },
+            "wrs": 11,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "3b5cfa84-d8c6-410e-bc32-73fbe2cba16a",
                 "zone": [
                     {
@@ -278,31 +303,6 @@
                 "name": "zodiark."
             },
             "wrs": 11,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Denmark",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SolivaganTz"
-            },
-            "wrs": 10,
             "duration": 0
         },
         {
@@ -432,36 +432,6 @@
         },
         {
             "user": {
-                "id": "c5023724-774f-4faa-a2ae-1427e5313aa5",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Australia",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "New South Wales",
-                        "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e309b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "WinkyFace-"
-            },
-            "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "a5af97bc-d185-404f-a7d1-5c4e48d05db6",
                 "zone": [
                     {
@@ -518,6 +488,36 @@
                 "name": "pusztitopako"
             },
             "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "c5023724-774f-4faa-a2ae-1427e5313aa5",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oceania",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Australia",
+                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "New South Wales",
+                        "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e309b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "WinkyFace-"
+            },
+            "wrs": 6,
             "duration": 0
         },
         {
@@ -4365,7 +4365,7 @@
                     "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 26
+            "wrs": 25
         },
         {
             "zone": [
@@ -4405,7 +4405,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 15
+            "wrs": 16
         },
         {
             "zone": [
@@ -5361,7 +5361,7 @@
                 ],
                 "name": "SolivaganTz"
             },
-            "wrs": 106,
+            "wrs": 107,
             "duration": 0
         },
         {
@@ -47244,7 +47244,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 306
+            "wrs": 307
         },
         {
             "zone": [
