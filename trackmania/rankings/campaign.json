@@ -2252,7 +2252,7 @@
         },
         {
             "user": {
-                "id": "a584ab00-2eea-4d35-8282-76fd8a866d24",
+                "id": "304adf00-90f1-4a73-8494-ce5210689a1d",
                 "zone": [
                     {
                         "name": "World",
@@ -2265,17 +2265,17 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Switzerland",
+                        "name": "Poland",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Genève",
-                        "parentId": "30228733-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228c31-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Pomorskie",
+                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022227e-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "keszkia"
+                "name": "isfoo"
             },
             "wrs": 1,
             "duration": 0
@@ -4740,7 +4740,7 @@
                     "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 27
+            "wrs": 28
         },
         {
             "zone": [
@@ -4975,12 +4975,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Switzerland",
+                    "name": "Finland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 7
+            "wrs": 6
         },
         {
             "zone": [
@@ -4995,9 +4995,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Finland",
+                    "name": "Switzerland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 6
@@ -9281,6 +9281,36 @@
         },
         {
             "user": {
+                "id": "304adf00-90f1-4a73-8494-ce5210689a1d",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Poland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Pomorskie",
+                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022227e-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "isfoo"
+            },
+            "wrs": 15,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "45835444-f4cd-471f-9b73-793ec5a4d856",
                 "zone": [
                     {
@@ -9595,36 +9625,6 @@
                     }
                 ],
                 "name": "RandomWalk."
-            },
-            "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "304adf00-90f1-4a73-8494-ce5210689a1d",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Poland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Pomorskie",
-                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022227e-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "isfoo"
             },
             "wrs": 14,
             "duration": 0
@@ -48069,7 +48069,7 @@
                     "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 643
+            "wrs": 644
         },
         {
             "zone": [
