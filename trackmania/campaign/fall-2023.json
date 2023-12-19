@@ -18248,7 +18248,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
+                        "id": "d320a237-1b0a-4069-af83-f2c09fbf042e",
                         "zone": [
                             {
                                 "name": "World",
@@ -18256,23 +18256,28 @@
                                 "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Europe",
+                                "name": "Oceania",
                                 "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Denmark",
-                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                                "name": "Australia",
+                                "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Australian Capital Territory",
+                                "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2e52-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "SolivaganTz"
+                        "name": "AR_Mudda"
                     },
-                    "date": "2023-11-19T22:29:37+00:00",
-                    "replay": "428ae93b-f85a-4fa2-b9a8-68ae20d64d8b",
-                    "duration": 29,
-                    "score": 47710,
-                    "delta": 22
+                    "date": "2023-12-19T06:53:46+00:00",
+                    "replay": "c61d0c82-e74c-47c7-8ea0-3e3599bc67bc",
+                    "duration": 0,
+                    "score": 47690,
+                    "delta": 20
                 }
             ],
             "history": [
@@ -18856,6 +18861,39 @@
                     "duration": 29,
                     "score": 47710,
                     "delta": 22
+                },
+                {
+                    "user": {
+                        "id": "d320a237-1b0a-4069-af83-f2c09fbf042e",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Oceania",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Australia",
+                                "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Australian Capital Territory",
+                                "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2e52-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "AR_Mudda"
+                    },
+                    "date": "2023-12-19T06:53:46+00:00",
+                    "replay": "c61d0c82-e74c-47c7-8ea0-3e3599bc67bc",
+                    "duration": 0,
+                    "score": 47690,
+                    "delta": 20
                 }
             ]
         },
@@ -24934,7 +24972,7 @@
         }
     ],
     "stats": {
-        "totalTime": 916092
+        "totalTime": 916072
     },
     "leaderboard": [
         {
@@ -24959,7 +24997,7 @@
                 ],
                 "name": "SolivaganTz"
             },
-            "wrs": 7,
+            "wrs": 6,
             "duration": 0
         },
         {
@@ -24989,7 +25027,7 @@
                 ],
                 "name": "AR_Mudda"
             },
-            "wrs": 3,
+            "wrs": 4,
             "duration": 0
         },
         {
@@ -25472,7 +25510,27 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 7
+            "wrs": 6
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Oceania",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Australia",
+                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 4
         },
         {
             "zone": [
@@ -25510,26 +25568,6 @@
                     "name": "France",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 3
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Oceania",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Australia",
-                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 3
@@ -25723,36 +25761,6 @@
         },
         {
             "user": {
-                "id": "36f2e9f5-fbfb-4ae2-8822-9bc69a711a4a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Canada",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Alberta",
-                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6e5b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "zodiark."
-            },
-            "wrs": 35,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "d320a237-1b0a-4069-af83-f2c09fbf042e",
                 "zone": [
                     {
@@ -25777,6 +25785,36 @@
                     }
                 ],
                 "name": "AR_Mudda"
+            },
+            "wrs": 36,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "36f2e9f5-fbfb-4ae2-8822-9bc69a711a4a",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Canada",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Alberta",
+                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6e5b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "zodiark."
             },
             "wrs": 35,
             "duration": 0
@@ -31931,17 +31969,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Oceania",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Canada",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Australia",
+                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 54
+            "wrs": 55
         },
         {
             "zone": [
@@ -31951,14 +31989,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Oceania",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Australia",
-                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Canada",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 54
