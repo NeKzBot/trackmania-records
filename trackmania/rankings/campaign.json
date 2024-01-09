@@ -797,6 +797,31 @@
         },
         {
             "user": {
+                "id": "dcf4dd03-7801-4fab-af0c-63854970b3de",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Denmark",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "JakeRay"
+            },
+            "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "e27a181c-b5eb-41be-8a62-8485c35768ed",
                 "zone": [
                     {
@@ -1008,61 +1033,6 @@
                 "name": "Ricso5"
             },
             "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "dcf4dd03-7801-4fab-af0c-63854970b3de",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Denmark",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "JakeRay"
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "aca96daf-0fda-4496-9887-22e616d8a481",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Czechia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Moravskoslezský kraj",
-                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f4dd4-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Hyll-TM"
-            },
-            "wrs": 2,
             "duration": 0
         },
         {
@@ -1821,6 +1791,36 @@
                     }
                 ],
                 "name": "josh1248"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "aca96daf-0fda-4496-9887-22e616d8a481",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Moravskoslezský kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f4dd4-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Hyll-TM"
             },
             "wrs": 1,
             "duration": 0
@@ -5230,7 +5230,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 15
+            "wrs": 16
         },
         {
             "zone": [
@@ -5390,7 +5390,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 7
+            "wrs": 6
         },
         {
             "zone": [
@@ -5846,7 +5846,7 @@
                 ],
                 "name": "hobwis"
             },
-            "wrs": 302,
+            "wrs": 303,
             "duration": 0
         },
         {
@@ -6871,7 +6871,7 @@
                 ],
                 "name": "JakeRay"
             },
-            "wrs": 60,
+            "wrs": 61,
             "duration": 0
         },
         {
@@ -8331,6 +8331,36 @@
         },
         {
             "user": {
+                "id": "5df05285-8efb-40a3-b5a6-3e8fb597dfe4",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United States",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ohio",
+                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022e90b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Novastxr"
+            },
+            "wrs": 25,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "fc54a67c-7bd3-4b33-aa7d-a77f13a7b621",
                 "zone": [
                     {
@@ -8482,36 +8512,6 @@
                 "name": "DKDevyl"
             },
             "wrs": 25,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "5df05285-8efb-40a3-b5a6-3e8fb597dfe4",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Ohio",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022e90b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Novastxr"
-            },
-            "wrs": 24,
             "duration": 0
         },
         {
@@ -49549,7 +49549,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1662
+            "wrs": 1663
         },
         {
             "zone": [
@@ -49669,7 +49669,7 @@
                     "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 355
+            "wrs": 356
         },
         {
             "zone": [
@@ -49689,7 +49689,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 348
+            "wrs": 349
         },
         {
             "zone": [
@@ -52176,6 +52176,30 @@
         },
         {
             "user": {
+                "id": "dcf4dd03-7801-4fab-af0c-63854970b3de",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Denmark",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "JakeRay"
+            },
+            "wrs": 18
+        },
+        {
+            "user": {
                 "id": "aca96daf-0fda-4496-9887-22e616d8a481",
                 "zone": [
                     {
@@ -52371,30 +52395,6 @@
                 "name": "Thomas_Jean"
             },
             "wrs": 18
-        },
-        {
-            "user": {
-                "id": "dcf4dd03-7801-4fab-af0c-63854970b3de",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Denmark",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "JakeRay"
-            },
-            "wrs": 17
         },
         {
             "user": {
@@ -93498,7 +93498,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 142
+            "wrs": 143
         },
         {
             "zone": [
