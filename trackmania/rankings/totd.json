@@ -2792,6 +2792,31 @@
         },
         {
             "user": {
+                "id": "3de15434-6a8e-48c3-8798-ba4c2fd34630",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DancinDamage"
+            },
+            "wrs": 2,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "16a9feef-f410-4c97-8a78-ea73e946f15d",
                 "zone": [
                     {
@@ -4321,36 +4346,6 @@
                     }
                 ],
                 "name": "cinxsss"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "7f6fca0d-e30e-43e4-bae5-040c9b6f4693",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Colorado",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022b270-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Spec.TM"
             },
             "wrs": 1,
             "duration": 0
@@ -7992,31 +7987,6 @@
         },
         {
             "user": {
-                "id": "3de15434-6a8e-48c3-8798-ba4c2fd34630",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Sweden",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DancinDamage"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "76e48117-ef20-4446-85a3-9883cefc7db7",
                 "zone": [
                     {
@@ -8480,7 +8450,7 @@
                     "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 98
+            "wrs": 99
         },
         {
             "zone": [
@@ -8710,26 +8680,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "United States",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 20
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Oceania",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
@@ -8761,6 +8711,26 @@
                 }
             ],
             "wrs": 20
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "North America",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "United States",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 19
         },
         {
             "zone": [
@@ -18821,6 +18791,31 @@
         },
         {
             "user": {
+                "id": "3de15434-6a8e-48c3-8798-ba4c2fd34630",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DancinDamage"
+            },
+            "wrs": 5,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "1f79e3c4-7405-4f3b-89a1-33e643ccf0e6",
                 "zone": [
                     {
@@ -21025,31 +21020,6 @@
                     }
                 ],
                 "name": "rambajz3"
-            },
-            "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "3de15434-6a8e-48c3-8798-ba4c2fd34630",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Sweden",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DancinDamage"
             },
             "wrs": 4,
             "duration": 0
@@ -41549,7 +41519,7 @@
                     "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 867
+            "wrs": 868
         },
         {
             "zone": [
@@ -51816,6 +51786,30 @@
         },
         {
             "user": {
+                "id": "3de15434-6a8e-48c3-8798-ba4c2fd34630",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DancinDamage"
+            },
+            "wrs": 4
+        },
+        {
+            "user": {
                 "id": "c2afe633-bdea-4147-8cc9-40d363b75ade",
                 "zone": [
                     {
@@ -54616,30 +54610,6 @@
                     }
                 ],
                 "name": "Smiley_b0b"
-            },
-            "wrs": 3
-        },
-        {
-            "user": {
-                "id": "3de15434-6a8e-48c3-8798-ba4c2fd34630",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Sweden",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DancinDamage"
             },
             "wrs": 3
         },
@@ -74209,7 +74179,7 @@
                     "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 412
+            "wrs": 413
         },
         {
             "zone": [
