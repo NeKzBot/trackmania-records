@@ -745,11 +745,11 @@
                         ],
                         "name": "ShcrTM"
                     },
-                    "date": "2024-02-02T21:27:12+00:00",
-                    "replay": "225ecac2-8d55-4357-b893-4644392ac02d",
+                    "date": "2024-02-02T23:30:12+00:00",
+                    "replay": "0cee8ac9-d6c8-4a95-a434-0e21c9b6a01c",
                     "duration": 0,
-                    "score": 38648,
-                    "delta": 8
+                    "score": 38620,
+                    "delta": 28
                 }
             ],
             "history": [
@@ -1224,12 +1224,50 @@
                     "duration": 0,
                     "score": 38648,
                     "delta": 8
+                },
+                {
+                    "user": {
+                        "id": "a6ae76c9-9030-4a7b-b533-cacfd6e85cb2",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "France",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Auvergne-Rhône-Alpes",
+                                "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f6458-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Drôme",
+                                "parentId": "301f6458-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f68d0-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "ShcrTM"
+                    },
+                    "date": "2024-02-02T23:30:12+00:00",
+                    "replay": "0cee8ac9-d6c8-4a95-a434-0e21c9b6a01c",
+                    "duration": 0,
+                    "score": 38620,
+                    "delta": 28
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 65760
+        "totalTime": 65732
     },
     "leaderboard": [
         {
@@ -1363,41 +1401,6 @@
         },
         {
             "user": {
-                "id": "ac935c32-4986-4af7-ac4d-ab4314101bc1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Saarland",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30202234-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Saarbrücken",
-                        "parentId": "30202234-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302023d9-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Betatoast2"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "a6ae76c9-9030-4a7b-b533-cacfd6e85cb2",
                 "zone": [
                     {
@@ -1427,6 +1430,41 @@
                     }
                 ],
                 "name": "ShcrTM"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "ac935c32-4986-4af7-ac4d-ab4314101bc1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Germany",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Saarland",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30202234-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Saarbrücken",
+                        "parentId": "30202234-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302023d9-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Betatoast2"
             },
             "wrs": 3,
             "duration": 0
@@ -1786,7 +1824,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 14
+            "wrs": 15
         },
         {
             "zone": [
