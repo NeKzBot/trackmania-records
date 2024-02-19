@@ -9951,7 +9951,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "41122fb7-f264-448e-9660-a418f438e58b",
+                        "id": "a6ae76c9-9030-4a7b-b533-cacfd6e85cb2",
                         "zone": [
                             {
                                 "name": "World",
@@ -9969,23 +9969,23 @@
                                 "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Bretagne",
+                                "name": "Auvergne-Rhône-Alpes",
                                 "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "301f6458-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Ille-et-Vilaine",
-                                "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
+                                "name": "Drôme",
+                                "parentId": "301f6458-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f68d0-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "tm7ven"
+                        "name": "ShcrTM"
                     },
-                    "date": "2024-02-19T19:27:08+00:00",
-                    "replay": "e77aea58-2244-4724-8663-2f42ce7c6d27",
+                    "date": "2024-02-19T21:52:56+00:00",
+                    "replay": "26e5ad3c-8087-4cf7-9047-f996689fc446",
                     "duration": 0,
-                    "score": 41848,
-                    "delta": 20
+                    "score": 41805,
+                    "delta": 43
                 }
             ],
             "history": [
@@ -10285,12 +10285,50 @@
                     "duration": 0,
                     "score": 41848,
                     "delta": 20
+                },
+                {
+                    "user": {
+                        "id": "a6ae76c9-9030-4a7b-b533-cacfd6e85cb2",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "France",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Auvergne-Rhône-Alpes",
+                                "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f6458-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Drôme",
+                                "parentId": "301f6458-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f68d0-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "ShcrTM"
+                    },
+                    "date": "2024-02-19T21:52:56+00:00",
+                    "replay": "26e5ad3c-8087-4cf7-9047-f996689fc446",
+                    "duration": 0,
+                    "score": 41805,
+                    "delta": 43
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 795578
+        "totalTime": 795535
     },
     "leaderboard": [
         {
@@ -10325,7 +10363,7 @@
                 ],
                 "name": "ShcrTM"
             },
-            "wrs": 4,
+            "wrs": 5,
             "duration": 0
         },
         {
@@ -10722,41 +10760,6 @@
             },
             "wrs": 1,
             "duration": 0
-        },
-        {
-            "user": {
-                "id": "41122fb7-f264-448e-9660-a418f438e58b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Bretagne",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Ille-et-Vilaine",
-                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "tm7ven"
-            },
-            "wrs": 1,
-            "duration": 0
         }
     ],
     "countryLeaderboard": [
@@ -11114,7 +11117,7 @@
                 ],
                 "name": "ShcrTM"
             },
-            "wrs": 13,
+            "wrs": 14,
             "duration": 0
         },
         {
@@ -13392,7 +13395,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 49
+            "wrs": 50
         },
         {
             "zone": [
@@ -13886,7 +13889,7 @@
                 ],
                 "name": "ShcrTM"
             },
-            "wrs": 6
+            "wrs": 7
         },
         {
             "user": {
@@ -16149,7 +16152,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 22
+            "wrs": 23
         },
         {
             "zone": [
