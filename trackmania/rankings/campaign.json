@@ -502,6 +502,31 @@
         },
         {
             "user": {
+                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Estonia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Sandder.4W"
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a5af97bc-d185-404f-a7d1-5c4e48d05db6",
                 "zone": [
                     {
@@ -528,31 +553,6 @@
                 "name": "RotakeR."
             },
             "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Estonia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Sandder.4W"
-            },
-            "wrs": 6,
             "duration": 0
         },
         {
@@ -1906,41 +1906,6 @@
                     }
                 ],
                 "name": "Nowa-.-"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2802aebf-31c3-497c-baf7-e0685951df9a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "England",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Yorkshire and the Humber",
-                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a92a-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "TwitchTxcks"
             },
             "wrs": 1,
             "duration": 0
@@ -5455,9 +5420,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "United Kingdom",
+                    "name": "Norway",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 20
@@ -5475,12 +5440,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Norway",
+                    "name": "United Kingdom",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 20
+            "wrs": 19
         },
         {
             "zone": [
@@ -5635,6 +5600,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Estonia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 8
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Portugal",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
@@ -5701,26 +5686,6 @@
                 }
             ],
             "wrs": 8
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Estonia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 7
         },
         {
             "zone": [
@@ -7261,6 +7226,31 @@
         },
         {
             "user": {
+                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Estonia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Sandder.4W"
+            },
+            "wrs": 64,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "49965c7b-d71c-467d-99c7-ff4092daf0ca",
                 "zone": [
                     {
@@ -7292,31 +7282,6 @@
                 "name": "CamionTM"
             },
             "wrs": 64,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Estonia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Sandder.4W"
-            },
-            "wrs": 63,
             "duration": 0
         },
         {
@@ -53379,7 +53344,7 @@
                     "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 89
+            "wrs": 90
         },
         {
             "zone": [
@@ -55481,6 +55446,30 @@
         },
         {
             "user": {
+                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Estonia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Sandder.4W"
+            },
+            "wrs": 23
+        },
+        {
+            "user": {
                 "id": "cd32b288-a361-483a-9c48-68417eb83c74",
                 "zone": [
                     {
@@ -55512,30 +55501,6 @@
                 "name": "Flechetas"
             },
             "wrs": 23
-        },
-        {
-            "user": {
-                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Estonia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Sandder.4W"
-            },
-            "wrs": 22
         },
         {
             "user": {
@@ -100207,7 +100172,7 @@
                     "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 38
+            "wrs": 39
         },
         {
             "zone": [
