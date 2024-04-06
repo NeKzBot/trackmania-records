@@ -237,6 +237,31 @@
         },
         {
             "user": {
+                "id": "445a6375-a8aa-4b56-b3b5-18d4bff53351",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Middle East",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2195-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Israel",
+                        "parentId": "301e2195-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Tauro.Raceta"
+            },
+            "wrs": 13,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "05477e79-25fd-48c2-84c7-e1621aa46517",
                 "zone": [
                     {
@@ -267,32 +292,7 @@
                 ],
                 "name": "GranaDy."
             },
-            "wrs": 13,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "445a6375-a8aa-4b56-b3b5-18d4bff53351",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Middle East",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2195-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Israel",
-                        "parentId": "301e2195-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Tauro.Raceta"
-            },
-            "wrs": 13,
+            "wrs": 12,
             "duration": 0
         },
         {
@@ -532,6 +532,31 @@
         },
         {
             "user": {
+                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Estonia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Sandder.4W"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "cd32b288-a361-483a-9c48-68417eb83c74",
                 "zone": [
                     {
@@ -656,31 +681,6 @@
                     }
                 ],
                 "name": "Insanity.TM"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Estonia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Sandder.4W"
             },
             "wrs": 5,
             "duration": 0
@@ -5450,7 +5450,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 78
+            "wrs": 77
         },
         {
             "zone": [
@@ -5805,9 +5805,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Belgium",
+                    "name": "Estonia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 7
@@ -5825,12 +5825,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Estonia",
+                    "name": "Belgium",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 6
+            "wrs": 7
         },
         {
             "zone": [
@@ -7146,6 +7146,31 @@
         },
         {
             "user": {
+                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Estonia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Sandder.4W"
+            },
+            "wrs": 70,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "2ed0997d-62bc-4a53-8c09-ffb793382ea2",
                 "zone": [
                     {
@@ -7177,31 +7202,6 @@
                 "name": "riolu-tm"
             },
             "wrs": 70,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Estonia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Sandder.4W"
-            },
-            "wrs": 69,
             "duration": 0
         },
         {
@@ -53504,7 +53504,7 @@
                     "zoneId": "301f5eb6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 95
+            "wrs": 96
         },
         {
             "zone": [
