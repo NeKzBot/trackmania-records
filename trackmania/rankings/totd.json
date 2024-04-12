@@ -647,6 +647,36 @@
         },
         {
             "user": {
+                "id": "acb625b9-26c4-4344-a5b0-5bc3ddbc8708",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Italy",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Emilia-Romagna",
+                        "parentId": "30205cc4-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30206543-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DubbyTM"
+            },
+            "wrs": 14,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "65341b56-1625-4df2-8fb4-ad7145c03c34",
                 "zone": [
                     {
@@ -768,36 +798,6 @@
                 "name": "levonn"
             },
             "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "acb625b9-26c4-4344-a5b0-5bc3ddbc8708",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Italy",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Emilia-Romagna",
-                        "parentId": "30205cc4-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30206543-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DubbyTM"
-            },
-            "wrs": 13,
             "duration": 0
         },
         {
@@ -1221,36 +1221,6 @@
                     }
                 ],
                 "name": "Ikewolf"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Austria",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Vienna",
-                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e567e-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ikarus."
             },
             "wrs": 6,
             "duration": 0
@@ -1738,6 +1708,36 @@
                 "name": "Legu18"
             },
             "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Austria",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Vienna",
+                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e567e-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ikarus."
+            },
+            "wrs": 5,
             "duration": 0
         },
         {
@@ -9045,7 +9045,7 @@
                     "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 28
+            "wrs": 27
         },
         {
             "zone": [
@@ -9165,7 +9165,7 @@
                     "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 15
+            "wrs": 16
         },
         {
             "zone": [
@@ -10771,7 +10771,7 @@
                 ],
                 "name": "DubbyTM"
             },
-            "wrs": 112,
+            "wrs": 113,
             "duration": 0
         },
         {
@@ -43519,7 +43519,7 @@
                     "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 143
+            "wrs": 144
         },
         {
             "zone": [
@@ -45595,6 +45595,35 @@
         },
         {
             "user": {
+                "id": "acb625b9-26c4-4344-a5b0-5bc3ddbc8708",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Italy",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Emilia-Romagna",
+                        "parentId": "30205cc4-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30206543-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DubbyTM"
+            },
+            "wrs": 60
+        },
+        {
+            "user": {
                 "id": "2343ca67-a77c-47c8-83bd-74f99c6f0a37",
                 "zone": [
                     {
@@ -45626,35 +45655,6 @@
                 "name": "hobbi."
             },
             "wrs": 60
-        },
-        {
-            "user": {
-                "id": "acb625b9-26c4-4344-a5b0-5bc3ddbc8708",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Italy",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Emilia-Romagna",
-                        "parentId": "30205cc4-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30206543-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DubbyTM"
-            },
-            "wrs": 59
         },
         {
             "user": {
@@ -77345,7 +77345,7 @@
                     "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 87
+            "wrs": 88
         },
         {
             "zone": [
