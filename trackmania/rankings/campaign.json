@@ -592,6 +592,36 @@
         },
         {
             "user": {
+                "id": "36460791-6ebe-4aa1-8ba4-8f1eab6acc7a",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Portugal",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norte",
+                        "parentId": "3022328d-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302240ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Maniaaaac_"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "715d87d3-9ffe-4fb1-9813-b3c95978b093",
                 "zone": [
                     {
@@ -683,66 +713,6 @@
                 "name": "mime-chan"
             },
             "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "36460791-6ebe-4aa1-8ba4-8f1eab6acc7a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Portugal",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norte",
-                        "parentId": "3022328d-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302240ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Maniaaaac_"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "c12c1789-af9a-444e-a261-5bd5b883ae4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Netherlands",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Noord-Brabant",
-                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209b5f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DarkestSentinel"
-            },
-            "wrs": 5,
             "duration": 0
         },
         {
@@ -848,6 +818,36 @@
                 "name": "racehansTM"
             },
             "wrs": 5,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "c12c1789-af9a-444e-a261-5bd5b883ae4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Netherlands",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Noord-Brabant",
+                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209b5f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DarkestSentinel"
+            },
+            "wrs": 4,
             "duration": 0
         },
         {
@@ -5535,7 +5535,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 15
+            "wrs": 14
         },
         {
             "zone": [
@@ -5625,14 +5625,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "South America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Brazil",
-                    "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Portugal",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 10
@@ -5645,17 +5645,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "South America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Portugal",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Brazil",
+                    "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 9
+            "wrs": 10
         },
         {
             "zone": [
@@ -8126,6 +8126,36 @@
         },
         {
             "user": {
+                "id": "36460791-6ebe-4aa1-8ba4-8f1eab6acc7a",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Portugal",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norte",
+                        "parentId": "3022328d-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302240ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Maniaaaac_"
+            },
+            "wrs": 36,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b05db0f8-d845-47d2-b0e5-795717038ac6",
                 "zone": [
                     {
@@ -8192,36 +8222,6 @@
                 "name": "BRand0M_TM"
             },
             "wrs": 36,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "36460791-6ebe-4aa1-8ba4-8f1eab6acc7a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Portugal",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norte",
-                        "parentId": "3022328d-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302240ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Maniaaaac_"
-            },
-            "wrs": 35,
             "duration": 0
         },
         {
@@ -53639,7 +53639,7 @@
                     "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 149
+            "wrs": 150
         },
         {
             "zone": [
