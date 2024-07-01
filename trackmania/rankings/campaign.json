@@ -2297,7 +2297,7 @@
         },
         {
             "user": {
-                "id": "9991d011-b918-49cb-b4e4-5d642575b4d0",
+                "id": "f1cd601b-d355-4142-81e9-87875a5b0826",
                 "zone": [
                     {
                         "name": "World",
@@ -2310,17 +2310,22 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Poland",
+                        "name": "Russia",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Wielkopolskie",
-                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30222b92-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Центральный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30224326-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Москва",
+                        "parentId": "30224326-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "8cf7f77c-6025-4e55-af94-4a3b772d11d2"
                     }
                 ],
-                "name": "PiasekTM"
+                "name": "Walten_TM"
             },
             "wrs": 1,
             "duration": 0
@@ -5920,7 +5925,7 @@
                     "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 31
+            "wrs": 30
         },
         {
             "zone": [
@@ -6415,6 +6420,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Russia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 2
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Belarus",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e5b40-7e13-11e8-8060-e284abfd2bc4"
@@ -6458,26 +6483,6 @@
                     "name": "Sri Lanka",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30227e56-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 1
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Russia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -11256,6 +11261,41 @@
         },
         {
             "user": {
+                "id": "f1cd601b-d355-4142-81e9-87875a5b0826",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Russia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Центральный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30224326-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Москва",
+                        "parentId": "30224326-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "8cf7f77c-6025-4e55-af94-4a3b772d11d2"
+                    }
+                ],
+                "name": "Walten_TM"
+            },
+            "wrs": 15,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "980b3871-2f26-457e-848a-051daa8dd7af",
                 "zone": [
                     {
@@ -11950,41 +11990,6 @@
                     }
                 ],
                 "name": "Teffztm"
-            },
-            "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "f1cd601b-d355-4142-81e9-87875a5b0826",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Russia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Центральный федеральный округ",
-                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30224326-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Москва",
-                        "parentId": "30224326-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "8cf7f77c-6025-4e55-af94-4a3b772d11d2"
-                    }
-                ],
-                "name": "Walten_TM"
             },
             "wrs": 14,
             "duration": 0
@@ -55234,7 +55239,7 @@
                     "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 66
+            "wrs": 67
         },
         {
             "zone": [
@@ -58662,6 +58667,40 @@
         },
         {
             "user": {
+                "id": "f1cd601b-d355-4142-81e9-87875a5b0826",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Russia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Центральный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30224326-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Москва",
+                        "parentId": "30224326-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "8cf7f77c-6025-4e55-af94-4a3b772d11d2"
+                    }
+                ],
+                "name": "Walten_TM"
+            },
+            "wrs": 12
+        },
+        {
+            "user": {
                 "id": "aeec1ef1-a77f-43d7-a5ae-5f1f0fed5051",
                 "zone": [
                     {
@@ -59117,40 +59156,6 @@
                     }
                 ],
                 "name": "Ixxonn"
-            },
-            "wrs": 11
-        },
-        {
-            "user": {
-                "id": "f1cd601b-d355-4142-81e9-87875a5b0826",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Russia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Центральный федеральный округ",
-                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30224326-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Москва",
-                        "parentId": "30224326-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "8cf7f77c-6025-4e55-af94-4a3b772d11d2"
-                    }
-                ],
-                "name": "Walten_TM"
             },
             "wrs": 11
         },
@@ -103293,7 +103298,7 @@
                     "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 42
+            "wrs": 43
         },
         {
             "zone": [
