@@ -277,6 +277,31 @@
         },
         {
             "user": {
+                "id": "2343ca67-a77c-47c8-83bd-74f99c6f0a37",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Türkiye",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "hobibi.."
+            },
+            "wrs": 28,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "36f2e9f5-fbfb-4ae2-8822-9bc69a711a4a",
                 "zone": [
                     {
@@ -303,31 +328,6 @@
                 "name": "zodiark."
             },
             "wrs": 28,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2343ca67-a77c-47c8-83bd-74f99c6f0a37",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Türkiye",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "aL.hxbbvt"
-            },
-            "wrs": 27,
             "duration": 0
         },
         {
@@ -1077,41 +1077,6 @@
         },
         {
             "user": {
-                "id": "9a126fe8-c35d-44f6-8593-7fe0b3ca7016",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Paris",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fad4a-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Chickenrunnn"
-            },
-            "wrs": 8,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "2016f67a-0814-42ed-bea8-2e75da48840d",
                 "zone": [
                     {
@@ -1306,6 +1271,41 @@
                     }
                 ],
                 "name": "Rasg."
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "9a126fe8-c35d-44f6-8593-7fe0b3ca7016",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Paris",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fad4a-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Chickenrunnn"
             },
             "wrs": 7,
             "duration": 0
@@ -9380,7 +9380,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 294
+            "wrs": 293
         },
         {
             "zone": [
@@ -9935,9 +9935,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Romania",
+                    "name": "Türkiye",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302241e3-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 4
@@ -9955,12 +9955,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Türkiye",
+                    "name": "Romania",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "302241e3-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 3
+            "wrs": 4
         },
         {
             "zone": [
@@ -10771,6 +10771,31 @@
         },
         {
             "user": {
+                "id": "2343ca67-a77c-47c8-83bd-74f99c6f0a37",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Türkiye",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "hobibi.."
+            },
+            "wrs": 187,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "e975fb83-c2b4-4830-9ec6-d8253f315865",
                 "zone": [
                     {
@@ -10792,31 +10817,6 @@
                 "name": "Erizel"
             },
             "wrs": 187,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2343ca67-a77c-47c8-83bd-74f99c6f0a37",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Türkiye",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "aL.hxbbvt"
-            },
-            "wrs": 186,
             "duration": 0
         },
         {
@@ -45889,7 +45889,7 @@
                     "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 16
+            "wrs": 17
         },
         {
             "zone": [
@@ -47472,9 +47472,9 @@
                         "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "aL.hxbbvt"
+                "name": "hobibi.."
             },
-            "wrs": 71
+            "wrs": 72
         },
         {
             "user": {
@@ -81199,7 +81199,7 @@
                     "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 12
+            "wrs": 13
         },
         {
             "zone": [
