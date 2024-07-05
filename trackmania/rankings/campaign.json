@@ -297,6 +297,31 @@
         },
         {
             "user": {
+                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Denmark",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SolivaganTz"
+            },
+            "wrs": 11,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "3b5cfa84-d8c6-410e-bc32-73fbe2cba16a",
                 "zone": [
                     {
@@ -446,31 +471,6 @@
                     }
                 ],
                 "name": "Hefest."
-            },
-            "wrs": 10,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Denmark",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SolivaganTz"
             },
             "wrs": 10,
             "duration": 0
@@ -2206,36 +2206,6 @@
                     }
                 ],
                 "name": "AAAAAAAAApurple"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "31126c79-a0f9-4b5a-9adc-e4e5b4a651d8",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Australia",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "New South Wales",
-                        "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e309b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "KrudeTM"
             },
             "wrs": 1,
             "duration": 0
@@ -5715,7 +5685,7 @@
                     "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 31
+            "wrs": 30
         },
         {
             "zone": [
@@ -5805,17 +5775,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Canada",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Denmark",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 15
+            "wrs": 16
         },
         {
             "zone": [
@@ -5825,14 +5795,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Denmark",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Canada",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 15
@@ -6716,7 +6686,7 @@
                 ],
                 "name": "SolivaganTz"
             },
-            "wrs": 157,
+            "wrs": 158,
             "duration": 0
         },
         {
@@ -55199,7 +55169,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 422
+            "wrs": 423
         },
         {
             "zone": [
@@ -56770,7 +56740,7 @@
                 ],
                 "name": "SolivaganTz"
             },
-            "wrs": 62
+            "wrs": 63
         },
         {
             "user": {
@@ -103792,7 +103762,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 170
+            "wrs": 171
         },
         {
             "zone": [
