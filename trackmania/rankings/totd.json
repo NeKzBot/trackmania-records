@@ -1312,6 +1312,41 @@
         },
         {
             "user": {
+                "id": "8f08302a-f670-463b-9f71-fbfacffb8bd1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Germany",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Saarland",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30202234-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Saarbrücken",
+                        "parentId": "30202234-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302023d9-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "AR_Down"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "4a983dc3-a938-4564-8a1c-8be20779f069",
                 "zone": [
                     {
@@ -1846,41 +1881,6 @@
                     }
                 ],
                 "name": "Dopamine98"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "8f08302a-f670-463b-9f71-fbfacffb8bd1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Saarland",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30202234-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Saarbrücken",
-                        "parentId": "30202234-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302023d9-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "AR_Down"
             },
             "wrs": 5,
             "duration": 0
@@ -4681,31 +4681,6 @@
                     }
                 ],
                 "name": "Roquett"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "53225d31-297f-49c7-8907-7bee7abad399",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Tuvalu",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229f46-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "InfTM"
             },
             "wrs": 1,
             "duration": 0
@@ -9460,7 +9435,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 279
+            "wrs": 280
         },
         {
             "zone": [
@@ -10050,26 +10025,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Oceania",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Tuvalu",
-                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30229f46-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 2
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Asia",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
@@ -10181,6 +10136,26 @@
                 }
             ],
             "wrs": 2
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Oceania",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Tuvalu",
+                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30229f46-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 1
         },
         {
             "zone": [
@@ -11106,7 +11081,7 @@
                 ],
                 "name": "AR_Down"
             },
-            "wrs": 151,
+            "wrs": 152,
             "duration": 0
         },
         {
@@ -45334,7 +45309,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 3876
+            "wrs": 3877
         },
         {
             "zone": [
@@ -47295,7 +47270,7 @@
                 ],
                 "name": "AR_Down"
             },
-            "wrs": 97
+            "wrs": 98
         },
         {
             "user": {
@@ -80746,7 +80721,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2057
+            "wrs": 2058
         },
         {
             "zone": [
