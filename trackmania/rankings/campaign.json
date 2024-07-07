@@ -802,6 +802,36 @@
         },
         {
             "user": {
+                "id": "c12c1789-af9a-444e-a261-5bd5b883ae4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Netherlands",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Noord-Brabant",
+                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209b5f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DarkestSentinel"
+            },
+            "wrs": 5,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "aa4e375f-d23e-4915-8d53-8b3307e06764",
                 "zone": [
                     {
@@ -991,36 +1021,6 @@
                     }
                 ],
                 "name": "Drimy.TMU"
-            },
-            "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "c12c1789-af9a-444e-a261-5bd5b883ae4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Netherlands",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Noord-Brabant",
-                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209b5f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DarkestSentinel"
             },
             "wrs": 4,
             "duration": 0
@@ -1393,36 +1393,6 @@
                 "name": "eLconn21"
             },
             "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "da4642f9-6acf-43fe-88b6-b120ff1308ba",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Belgium",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Liège",
-                        "parentId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e5e63-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Scrapie98"
-            },
-            "wrs": 2,
             "duration": 0
         },
         {
@@ -5007,6 +4977,36 @@
         },
         {
             "user": {
+                "id": "da4642f9-6acf-43fe-88b6-b120ff1308ba",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Belgium",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Liège",
+                        "parentId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e5e63-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Scrapie98"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "dba55c7e-d5cd-40c0-a5e7-8e793fd295eb",
                 "zone": [
                     {
@@ -5730,17 +5730,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "United States",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Netherlands",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 14
+            "wrs": 15
         },
         {
             "zone": [
@@ -5750,14 +5750,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Netherlands",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "United States",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 14
@@ -5915,26 +5915,6 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Belgium",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 7
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Finland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
@@ -5958,6 +5938,26 @@
                     "name": "Malta",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 6
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Belgium",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 6
@@ -8001,36 +8001,6 @@
         },
         {
             "user": {
-                "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Canada",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Quebec",
-                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "L1ngotm"
-            },
-            "wrs": 46,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "c12c1789-af9a-444e-a261-5bd5b883ae4b",
                 "zone": [
                     {
@@ -8055,6 +8025,36 @@
                     }
                 ],
                 "name": "DarkestSentinel"
+            },
+            "wrs": 47,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Canada",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Quebec",
+                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "L1ngotm"
             },
             "wrs": 46,
             "duration": 0
@@ -55114,7 +55114,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 414
+            "wrs": 415
         },
         {
             "zone": [
@@ -58586,6 +58586,35 @@
         },
         {
             "user": {
+                "id": "c12c1789-af9a-444e-a261-5bd5b883ae4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Netherlands",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Noord-Brabant",
+                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209b5f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DarkestSentinel"
+            },
+            "wrs": 14
+        },
+        {
+            "user": {
                 "id": "fc54a67c-7bd3-4b33-aa7d-a77f13a7b621",
                 "zone": [
                     {
@@ -58772,35 +58801,6 @@
                 "name": "deskabirb"
             },
             "wrs": 14
-        },
-        {
-            "user": {
-                "id": "c12c1789-af9a-444e-a261-5bd5b883ae4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Netherlands",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Noord-Brabant",
-                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209b5f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DarkestSentinel"
-            },
-            "wrs": 13
         },
         {
             "user": {
@@ -103636,7 +103636,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 214
+            "wrs": 215
         },
         {
             "zone": [
