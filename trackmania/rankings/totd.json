@@ -1247,6 +1247,36 @@
         },
         {
             "user": {
+                "id": "05f4cfb7-d190-4b00-8b1f-c07a352bd93b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Spain",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Galicia",
+                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30227392-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "LokoGz"
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "90c4d8bc-fecb-43a2-8a8f-2c73b2e23be6",
                 "zone": [
                     {
@@ -1631,36 +1661,6 @@
                     }
                 ],
                 "name": "FrevTM"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "05f4cfb7-d190-4b00-8b1f-c07a352bd93b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Spain",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Galicia",
-                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30227392-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "GuzuLk_"
             },
             "wrs": 6,
             "duration": 0
@@ -2131,36 +2131,6 @@
                     }
                 ],
                 "name": "WiiL0x"
-            },
-            "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Budapest",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "pusztitopako"
             },
             "wrs": 4,
             "duration": 0
@@ -2696,6 +2666,36 @@
                     }
                 ],
                 "name": "shieldbandit"
+            },
+            "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Budapest",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "pusztitopako"
             },
             "wrs": 3,
             "duration": 0
@@ -9815,7 +9815,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 14
+            "wrs": 13
         },
         {
             "zone": [
@@ -9855,7 +9855,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 8
+            "wrs": 9
         },
         {
             "zone": [
@@ -10646,7 +10646,7 @@
                 ],
                 "name": "LokoGz"
             },
-            "wrs": 249,
+            "wrs": 250,
             "duration": 0
         },
         {
@@ -45659,7 +45659,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 296
+            "wrs": 297
         },
         {
             "zone": [
@@ -47205,7 +47205,7 @@
                 ],
                 "name": "LokoGz"
             },
-            "wrs": 150
+            "wrs": 151
         },
         {
             "user": {
@@ -81138,7 +81138,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 181
+            "wrs": 182
         },
         {
             "zone": [
