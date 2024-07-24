@@ -817,6 +817,31 @@
         },
         {
             "user": {
+                "id": "2fd1f664-85e4-4429-89ca-d49e4d2083a1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Malta",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Kelven."
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "8e70e019-6cb5-4d25-bfce-61dd3107d27f",
                 "zone": [
                     {
@@ -1316,31 +1341,6 @@
                     }
                 ],
                 "name": "Ricso5"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2fd1f664-85e4-4429-89ca-d49e4d2083a1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Malta",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Kelven."
             },
             "wrs": 3,
             "duration": 0
@@ -2058,36 +2058,6 @@
                 "name": "ImotJr."
             },
             "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "50e2f74a-4d56-4d50-93cb-d0bb95717b80",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Netherlands",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Zuid-Holland",
-                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209e41-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "OwlsTM"
-            },
-            "wrs": 1,
             "duration": 0
         },
         {
@@ -5630,9 +5600,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Netherlands",
+                    "name": "Hungary",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 17
@@ -5650,12 +5620,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Hungary",
+                    "name": "Netherlands",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 17
+            "wrs": 16
         },
         {
             "zone": [
@@ -5910,6 +5880,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Malta",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 4
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Türkiye",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
@@ -5953,26 +5943,6 @@
                     "name": "Italy",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 3
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Malta",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 3
@@ -6901,6 +6871,31 @@
         },
         {
             "user": {
+                "id": "2fd1f664-85e4-4429-89ca-d49e4d2083a1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Malta",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Kelven."
+            },
+            "wrs": 85,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a9cbdeff-daa3-4bc2-998c-b2838183fb97",
                 "zone": [
                     {
@@ -6927,31 +6922,6 @@
                 "name": "AffiTM"
             },
             "wrs": 85,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2fd1f664-85e4-4429-89ca-d49e4d2083a1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Malta",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Kelven."
-            },
-            "wrs": 84,
             "duration": 0
         },
         {
@@ -55394,7 +55364,7 @@
                     "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 84
+            "wrs": 85
         },
         {
             "zone": [
