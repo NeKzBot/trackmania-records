@@ -1247,6 +1247,31 @@
         },
         {
             "user": {
+                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Slovakia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loso-"
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "90c4d8bc-fecb-43a2-8a8f-2c73b2e23be6",
                 "zone": [
                     {
@@ -1826,31 +1851,6 @@
                     }
                 ],
                 "name": "Legu18"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Slovakia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loso-"
             },
             "wrs": 6,
             "duration": 0
@@ -3093,41 +3093,6 @@
                 "name": "Kek_DreamZ"
             },
             "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "63c6c7b5-d568-496a-9354-a0363a8aa56e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Grand Est",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa0c0-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Marne",
-                        "parentId": "301fa0c0-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa524-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "VortaX-"
-            },
-            "wrs": 2,
             "duration": 0
         },
         {
@@ -7657,6 +7622,41 @@
         },
         {
             "user": {
+                "id": "63c6c7b5-d568-496a-9354-a0363a8aa56e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Grand Est",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa0c0-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Marne",
+                        "parentId": "301fa0c0-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa524-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "VortaX-"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "ab160c56-1910-4a20-8425-ea729f2939f6",
                 "zone": [
                     {
@@ -9560,7 +9560,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 306
+            "wrs": 305
         },
         {
             "zone": [
@@ -10015,6 +10015,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Slovakia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 7
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Albania",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2780-7e13-11e8-8060-e284abfd2bc4"
@@ -10058,26 +10078,6 @@
                     "name": "Nicaragua",
                     "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 6
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Slovakia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 6
@@ -12741,6 +12741,31 @@
         },
         {
             "user": {
+                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Slovakia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loso-"
+            },
+            "wrs": 61,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "591ded1a-09d4-415b-8c31-1bf6a5f847aa",
                 "zone": [
                     {
@@ -12802,31 +12827,6 @@
                 "name": "XerarTM"
             },
             "wrs": 61,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Slovakia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loso-"
-            },
-            "wrs": 60,
             "duration": 0
         },
         {
@@ -46319,7 +46319,7 @@
                     "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 74
+            "wrs": 75
         },
         {
             "zone": [
