@@ -527,6 +527,36 @@
         },
         {
             "user": {
+                "id": "da4642f9-6acf-43fe-88b6-b120ff1308ba",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Belgium",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Liège",
+                        "parentId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e5e63-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Scrapie98"
+            },
+            "wrs": 16,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "d320a237-1b0a-4069-af83-f2c09fbf042e",
                 "zone": [
                     {
@@ -631,36 +661,6 @@
                     }
                 ],
                 "name": "P0KER-"
-            },
-            "wrs": 15,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "da4642f9-6acf-43fe-88b6-b120ff1308ba",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Belgium",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Liège",
-                        "parentId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e5e63-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Scrapie98"
             },
             "wrs": 15,
             "duration": 0
@@ -1292,31 +1292,6 @@
         },
         {
             "user": {
-                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Slovakia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loso-"
-            },
-            "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "90c4d8bc-fecb-43a2-8a8f-2c73b2e23be6",
                 "zone": [
                     {
@@ -1911,6 +1886,31 @@
                     }
                 ],
                 "name": "Legu18"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Slovakia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loso-"
             },
             "wrs": 6,
             "duration": 0
@@ -9780,6 +9780,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Belgium",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 30
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Denmark",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
@@ -9803,26 +9823,6 @@
                     "name": "Austria",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 29
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Belgium",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 29
@@ -10020,26 +10020,6 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Slovakia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 7
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Albania",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2780-7e13-11e8-8060-e284abfd2bc4"
@@ -10083,6 +10063,26 @@
                     "name": "Nicaragua",
                     "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 6
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Slovakia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 6
@@ -10776,7 +10776,7 @@
                 ],
                 "name": "Scrapie98"
             },
-            "wrs": 282,
+            "wrs": 283,
             "duration": 0
         },
         {
@@ -46234,7 +46234,7 @@
                     "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 516
+            "wrs": 517
         },
         {
             "zone": [
@@ -47811,7 +47811,7 @@
                 ],
                 "name": "Scrapie98"
             },
-            "wrs": 171
+            "wrs": 172
         },
         {
             "user": {
@@ -82153,7 +82153,7 @@
                     "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 329
+            "wrs": 330
         },
         {
             "zone": [
