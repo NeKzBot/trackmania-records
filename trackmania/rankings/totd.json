@@ -1322,6 +1322,41 @@
         },
         {
             "user": {
+                "id": "7dbb1f78-0360-472f-ab09-8037c89e505e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Germany",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sachsen-Anhalt",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020309d-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Magdeburg",
+                        "parentId": "3020309d-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204053-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Yamii._."
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "90c4d8bc-fecb-43a2-8a8f-2c73b2e23be6",
                 "zone": [
                     {
@@ -1496,41 +1531,6 @@
                     }
                 ],
                 "name": "Zypher.tm"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "7dbb1f78-0360-472f-ab09-8037c89e505e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Sachsen-Anhalt",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020309d-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Magdeburg",
-                        "parentId": "3020309d-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204053-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Yamii._."
             },
             "wrs": 6,
             "duration": 0
@@ -9650,7 +9650,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 293
+            "wrs": 294
         },
         {
             "zone": [
@@ -13761,31 +13761,6 @@
         },
         {
             "user": {
-                "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "New Zealand",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "baiwack"
-            },
-            "wrs": 42,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "7dbb1f78-0360-472f-ab09-8037c89e505e",
                 "zone": [
                     {
@@ -13816,7 +13791,32 @@
                 ],
                 "name": "Yamii._."
             },
-            "wrs": 41,
+            "wrs": 42,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oceania",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "New Zealand",
+                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209ed5-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "baiwack"
+            },
+            "wrs": 42,
             "duration": 0
         },
         {
@@ -46149,7 +46149,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4004
+            "wrs": 4005
         },
         {
             "zone": [
@@ -50269,7 +50269,7 @@
                 ],
                 "name": "Yamii._."
             },
-            "wrs": 29
+            "wrs": 30
         },
         {
             "user": {
@@ -82156,7 +82156,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2123
+            "wrs": 2124
         },
         {
             "zone": [
