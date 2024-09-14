@@ -1292,7 +1292,7 @@
         },
         {
             "user": {
-                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "id": "05f4cfb7-d190-4b00-8b1f-c07a352bd93b",
                 "zone": [
                     {
                         "name": "World",
@@ -1303,9 +1303,19 @@
                         "name": "Europe",
                         "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Spain",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Galicia",
+                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30227392-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "propanoia"
+                "name": "LokoGz"
             },
             "wrs": 7,
             "duration": 0
@@ -1627,6 +1637,26 @@
         },
         {
             "user": {
+                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "propanoia"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b05db0f8-d845-47d2-b0e5-795717038ac6",
                 "zone": [
                     {
@@ -1816,36 +1846,6 @@
                     }
                 ],
                 "name": "FrevTM"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "05f4cfb7-d190-4b00-8b1f-c07a352bd93b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Spain",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Galicia",
-                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30227392-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "GuzuLk_"
             },
             "wrs": 6,
             "duration": 0
@@ -10155,7 +10155,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 8
+            "wrs": 9
         },
         {
             "zone": [
@@ -10283,16 +10283,6 @@
                     "name": "World",
                     "parentId": null,
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 3
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
                     "name": "Europe",
@@ -10383,6 +10373,16 @@
                     "name": "Slovenia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30225254-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 2
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 2
@@ -10976,7 +10976,7 @@
                 ],
                 "name": "LokoGz"
             },
-            "wrs": 276,
+            "wrs": 277,
             "duration": 0
         },
         {
@@ -47049,7 +47049,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 324
+            "wrs": 325
         },
         {
             "zone": [
