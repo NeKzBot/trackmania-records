@@ -1627,6 +1627,41 @@
         },
         {
             "user": {
+                "id": "8f08302a-f670-463b-9f71-fbfacffb8bd1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Germany",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Saarland",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30202234-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Saarbrücken",
+                        "parentId": "30202234-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302023d9-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "AR_Down"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "4a983dc3-a938-4564-8a1c-8be20779f069",
                 "zone": [
                     {
@@ -2031,41 +2066,6 @@
                     }
                 ],
                 "name": "Dopamine98"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "8f08302a-f670-463b-9f71-fbfacffb8bd1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Saarland",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30202234-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Saarbrücken",
-                        "parentId": "30202234-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302023d9-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "AR_Down"
             },
             "wrs": 5,
             "duration": 0
@@ -4986,31 +4986,6 @@
                     }
                 ],
                 "name": "DarrahTM"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "31e283e1-5e91-40c7-81cd-cd2f1d36ffb3",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Suriname",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302281e3-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "RotcatXBOX"
             },
             "wrs": 1,
             "duration": 0
@@ -9825,7 +9800,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 296
+            "wrs": 297
         },
         {
             "zone": [
@@ -10573,26 +10548,6 @@
                     "name": "Japan",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30207cd0-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 1
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "South America",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Suriname",
-                    "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302281e3-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -11596,7 +11551,7 @@
                 ],
                 "name": "AR_Down"
             },
-            "wrs": 162,
+            "wrs": 163,
             "duration": 0
         },
         {
@@ -47184,7 +47139,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4078
+            "wrs": 4079
         },
         {
             "zone": [
@@ -49165,7 +49120,7 @@
                 ],
                 "name": "AR_Down"
             },
-            "wrs": 105
+            "wrs": 106
         },
         {
             "user": {
@@ -84004,7 +83959,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2159
+            "wrs": 2160
         },
         {
             "zone": [
