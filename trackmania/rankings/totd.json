@@ -2222,6 +2222,31 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "aca96daf-0fda-4496-9887-22e616d8a481",
                 "zone": [
                     {
@@ -2608,31 +2633,6 @@
                 "name": "Nyaruko92"
             },
             "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
-            },
-            "wrs": 3,
             "duration": 0
         },
         {
@@ -3511,41 +3511,6 @@
                     }
                 ],
                 "name": "deion.."
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "d149d051-5842-4b82-859c-8c36f95cd37b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Occitanie",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Haute-Garonne",
-                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fde16-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Funay31"
             },
             "wrs": 2,
             "duration": 0
@@ -7567,6 +7532,41 @@
         },
         {
             "user": {
+                "id": "d149d051-5842-4b82-859c-8c36f95cd37b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Occitanie",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Haute-Garonne",
+                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fde16-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Funay31"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "211c053a-b5b7-42ba-b231-aae07e5b458e",
                 "zone": [
                     {
@@ -9910,7 +9910,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 318
+            "wrs": 317
         },
         {
             "zone": [
@@ -10200,14 +10200,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "United States",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Croatia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 26
@@ -10220,17 +10220,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Croatia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "United States",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 25
+            "wrs": 26
         },
         {
             "zone": [
@@ -16166,6 +16166,31 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 22,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "2c4d24da-96bc-4e02-bbc7-3ae31ec5cad3",
                 "zone": [
                     {
@@ -16292,31 +16317,6 @@
                 "name": "AR_Mooney"
             },
             "wrs": 22,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
-            },
-            "wrs": 21,
             "duration": 0
         },
         {
@@ -47959,7 +47959,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 265
+            "wrs": 266
         },
         {
             "zone": [
@@ -53868,6 +53868,30 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 15
+        },
+        {
+            "user": {
                 "id": "97ace52c-563a-4ac0-894f-5b073d8a5259",
                 "zone": [
                     {
@@ -54117,30 +54141,6 @@
                 "name": "burntbagels"
             },
             "wrs": 15
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
-            },
-            "wrs": 14
         },
         {
             "user": {
@@ -85157,7 +85157,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 135
+            "wrs": 136
         },
         {
             "zone": [
