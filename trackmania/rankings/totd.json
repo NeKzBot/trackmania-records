@@ -5092,7 +5092,7 @@
         },
         {
             "user": {
-                "id": "0d8e12d5-34e2-4417-984d-ddc379930756",
+                "id": "de0999e3-0562-46fe-adf2-15720ae60ce3",
                 "zone": [
                     {
                         "name": "World",
@@ -5105,17 +5105,22 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Austria",
+                        "name": "Germany",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Upper Austria",
-                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e55f4-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Mecklenburg-Vorpommern",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30200848-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Rostock",
+                        "parentId": "30200848-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302008de-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "Bohemius_TM"
+                "name": "Ericb_Shark"
             },
             "wrs": 1,
             "duration": 0
@@ -10030,7 +10035,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 302
+            "wrs": 303
         },
         {
             "zone": [
@@ -10225,26 +10230,6 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Austria",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 30
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Denmark",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
@@ -10271,6 +10256,26 @@
                 }
             ],
             "wrs": 30
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Austria",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 29
         },
         {
             "zone": [
@@ -12751,6 +12756,41 @@
         },
         {
             "user": {
+                "id": "de0999e3-0562-46fe-adf2-15720ae60ce3",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Germany",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Mecklenburg-Vorpommern",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30200848-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Rostock",
+                        "parentId": "30200848-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302008de-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ericb_Shark"
+            },
+            "wrs": 80,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "3158a2bb-1dc5-4339-b11c-65766681d72d",
                 "zone": [
                     {
@@ -12817,41 +12857,6 @@
                 "name": "Zenyy"
             },
             "wrs": 80,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "de0999e3-0562-46fe-adf2-15720ae60ce3",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Mecklenburg-Vorpommern",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30200848-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Rostock",
-                        "parentId": "30200848-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302008de-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ericb_Shark"
-            },
-            "wrs": 79,
             "duration": 0
         },
         {
@@ -47749,7 +47754,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4132
+            "wrs": 4133
         },
         {
             "zone": [
@@ -50983,6 +50988,40 @@
         },
         {
             "user": {
+                "id": "de0999e3-0562-46fe-adf2-15720ae60ce3",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Germany",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Mecklenburg-Vorpommern",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30200848-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Rostock",
+                        "parentId": "30200848-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302008de-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ericb_Shark"
+            },
+            "wrs": 49
+        },
+        {
+            "user": {
                 "id": "f5788168-5d7d-4552-a30a-42565e1f9019",
                 "zone": [
                     {
@@ -51014,40 +51053,6 @@
                 "name": "Whizzy.."
             },
             "wrs": 49
-        },
-        {
-            "user": {
-                "id": "de0999e3-0562-46fe-adf2-15720ae60ce3",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Mecklenburg-Vorpommern",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30200848-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Rostock",
-                        "parentId": "30200848-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302008de-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ericb_Shark"
-            },
-            "wrs": 48
         },
         {
             "user": {
@@ -84937,7 +84942,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2197
+            "wrs": 2198
         },
         {
             "zone": [
