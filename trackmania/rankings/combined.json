@@ -6567,7 +6567,7 @@
         },
         {
             "user": {
-                "id": "ea7e54d0-3265-4408-9112-986f1f45ccb0",
+                "id": "ff8436ae-8efe-463c-95c9-a8caa39ea72c",
                 "zone": [
                     {
                         "name": "World",
@@ -6580,17 +6580,22 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Italy",
+                        "name": "Russia",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Lazio",
-                        "parentId": "30205cc4-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30206a24-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Северо-Западный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022445b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Мурманская область",
+                        "parentId": "3022445b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "60ff7524-052e-43ef-a83e-d2ffa309f0fc"
                     }
                 ],
-                "name": "JaskullTV"
+                "name": "DamnedLight"
             },
             "wrs": 1,
             "duration": 0
@@ -13580,6 +13585,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Russia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 34
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Switzerland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
@@ -13606,26 +13631,6 @@
                 }
             ],
             "wrs": 34
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Russia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 33
         },
         {
             "zone": [
@@ -13685,7 +13690,7 @@
                     "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 22
+            "wrs": 21
         },
         {
             "zone": [
@@ -39491,6 +39496,41 @@
         },
         {
             "user": {
+                "id": "ff8436ae-8efe-463c-95c9-a8caa39ea72c",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Russia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Северо-Западный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022445b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Мурманская область",
+                        "parentId": "3022445b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "60ff7524-052e-43ef-a83e-d2ffa309f0fc"
+                    }
+                ],
+                "name": "DamnedLight"
+            },
+            "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "4d9676aa-4bd0-4120-b9e5-9b727b697108",
                 "zone": [
                     {
@@ -46200,31 +46240,6 @@
                     }
                 ],
                 "name": "neontrackmania"
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "ff8436ae-8efe-463c-95c9-a8caa39ea72c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Finland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DarnedLight"
             },
             "wrs": 2,
             "duration": 0
@@ -83799,7 +83814,7 @@
                     "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 346
+            "wrs": 347
         },
         {
             "zone": [
@@ -102938,6 +102953,40 @@
         },
         {
             "user": {
+                "id": "ff8436ae-8efe-463c-95c9-a8caa39ea72c",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Russia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Северо-Западный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022445b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Мурманская область",
+                        "parentId": "3022445b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "60ff7524-052e-43ef-a83e-d2ffa309f0fc"
+                    }
+                ],
+                "name": "DamnedLight"
+            },
+            "wrs": 3
+        },
+        {
+            "user": {
                 "id": "4d9676aa-4bd0-4120-b9e5-9b727b697108",
                 "zone": [
                     {
@@ -109827,30 +109876,6 @@
                     }
                 ],
                 "name": "Demaniac"
-            },
-            "wrs": 2
-        },
-        {
-            "user": {
-                "id": "ff8436ae-8efe-463c-95c9-a8caa39ea72c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Finland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DarnedLight"
             },
             "wrs": 2
         },
@@ -152514,9 +152539,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Austria",
+                    "name": "Russia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 217
@@ -152534,12 +152559,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Russia",
+                    "name": "Austria",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 216
+            "wrs": 217
         },
         {
             "zone": [
