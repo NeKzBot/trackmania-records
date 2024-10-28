@@ -1467,6 +1467,26 @@
         },
         {
             "user": {
+                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "propanoia"
+            },
+            "wrs": 9,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
                 "zone": [
                     {
@@ -1711,26 +1731,6 @@
                     }
                 ],
                 "name": "FeedTM"
-            },
-            "wrs": 8,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "propanoia"
             },
             "wrs": 8,
             "duration": 0
@@ -7441,36 +7441,6 @@
                     }
                 ],
                 "name": "DemirTM"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "e9345be4-1f4a-45fc-8032-e9be8a4286d5",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Netherlands",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Overijssel",
-                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209c86-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "JanTM-"
             },
             "wrs": 1,
             "duration": 0
@@ -13365,14 +13335,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "Oceania",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Netherlands",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Australia",
+                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 57
@@ -13385,17 +13355,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Oceania",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Australia",
-                    "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Netherlands",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 57
+            "wrs": 56
         },
         {
             "zone": [
@@ -13803,6 +13773,16 @@
                     "name": "World",
                     "parentId": null,
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 5
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
                     "name": "Europe",
@@ -13853,16 +13833,6 @@
                     "name": "Romania",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "302241e3-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 4
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 4
@@ -19116,6 +19086,26 @@
         },
         {
             "user": {
+                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "propanoia"
+            },
+            "wrs": 48,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "962a2970-ac04-4475-885f-4dc1376fc062",
                 "zone": [
                     {
@@ -19147,26 +19137,6 @@
                 "name": "sh0rty.de"
             },
             "wrs": 48,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "propanoia"
-            },
-            "wrs": 47,
             "duration": 0
         },
         {
@@ -84149,7 +84119,7 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 39
+            "wrs": 40
         },
         {
             "zone": [
@@ -89075,6 +89045,25 @@
         },
         {
             "user": {
+                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "propanoia"
+            },
+            "wrs": 30
+        },
+        {
+            "user": {
                 "id": "74e2be2f-0f21-4659-992a-feb7b1219b7e",
                 "zone": [
                     {
@@ -89193,25 +89182,6 @@
                 "name": "deskabirb"
             },
             "wrs": 30
-        },
-        {
-            "user": {
-                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "propanoia"
-            },
-            "wrs": 29
         },
         {
             "user": {
@@ -152975,6 +152945,16 @@
                     "name": "World",
                     "parentId": null,
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 23
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
                     "name": "Europe",
@@ -152988,16 +152968,6 @@
                 }
             ],
             "wrs": 23
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 22
         },
         {
             "zone": [
