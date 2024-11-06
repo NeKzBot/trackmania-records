@@ -663,7 +663,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "f1b773ad-15bf-4a82-8c27-7ae8c01b22b0",
+                        "id": "eaebe1aa-ad65-4768-b424-9772ef8bdfac",
                         "zone": [
                             {
                                 "name": "World",
@@ -681,23 +681,23 @@
                                 "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Bourgogne-Franche-Comté",
+                                "name": "Centre-Val de Loire",
                                 "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f7d37-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "301f9809-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Yonne",
-                                "parentId": "301f7d37-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f948c-7e13-11e8-8060-e284abfd2bc4"
+                                "name": "Indre-et-Loire",
+                                "parentId": "301f9809-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f9a60-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "Neko.TMU"
+                        "name": "Lanz.TMU"
                     },
-                    "date": "2024-06-01T22:23:32+00:00",
-                    "replay": "19a5e207-577c-4518-8743-a819e103d460",
-                    "duration": 157,
-                    "score": 15726,
-                    "delta": 14
+                    "date": "2024-11-06T16:16:39+00:00",
+                    "replay": "d6b4a775-079e-4ca0-8b31-36498e77981b",
+                    "duration": 0,
+                    "score": 15686,
+                    "delta": 40
                 }
             ],
             "history": [
@@ -1012,6 +1012,44 @@
                     "duration": 157,
                     "score": 15726,
                     "delta": 14
+                },
+                {
+                    "user": {
+                        "id": "eaebe1aa-ad65-4768-b424-9772ef8bdfac",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "France",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Centre-Val de Loire",
+                                "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f9809-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Indre-et-Loire",
+                                "parentId": "301f9809-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f9a60-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "Lanz.TMU"
+                    },
+                    "date": "2024-11-06T16:16:39+00:00",
+                    "replay": "d6b4a775-079e-4ca0-8b31-36498e77981b",
+                    "duration": 0,
+                    "score": 15686,
+                    "delta": 40
                 }
             ]
         },
@@ -7748,7 +7786,7 @@
         }
     ],
     "stats": {
-        "totalTime": 1008023
+        "totalTime": 1007983
     },
     "leaderboard": [
         {
@@ -7783,7 +7821,42 @@
                 ],
                 "name": "Neko.TMU"
             },
-            "wrs": 22,
+            "wrs": 21,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "eaebe1aa-ad65-4768-b424-9772ef8bdfac",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Centre-Val de Loire",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9809-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Indre-et-Loire",
+                        "parentId": "301f9809-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9a60-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Lanz.TMU"
+            },
+            "wrs": 1,
             "duration": 0
         },
         {
@@ -8657,6 +8730,41 @@
         },
         {
             "user": {
+                "id": "eaebe1aa-ad65-4768-b424-9772ef8bdfac",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Centre-Val de Loire",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9809-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Indre-et-Loire",
+                        "parentId": "301f9809-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9a60-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Lanz.TMU"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "c0799fdc-d7a7-4d7e-ad9e-c9fcc4fc7bbf",
                 "zone": [
                     {
@@ -9035,7 +9143,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 111
+            "wrs": 112
         },
         {
             "zone": [
@@ -9841,6 +9949,40 @@
         },
         {
             "user": {
+                "id": "eaebe1aa-ad65-4768-b424-9772ef8bdfac",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Centre-Val de Loire",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9809-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Indre-et-Loire",
+                        "parentId": "301f9809-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9a60-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Lanz.TMU"
+            },
+            "wrs": 1
+        },
+        {
+            "user": {
                 "id": "c0799fdc-d7a7-4d7e-ad9e-c9fcc4fc7bbf",
                 "zone": [
                     {
@@ -10410,7 +10552,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 33
+            "wrs": 34
         },
         {
             "zone": [
