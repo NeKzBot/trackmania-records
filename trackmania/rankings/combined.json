@@ -1167,6 +1167,36 @@
         },
         {
             "user": {
+                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Budapest",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "pusztitopako"
+            },
+            "wrs": 12,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "2016f67a-0814-42ed-bea8-2e75da48840d",
                 "zone": [
                     {
@@ -1256,36 +1286,6 @@
                     }
                 ],
                 "name": "JurixTM"
-            },
-            "wrs": 11,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Budapest",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "pusztitopako"
             },
             "wrs": 11,
             "duration": 0
@@ -1977,36 +1977,6 @@
         },
         {
             "user": {
-                "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Austria",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Vienna",
-                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e567e-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ikarus."
-            },
-            "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "a9cbdeff-daa3-4bc2-998c-b2838183fb97",
                 "zone": [
                     {
@@ -2401,6 +2371,36 @@
                     }
                 ],
                 "name": "Flyer36"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Austria",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Vienna",
+                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e567e-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ikarus."
             },
             "wrs": 6,
             "duration": 0
@@ -13665,7 +13665,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 35
+            "wrs": 36
         },
         {
             "zone": [
@@ -13700,12 +13700,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Austria",
+                    "name": "Russia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 35
+            "wrs": 34
         },
         {
             "zone": [
@@ -13720,9 +13720,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Russia",
+                    "name": "Austria",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 34
@@ -15061,7 +15061,7 @@
                 ],
                 "name": "pusztitopako"
             },
-            "wrs": 279,
+            "wrs": 280,
             "duration": 0
         },
         {
@@ -83989,7 +83989,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 539
+            "wrs": 540
         },
         {
             "zone": [
@@ -86000,6 +86000,35 @@
         },
         {
             "user": {
+                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Budapest",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "pusztitopako"
+            },
+            "wrs": 139
+        },
+        {
+            "user": {
                 "id": "3bb0d130-637d-46a6-9c19-87fe4bda3c52",
                 "zone": [
                     {
@@ -86026,35 +86055,6 @@
                 "name": "Spammiej"
             },
             "wrs": 139
-        },
-        {
-            "user": {
-                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Budapest",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "pusztitopako"
-            },
-            "wrs": 138
         },
         {
             "user": {
@@ -152894,7 +152894,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 247
+            "wrs": 248
         },
         {
             "zone": [
