@@ -701,7 +701,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "ac98009c-8af2-4f8b-92b1-56c037f5a12c",
+                        "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
                         "zone": [
                             {
                                 "name": "World",
@@ -714,18 +714,18 @@
                                 "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Türkiye",
+                                "name": "Sweden",
                                 "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "DemirTM"
+                        "name": "Wildcard_TM"
                     },
-                    "date": "2024-12-02T18:07:27+00:00",
-                    "replay": "0bffe4de-cbd8-4c77-9126-a6422eeb7735",
+                    "date": "2024-12-02T18:09:14+00:00",
+                    "replay": "d45cc441-4de3-4d5a-80cd-939972f0abd9",
                     "duration": 0,
-                    "score": 53552,
-                    "delta": 176
+                    "score": 53072,
+                    "delta": 480
                 }
             ],
             "history": [
@@ -855,12 +855,40 @@
                     "duration": 0,
                     "score": 53552,
                     "delta": 176
+                },
+                {
+                    "user": {
+                        "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Sweden",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "Wildcard_TM"
+                    },
+                    "date": "2024-12-02T18:09:14+00:00",
+                    "replay": "d45cc441-4de3-4d5a-80cd-939972f0abd9",
+                    "duration": 0,
+                    "score": 53072,
+                    "delta": 480
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 71703
+        "totalTime": 71223
     },
     "leaderboard": [
         {
@@ -895,7 +923,7 @@
         },
         {
             "user": {
-                "id": "ac98009c-8af2-4f8b-92b1-56c037f5a12c",
+                "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
                 "zone": [
                     {
                         "name": "World",
@@ -908,12 +936,12 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Türkiye",
+                        "name": "Sweden",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "DemirTM"
+                "name": "Wildcard_TM"
             },
             "wrs": 1,
             "duration": 0
@@ -953,9 +981,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Türkiye",
+                    "name": "Sweden",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -1376,6 +1404,31 @@
             },
             "wrs": 1,
             "duration": 0
+        },
+        {
+            "user": {
+                "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Wildcard_TM"
+            },
+            "wrs": 1,
+            "duration": 0
         }
     ],
     "historyCountryLeaderboard": [
@@ -1615,6 +1668,26 @@
                     "name": "Canada",
                     "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 1
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Sweden",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -2021,6 +2094,30 @@
                 "name": "DemirTM"
             },
             "wrs": 1
+        },
+        {
+            "user": {
+                "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Wildcard_TM"
+            },
+            "wrs": 1
         }
     ],
     "uniqueCountryLeaderboard": [
@@ -2260,6 +2357,26 @@
                     "name": "Canada",
                     "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 1
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Sweden",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
