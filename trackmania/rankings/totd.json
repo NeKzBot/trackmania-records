@@ -2282,6 +2282,31 @@
         },
         {
             "user": {
+                "id": "174136a6-d618-4822-94f3-49a2950746a6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Asia",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South Korea",
+                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "KR_min2002"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "10f4f0f2-91e9-4987-93b7-4e84ec1642ba",
                 "zone": [
                     {
@@ -2837,31 +2862,6 @@
         },
         {
             "user": {
-                "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Sweden",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Wildcard_TM"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "0c08bcd9-2f9b-42b3-b35d-069f8dbd0188",
                 "zone": [
                     {
@@ -3141,31 +3141,6 @@
                     }
                 ],
                 "name": "kandzsika"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "174136a6-d618-4822-94f3-49a2950746a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Asia",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South Korea",
-                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "KR_min2002"
             },
             "wrs": 3,
             "duration": 0
@@ -4341,6 +4316,31 @@
                     }
                 ],
                 "name": "Komy-"
+            },
+            "wrs": 2,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Wildcard_TM"
             },
             "wrs": 2,
             "duration": 0
@@ -10205,12 +10205,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Sweden",
+                    "name": "Czechia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 105
+            "wrs": 104
         },
         {
             "zone": [
@@ -10225,9 +10225,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Czechia",
+                    "name": "Sweden",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 104
@@ -10700,6 +10700,26 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Asia",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "South Korea",
+                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 4
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
@@ -10741,26 +10761,6 @@
                 }
             ],
             "wrs": 4
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Asia",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "South Korea",
-                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 3
         },
         {
             "zone": [
@@ -13766,6 +13766,31 @@
         },
         {
             "user": {
+                "id": "174136a6-d618-4822-94f3-49a2950746a6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Asia",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South Korea",
+                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "KR_min2002"
+            },
+            "wrs": 57,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "9a126fe8-c35d-44f6-8593-7fe0b3ca7016",
                 "zone": [
                     {
@@ -13797,31 +13822,6 @@
                 "name": "Chickenrunnn"
             },
             "wrs": 57,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "174136a6-d618-4822-94f3-49a2950746a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Asia",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South Korea",
-                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "KR_min2002"
-            },
-            "wrs": 56,
             "duration": 0
         },
         {
@@ -48884,7 +48884,7 @@
                     "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 59
+            "wrs": 60
         },
         {
             "zone": [
@@ -52925,6 +52925,30 @@
         },
         {
             "user": {
+                "id": "174136a6-d618-4822-94f3-49a2950746a6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Asia",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South Korea",
+                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "KR_min2002"
+            },
+            "wrs": 27
+        },
+        {
+            "user": {
                 "id": "87e8a0b9-fe8f-42e0-a08d-8f39ed56541b",
                 "zone": [
                     {
@@ -53157,30 +53181,6 @@
                     }
                 ],
                 "name": "mtat_tm"
-            },
-            "wrs": 26
-        },
-        {
-            "user": {
-                "id": "174136a6-d618-4822-94f3-49a2950746a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Asia",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South Korea",
-                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "KR_min2002"
             },
             "wrs": 26
         },
@@ -86552,7 +86552,7 @@
                     "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 29
+            "wrs": 30
         },
         {
             "zone": [
