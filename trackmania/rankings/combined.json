@@ -1197,6 +1197,36 @@
         },
         {
             "user": {
+                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Santa Catarina",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
+                    }
+                ],
+                "name": "batatowisk08"
+            },
+            "wrs": 11,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
                 "zone": [
                     {
@@ -1353,36 +1383,6 @@
                 "name": "JurixTM"
             },
             "wrs": 11,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Santa Catarina",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
-                    }
-                ],
-                "name": "batatowisk08"
-            },
-            "wrs": 10,
             "duration": 0
         },
         {
@@ -2822,36 +2822,6 @@
         },
         {
             "user": {
-                "id": "f37147a8-36f3-4c58-9577-bf0faff3aafa",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Austria",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Tyrol",
-                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e556c-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Samifying"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "d3d84336-fc5f-49fd-b866-b15ca80152a8",
                 "zone": [
                     {
@@ -3476,6 +3446,36 @@
                     }
                 ],
                 "name": "Kelven."
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "f37147a8-36f3-4c58-9577-bf0faff3aafa",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Austria",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Tyrol",
+                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e556c-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Samifying"
             },
             "wrs": 4,
             "duration": 0
@@ -13815,26 +13815,6 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Austria",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 36
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Hungary",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
@@ -13895,6 +13875,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Austria",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 35
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Finland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
@@ -13920,7 +13920,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 25
+            "wrs": 26
         },
         {
             "zone": [
@@ -19756,6 +19756,36 @@
         },
         {
             "user": {
+                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Santa Catarina",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
+                    }
+                ],
+                "name": "batatowisk08"
+            },
+            "wrs": 46,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "0d505491-7ca0-4d9c-8805-a75efa425b2d",
                 "zone": [
                     {
@@ -19850,36 +19880,6 @@
                     }
                 ],
                 "name": "purple-..-"
-            },
-            "wrs": 45,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Santa Catarina",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
-                    }
-                ],
-                "name": "batatowisk08"
             },
             "wrs": 45,
             "duration": 0
@@ -84474,7 +84474,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 305
+            "wrs": 306
         },
         {
             "zone": [
@@ -91664,6 +91664,35 @@
         },
         {
             "user": {
+                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Santa Catarina",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
+                    }
+                ],
+                "name": "batatowisk08"
+            },
+            "wrs": 20
+        },
+        {
+            "user": {
                 "id": "4782955d-7723-4298-a3e0-e2e621e3b0b9",
                 "zone": [
                     {
@@ -91780,35 +91809,6 @@
                     }
                 ],
                 "name": "ArieugoN."
-            },
-            "wrs": 19
-        },
-        {
-            "user": {
-                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Santa Catarina",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
-                    }
-                ],
-                "name": "batatowisk08"
             },
             "wrs": 19
         },
@@ -153563,7 +153563,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 159
+            "wrs": 160
         },
         {
             "zone": [
