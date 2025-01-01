@@ -652,6 +652,41 @@
         },
         {
             "user": {
+                "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Bretagne",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ille-et-Vilaine",
+                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loupphok"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b09527f2-b61d-4d9a-8cdc-73484590f81f",
                 "zone": [
                     {
@@ -766,41 +801,6 @@
                     }
                 ],
                 "name": "Zamera_80"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Bretagne",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Ille-et-Vilaine",
-                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loupphok"
             },
             "wrs": 5,
             "duration": 0
@@ -1038,36 +1038,6 @@
                 "name": "Samifying"
             },
             "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "c75008a0-922d-4754-a74f-01adf49d78d1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Czechia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Liberecký kraj",
-                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f4d1a-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Tomasus"
-            },
-            "wrs": 3,
             "duration": 0
         },
         {
@@ -1692,6 +1662,36 @@
         },
         {
             "user": {
+                "id": "c75008a0-922d-4754-a74f-01adf49d78d1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Liberecký kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f4d1a-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Tomasus"
+            },
+            "wrs": 2,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "758913de-7ea1-4d5d-9d3f-b8b19670c2a4",
                 "zone": [
                     {
@@ -2222,6 +2222,31 @@
         },
         {
             "user": {
+                "id": "0aba1461-d59d-4519-b2c9-c048b0bdd5b4",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Middle East",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2195-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Israel",
+                        "parentId": "301e2195-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "shayos189"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "33e0798d-351e-4c20-9ec0-7296ffd8e863",
                 "zone": [
                     {
@@ -2257,7 +2282,7 @@
         },
         {
             "user": {
-                "id": "de0999e3-0562-46fe-adf2-15720ae60ce3",
+                "id": "0782eabd-e9ce-473b-a293-c1dd846e749b",
                 "zone": [
                     {
                         "name": "World",
@@ -2270,57 +2295,12 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Germany",
+                        "name": "Slovakia",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Mecklenburg-Vorpommern",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30200848-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Rostock",
-                        "parentId": "30200848-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302008de-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "Ericb_Shark"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "e93f5716-079b-4996-b16d-b3474832a242",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Russia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Центральный федеральный округ",
-                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30224326-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Московская область",
-                        "parentId": "30224326-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "d3f773be-dec8-45de-afb0-ff1943c39ef4"
-                    }
-                ],
-                "name": "ShibalaTM"
+                "name": "tweenTM"
             },
             "wrs": 1,
             "duration": 0
@@ -2381,36 +2361,6 @@
                     }
                 ],
                 "name": "DiamondTM."
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "63018d7a-bce8-441e-a26d-05f8ed549a48",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Poland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Małopolskie",
-                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020aff6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "brick555"
             },
             "wrs": 1,
             "duration": 0
@@ -6380,7 +6330,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 106
+            "wrs": 107
         },
         {
             "zone": [
@@ -6400,7 +6350,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 91
+            "wrs": 90
         },
         {
             "zone": [
@@ -6460,7 +6410,7 @@
                     "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 32
+            "wrs": 31
         },
         {
             "zone": [
@@ -6610,14 +6560,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Middle East",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2195-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "United States",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Israel",
+                    "parentId": "301e2195-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 14
@@ -6630,17 +6580,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Middle East",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2195-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Israel",
-                    "parentId": "301e2195-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "United States",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 13
+            "wrs": 14
         },
         {
             "zone": [
@@ -6700,7 +6650,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 10
+            "wrs": 9
         },
         {
             "zone": [
@@ -6855,9 +6805,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Türkiye",
+                    "name": "Slovakia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 4
@@ -6875,12 +6825,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Slovakia",
+                    "name": "Türkiye",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 3
+            "wrs": 4
         },
         {
             "zone": [
@@ -6901,26 +6851,6 @@
                 }
             ],
             "wrs": 3
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Russia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 2
         },
         {
             "zone": [
@@ -7018,6 +6948,26 @@
                     "name": "Indonesia",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "302059af-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 1
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Russia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -7811,6 +7761,41 @@
         },
         {
             "user": {
+                "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Bretagne",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ille-et-Vilaine",
+                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loupphok"
+            },
+            "wrs": 85,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a9cbdeff-daa3-4bc2-998c-b2838183fb97",
                 "zone": [
                     {
@@ -7872,41 +7857,6 @@
                 "name": "DexteR.771"
             },
             "wrs": 85,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Bretagne",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Ille-et-Vilaine",
-                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loupphok"
-            },
-            "wrs": 84,
             "duration": 0
         },
         {
@@ -10701,6 +10651,31 @@
         },
         {
             "user": {
+                "id": "0782eabd-e9ce-473b-a293-c1dd846e749b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Slovakia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "tweenTM"
+            },
+            "wrs": 23,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "af30b7a1-fc37-485f-94bf-f00e39805d8c",
                 "zone": [
                     {
@@ -10930,31 +10905,6 @@
                     }
                 ],
                 "name": "Abracadabra..."
-            },
-            "wrs": 22,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "0782eabd-e9ce-473b-a293-c1dd846e749b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Slovakia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "tweenTM"
             },
             "wrs": 22,
             "duration": 0
@@ -22606,6 +22556,36 @@
         },
         {
             "user": {
+                "id": "cbe69c3d-dbf1-4d0f-8f1c-a554e5a81ff1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Královéhradecký kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f4c1b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "RYCHLIK_07065"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "8a275586-eb30-4ddb-9a83-cbd5181cfbf0",
                 "zone": [
                     {
@@ -26305,36 +26285,6 @@
                     }
                 ],
                 "name": "Wagentje"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "cbe69c3d-dbf1-4d0f-8f1c-a554e5a81ff1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Czechia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Královéhradecký kraj",
-                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f4c1b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "RYCHLIK_07065"
             },
             "wrs": 3,
             "duration": 0
@@ -36630,6 +36580,31 @@
                     }
                 ],
                 "name": "ArisuTM"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "0aba1461-d59d-4519-b2c9-c048b0bdd5b4",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Middle East",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2195-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Israel",
+                        "parentId": "301e2195-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "shayos189"
             },
             "wrs": 1,
             "duration": 0
@@ -59269,7 +59244,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2755
+            "wrs": 2756
         },
         {
             "zone": [
@@ -59429,7 +59404,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 514
+            "wrs": 515
         },
         {
             "zone": [
@@ -59689,7 +59664,7 @@
                     "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 120
+            "wrs": 121
         },
         {
             "zone": [
@@ -59789,7 +59764,7 @@
                     "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 66
+            "wrs": 67
         },
         {
             "zone": [
@@ -62032,6 +62007,40 @@
         },
         {
             "user": {
+                "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Bretagne",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ille-et-Vilaine",
+                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loupphok"
+            },
+            "wrs": 24
+        },
+        {
+            "user": {
                 "id": "813a3917-8850-4393-92a0-cc442d9cc4a2",
                 "zone": [
                     {
@@ -62126,40 +62135,6 @@
                 "name": "Spammiej"
             },
             "wrs": 24
-        },
-        {
-            "user": {
-                "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Bretagne",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Ille-et-Vilaine",
-                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loupphok"
-            },
-            "wrs": 23
         },
         {
             "user": {
@@ -65164,6 +65139,30 @@
         },
         {
             "user": {
+                "id": "0782eabd-e9ce-473b-a293-c1dd846e749b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Slovakia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "tweenTM"
+            },
+            "wrs": 8
+        },
+        {
+            "user": {
                 "id": "753862bb-bc42-41b8-88fc-7dd11f5471f6",
                 "zone": [
                     {
@@ -66300,30 +66299,6 @@
                     }
                 ],
                 "name": "Hayiom.."
-            },
-            "wrs": 7
-        },
-        {
-            "user": {
-                "id": "0782eabd-e9ce-473b-a293-c1dd846e749b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Slovakia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "tweenTM"
             },
             "wrs": 7
         },
@@ -82203,6 +82178,30 @@
                     }
                 ],
                 "name": "ArisuTM"
+            },
+            "wrs": 1
+        },
+        {
+            "user": {
+                "id": "0aba1461-d59d-4519-b2c9-c048b0bdd5b4",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Middle East",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2195-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Israel",
+                        "parentId": "301e2195-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "shayos189"
             },
             "wrs": 1
         },
@@ -111341,7 +111340,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1200
+            "wrs": 1201
         },
         {
             "zone": [
@@ -111781,7 +111780,7 @@
                     "zoneId": "30205c20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 54
+            "wrs": 55
         },
         {
             "zone": [
@@ -111841,7 +111840,7 @@
                     "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 38
+            "wrs": 39
         },
         {
             "zone": [
