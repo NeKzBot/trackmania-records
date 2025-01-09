@@ -1387,6 +1387,31 @@
         },
         {
             "user": {
+                "id": "694721bc-8f96-4fdc-951c-5c7ecfb46b2b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nicaragua",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "twelfth-tm"
+            },
+            "wrs": 10,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "06496fad-70f7-49bc-80c6-d62caa7a9de4",
                 "zone": [
                     {
@@ -1706,31 +1731,6 @@
                     }
                 ],
                 "name": "Evo.Chroma"
-            },
-            "wrs": 9,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "694721bc-8f96-4fdc-951c-5c7ecfb46b2b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nicaragua",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "twelfth-tm"
             },
             "wrs": 9,
             "duration": 0
@@ -3232,31 +3232,6 @@
         },
         {
             "user": {
-                "id": "174136a6-d618-4822-94f3-49a2950746a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Asia",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South Korea",
-                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "KR_min2002"
-            },
-            "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "d2d0c8ee-f807-4bc7-8ccc-7f17432bce5a",
                 "zone": [
                     {
@@ -4376,6 +4351,31 @@
                     }
                 ],
                 "name": "kandzsika"
+            },
+            "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "174136a6-d618-4822-94f3-49a2950746a6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Asia",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South Korea",
+                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "KR_min2002"
             },
             "wrs": 3,
             "duration": 0
@@ -14263,6 +14263,26 @@
                     "name": "World",
                     "parentId": null,
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "North America",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Nicaragua",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 7
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 6
@@ -14295,26 +14315,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Nicaragua",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 6
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
@@ -14323,26 +14323,6 @@
                     "name": "Lithuania",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30208514-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 4
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Asia",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "South Korea",
-                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 4
@@ -14443,6 +14423,26 @@
                     "name": "Serbia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30224d28-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 3
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Asia",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "South Korea",
+                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 3
@@ -16426,6 +16426,31 @@
         },
         {
             "user": {
+                "id": "694721bc-8f96-4fdc-951c-5c7ecfb46b2b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nicaragua",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "twelfth-tm"
+            },
+            "wrs": 136,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
                 "zone": [
                     {
@@ -16452,31 +16477,6 @@
                 "name": "Ikarus."
             },
             "wrs": 136,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "694721bc-8f96-4fdc-951c-5c7ecfb46b2b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nicaragua",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "twelfth-tm"
-            },
-            "wrs": 135,
             "duration": 0
         },
         {
@@ -85789,17 +85789,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Malta",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Nicaragua",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 111
+            "wrs": 112
         },
         {
             "zone": [
@@ -85809,14 +85809,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Nicaragua",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Malta",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 111
@@ -88356,6 +88356,30 @@
         },
         {
             "user": {
+                "id": "694721bc-8f96-4fdc-951c-5c7ecfb46b2b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nicaragua",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "twelfth-tm"
+            },
+            "wrs": 86
+        },
+        {
+            "user": {
                 "id": "af22b9e7-9210-4b2d-81ff-2b230ced955b",
                 "zone": [
                     {
@@ -88409,30 +88433,6 @@
                     }
                 ],
                 "name": "LyRooZ."
-            },
-            "wrs": 85
-        },
-        {
-            "user": {
-                "id": "694721bc-8f96-4fdc-951c-5c7ecfb46b2b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nicaragua",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "twelfth-tm"
             },
             "wrs": 85
         },
@@ -155884,7 +155884,7 @@
                     "zoneId": "30209f71-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 70
+            "wrs": 71
         },
         {
             "zone": [
