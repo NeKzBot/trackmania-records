@@ -5007,7 +5007,7 @@
         },
         {
             "user": {
-                "id": "bdecf696-20d7-45ec-9b6b-4b50dda63154",
+                "id": "ac98009c-8af2-4f8b-92b1-56c037f5a12c",
                 "zone": [
                     {
                         "name": "World",
@@ -5020,22 +5020,12 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "France",
+                        "name": "Türkiye",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Grand Est",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa0c0-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Meurthe-et-Moselle",
-                        "parentId": "301fa0c0-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa5bd-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "Obitom."
+                "name": "DemirTM"
             },
             "wrs": 2,
             "duration": 0
@@ -9071,6 +9061,41 @@
                     }
                 ],
                 "name": "GollumOfSparta"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "bdecf696-20d7-45ec-9b6b-4b50dda63154",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Grand Est",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa0c0-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Meurthe-et-Moselle",
+                        "parentId": "301fa0c0-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa5bd-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Obitom."
             },
             "wrs": 1,
             "duration": 0
@@ -13282,31 +13307,6 @@
         },
         {
             "user": {
-                "id": "ac98009c-8af2-4f8b-92b1-56c037f5a12c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Türkiye",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DemirTM"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "c71b2685-786f-428c-b108-a2336582ceed",
                 "zone": [
                     {
@@ -13665,7 +13665,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 446
+            "wrs": 445
         },
         {
             "zone": [
@@ -14155,6 +14155,26 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Türkiye",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 9
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Oceania",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
@@ -14193,26 +14213,6 @@
                     "name": "World",
                     "parentId": null,
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 8
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Türkiye",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 8
@@ -27261,6 +27261,31 @@
         },
         {
             "user": {
+                "id": "ac98009c-8af2-4f8b-92b1-56c037f5a12c",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Türkiye",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DemirTM"
+            },
+            "wrs": 11,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "753862bb-bc42-41b8-88fc-7dd11f5471f6",
                 "zone": [
                     {
@@ -27915,31 +27940,6 @@
                     }
                 ],
                 "name": "Blev_TM"
-            },
-            "wrs": 10,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "ac98009c-8af2-4f8b-92b1-56c037f5a12c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Türkiye",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DemirTM"
             },
             "wrs": 10,
             "duration": 0
@@ -85999,7 +85999,7 @@
                     "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 88
+            "wrs": 89
         },
         {
             "zone": [
@@ -96507,6 +96507,30 @@
         },
         {
             "user": {
+                "id": "ac98009c-8af2-4f8b-92b1-56c037f5a12c",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Türkiye",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DemirTM"
+            },
+            "wrs": 10
+        },
+        {
+            "user": {
                 "id": "4539f2ae-2813-4044-9616-b2508a3a86a8",
                 "zone": [
                     {
@@ -97179,30 +97203,6 @@
                     }
                 ],
                 "name": "Blev_TM"
-            },
-            "wrs": 9
-        },
-        {
-            "user": {
-                "id": "ac98009c-8af2-4f8b-92b1-56c037f5a12c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Türkiye",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DemirTM"
             },
             "wrs": 9
         },
@@ -156289,7 +156289,7 @@
                     "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 46
+            "wrs": 47
         },
         {
             "zone": [
