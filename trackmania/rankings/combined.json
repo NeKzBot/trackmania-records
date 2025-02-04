@@ -122,7 +122,7 @@
                 ],
                 "name": "eLconn21"
             },
-            "wrs": 81,
+            "wrs": 80,
             "duration": 0
         },
         {
@@ -1437,6 +1437,36 @@
         },
         {
             "user": {
+                "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "São Paulo",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "825a3452-6a36-4fe1-94b5-637986936ef7"
+                    }
+                ],
+                "name": "GNR-HASKELL"
+            },
+            "wrs": 10,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "06496fad-70f7-49bc-80c6-d62caa7a9de4",
                 "zone": [
                     {
@@ -1511,36 +1541,6 @@
                     }
                 ],
                 "name": "Sandder.4W"
-            },
-            "wrs": 9,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "São Paulo",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "825a3452-6a36-4fe1-94b5-637986936ef7"
-                    }
-                ],
-                "name": "GNR-HASKELL"
             },
             "wrs": 9,
             "duration": 0
@@ -13915,7 +13915,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 117
+            "wrs": 116
         },
         {
             "zone": [
@@ -14215,7 +14215,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 25
+            "wrs": 26
         },
         {
             "zone": [
@@ -16231,31 +16231,6 @@
         },
         {
             "user": {
-                "id": "bd45204c-80f1-4809-b983-38b3f0ffc1ef",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "WirtualTM"
-            },
-            "wrs": 156,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
                 "zone": [
                     {
@@ -16280,6 +16255,31 @@
                     }
                 ],
                 "name": "GNR-HASKELL"
+            },
+            "wrs": 157,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "bd45204c-80f1-4809-b983-38b3f0ffc1ef",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "WirtualTM"
             },
             "wrs": 156,
             "duration": 0
@@ -86239,7 +86239,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 339
+            "wrs": 340
         },
         {
             "zone": [
@@ -89026,6 +89026,35 @@
         },
         {
             "user": {
+                "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "São Paulo",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "825a3452-6a36-4fe1-94b5-637986936ef7"
+                    }
+                ],
+                "name": "GNR-HASKELL"
+            },
+            "wrs": 79
+        },
+        {
+            "user": {
                 "id": "8ba5bc33-23c5-429e-8058-b7052a8671d7",
                 "zone": [
                     {
@@ -89057,35 +89086,6 @@
                 "name": "Monkey.TM"
             },
             "wrs": 79
-        },
-        {
-            "user": {
-                "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "São Paulo",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "825a3452-6a36-4fe1-94b5-637986936ef7"
-                    }
-                ],
-                "name": "GNR-HASKELL"
-            },
-            "wrs": 78
         },
         {
             "user": {
@@ -156752,7 +156752,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 174
+            "wrs": 175
         },
         {
             "zone": [
