@@ -437,6 +437,36 @@
         },
         {
             "user": {
+                "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Canada",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Quebec",
+                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "L1ngotm"
+            },
+            "wrs": 26,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b90e91eb-bd87-41fd-8c69-6560dbeedd2e",
                 "zone": [
                     {
@@ -496,36 +526,6 @@
                     }
                 ],
                 "name": "josh1248"
-            },
-            "wrs": 25,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Canada",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Quebec",
-                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "L1ngotm"
             },
             "wrs": 25,
             "duration": 0
@@ -1192,36 +1192,6 @@
         },
         {
             "user": {
-                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Budapest",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "pusztitopako"
-            },
-            "wrs": 12,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
                 "zone": [
                     {
@@ -1301,6 +1271,36 @@
                     }
                 ],
                 "name": "Maniaaaac_"
+            },
+            "wrs": 11,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Budapest",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "pusztitopako"
             },
             "wrs": 11,
             "duration": 0
@@ -14020,7 +14020,7 @@
                     "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 89
+            "wrs": 90
         },
         {
             "zone": [
@@ -14155,9 +14155,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Hungary",
+                    "name": "Austria",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 37
@@ -14175,12 +14175,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Austria",
+                    "name": "Hungary",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 37
+            "wrs": 36
         },
         {
             "zone": [
@@ -15186,7 +15186,7 @@
                 ],
                 "name": "L1ngotm"
             },
-            "wrs": 618,
+            "wrs": 619,
             "duration": 0
         },
         {
@@ -86184,7 +86184,7 @@
                     "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1673
+            "wrs": 1674
         },
         {
             "zone": [
@@ -88209,7 +88209,7 @@
                 ],
                 "name": "L1ngotm"
             },
-            "wrs": 292
+            "wrs": 293
         },
         {
             "user": {
@@ -157029,7 +157029,7 @@
                     "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 646
+            "wrs": 647
         },
         {
             "zone": [
