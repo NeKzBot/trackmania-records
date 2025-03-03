@@ -467,6 +467,31 @@
         },
         {
             "user": {
+                "id": "a198e640-779a-47c0-97b5-9d38a351e7fa",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Tekky.."
+            },
+            "wrs": 20,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "9ebb2ece-61a8-4dbf-9173-25b9d64ad117",
                 "zone": [
                     {
@@ -497,32 +522,7 @@
                 ],
                 "name": "BarbosTM"
             },
-            "wrs": 20,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "a198e640-779a-47c0-97b5-9d38a351e7fa",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Tekky.."
-            },
-            "wrs": 20,
+            "wrs": 19,
             "duration": 0
         },
         {
@@ -5351,6 +5351,41 @@
                     }
                 ],
                 "name": "InfTM"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "NablaTM"
             },
             "wrs": 1,
             "duration": 0
@@ -10740,7 +10775,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 339
+            "wrs": 340
         },
         {
             "zone": [
@@ -10760,7 +10795,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 321
+            "wrs": 320
         },
         {
             "zone": [
@@ -14946,31 +14981,6 @@
         },
         {
             "user": {
-                "id": "5b5e358d-b53a-4a69-9253-23fc6dc98e68",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "CatziiTM"
-            },
-            "wrs": 48,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
                 "zone": [
                     {
@@ -15001,7 +15011,32 @@
                 ],
                 "name": "NablaTM"
             },
-            "wrs": 47,
+            "wrs": 48,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "5b5e358d-b53a-4a69-9253-23fc6dc98e68",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "CatziiTM"
+            },
+            "wrs": 48,
             "duration": 0
         },
         {
@@ -50399,7 +50434,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4793
+            "wrs": 4794
         },
         {
             "zone": [
