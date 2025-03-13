@@ -1852,6 +1852,36 @@
         },
         {
             "user": {
+                "id": "23274648-738e-4216-a065-2a118f978c9d",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Netherlands",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Fryslân",
+                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020986b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Knyntsje"
+            },
+            "wrs": 8,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
                 "zone": [
                     {
@@ -2456,36 +2486,6 @@
                     }
                 ],
                 "name": "Novu."
-            },
-            "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "23274648-738e-4216-a065-2a118f978c9d",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Netherlands",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Fryslân",
-                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020986b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Knyntsje"
             },
             "wrs": 7,
             "duration": 0
@@ -3341,41 +3341,6 @@
                     }
                 ],
                 "name": "PuWWa"
-            },
-            "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Seine-et-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fade2-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Heav.ly"
             },
             "wrs": 4,
             "duration": 0
@@ -4326,6 +4291,41 @@
                     }
                 ],
                 "name": "Redbolt_"
+            },
+            "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Seine-et-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fade2-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Kumiko.yl"
             },
             "wrs": 3,
             "duration": 0
@@ -14095,7 +14095,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 445
+            "wrs": 444
         },
         {
             "zone": [
@@ -14275,7 +14275,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 71
+            "wrs": 72
         },
         {
             "zone": [
@@ -16621,6 +16621,36 @@
         },
         {
             "user": {
+                "id": "23274648-738e-4216-a065-2a118f978c9d",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Netherlands",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Fryslân",
+                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020986b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Knyntsje"
+            },
+            "wrs": 146,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "6f67d602-f64b-4bed-a608-347adcf8cad1",
                 "zone": [
                     {
@@ -16650,36 +16680,6 @@
                     }
                 ],
                 "name": "Novu."
-            },
-            "wrs": 145,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "23274648-738e-4216-a065-2a118f978c9d",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Netherlands",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Fryslân",
-                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020986b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Knyntsje"
             },
             "wrs": 145,
             "duration": 0
@@ -86794,7 +86794,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1491
+            "wrs": 1492
         },
         {
             "zone": [
@@ -90003,7 +90003,7 @@
                 ],
                 "name": "Knyntsje"
             },
-            "wrs": 74
+            "wrs": 75
         },
         {
             "user": {
@@ -157824,7 +157824,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 778
+            "wrs": 779
         },
         {
             "zone": [
