@@ -1022,6 +1022,36 @@
         },
         {
             "user": {
+                "id": "4a983dc3-a938-4564-8a1c-8be20779f069",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Portugal",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Lisboa",
+                        "parentId": "3022328d-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30223f78-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Zypher.tm"
+            },
+            "wrs": 11,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "5db172fc-21e4-4618-8039-fba4b2d421b9",
                 "zone": [
                     {
@@ -1053,36 +1083,6 @@
                 "name": "JurixTM"
             },
             "wrs": 11,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "4a983dc3-a938-4564-8a1c-8be20779f069",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Portugal",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Lisboa",
-                        "parentId": "3022328d-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30223f78-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Zypher.tm"
-            },
-            "wrs": 10,
             "duration": 0
         },
         {
@@ -3716,36 +3716,6 @@
                     }
                 ],
                 "name": "Chamow"
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "f37147a8-36f3-4c58-9577-bf0faff3aafa",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Austria",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Tyrol",
-                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e556c-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Samifying"
             },
             "wrs": 2,
             "duration": 0
@@ -6701,6 +6671,36 @@
                     }
                 ],
                 "name": "Sqlc."
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "f37147a8-36f3-4c58-9577-bf0faff3aafa",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Austria",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Tyrol",
+                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e556c-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Samifying"
             },
             "wrs": 1,
             "duration": 0
@@ -10860,7 +10860,7 @@
                     "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 117
+            "wrs": 118
         },
         {
             "zone": [
@@ -11035,26 +11035,6 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Austria",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 33
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Croatia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
@@ -11081,6 +11061,26 @@
                 }
             ],
             "wrs": 33
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Austria",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 32
         },
         {
             "zone": [
@@ -14051,7 +14051,7 @@
                 ],
                 "name": "Zypher.tm"
             },
-            "wrs": 74,
+            "wrs": 75,
             "duration": 0
         },
         {
@@ -50949,7 +50949,7 @@
                     "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 815
+            "wrs": 816
         },
         {
             "zone": [
