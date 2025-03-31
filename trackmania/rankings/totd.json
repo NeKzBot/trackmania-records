@@ -492,6 +492,31 @@
         },
         {
             "user": {
+                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "levonn"
+            },
+            "wrs": 19,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "9ebb2ece-61a8-4dbf-9173-25b9d64ad117",
                 "zone": [
                     {
@@ -523,31 +548,6 @@
                 "name": "BarbosTM"
             },
             "wrs": 19,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "levonn"
-            },
-            "wrs": 18,
             "duration": 0
         },
         {
@@ -2507,41 +2507,6 @@
         },
         {
             "user": {
-                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Val-de-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Roquett"
-            },
-            "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "40d4abc0-f10b-4093-8244-bda72eaea955",
                 "zone": [
                     {
@@ -3096,6 +3061,41 @@
                     }
                 ],
                 "name": "vrinho."
+            },
+            "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Val-de-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Roquett"
             },
             "wrs": 3,
             "duration": 0
@@ -10850,7 +10850,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 342
+            "wrs": 341
         },
         {
             "zone": [
@@ -10970,7 +10970,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 81
+            "wrs": 82
         },
         {
             "zone": [
@@ -13211,7 +13211,7 @@
                 ],
                 "name": "levonn"
             },
-            "wrs": 115,
+            "wrs": 116,
             "duration": 0
         },
         {
@@ -50924,7 +50924,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1045
+            "wrs": 1046
         },
         {
             "zone": [
