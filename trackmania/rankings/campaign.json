@@ -2527,7 +2527,7 @@
         },
         {
             "user": {
-                "id": "98befaea-5a4f-409c-b04e-297dc1e1e0e4",
+                "id": "c2b06237-0994-4ec7-881e-52edf3a76f70",
                 "zone": [
                     {
                         "name": "World",
@@ -2535,22 +2535,22 @@
                         "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Europe",
+                        "name": "North America",
                         "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Poland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "United States",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Świętokrzyskie",
-                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022261f-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Ohio",
+                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022e90b-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "djabski"
+                "name": "FlimsyTM"
             },
             "wrs": 1,
             "duration": 0
@@ -2647,7 +2647,7 @@
         },
         {
             "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "id": "b90e91eb-bd87-41fd-8c69-6560dbeedd2e",
                 "zone": [
                     {
                         "name": "World",
@@ -2660,12 +2660,17 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Croatia",
+                        "name": "Poland",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Kujawsko-Pomorskie",
+                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020ade2-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "SKY.T1"
+                "name": "Magorian0212"
             },
             "wrs": 1,
             "duration": 0
@@ -6860,26 +6865,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Croatia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 13
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
@@ -6890,7 +6875,7 @@
                     "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 13
+            "wrs": 14
         },
         {
             "zone": [
@@ -6911,6 +6896,26 @@
                 }
             ],
             "wrs": 13
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Croatia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 12
         },
         {
             "zone": [
@@ -11496,6 +11501,36 @@
         },
         {
             "user": {
+                "id": "b90e91eb-bd87-41fd-8c69-6560dbeedd2e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Poland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Kujawsko-Pomorskie",
+                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020ade2-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Magorian0212"
+            },
+            "wrs": 21,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "c918a06c-c622-49e4-b66b-6bcb6488db4c",
                 "zone": [
                     {
@@ -11890,36 +11925,6 @@
                     }
                 ],
                 "name": "Flyer36"
-            },
-            "wrs": 20,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "b90e91eb-bd87-41fd-8c69-6560dbeedd2e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Poland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Kujawsko-Pomorskie",
-                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020ade2-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Magorian0212"
             },
             "wrs": 20,
             "duration": 0
@@ -38256,6 +38261,36 @@
         },
         {
             "user": {
+                "id": "c2b06237-0994-4ec7-881e-52edf3a76f70",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United States",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ohio",
+                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022e90b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "FlimsyTM"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "52d76984-7d76-498b-aebb-a6b9c0aa0b6e",
                 "zone": [
                     {
@@ -61209,7 +61244,7 @@
                     "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 859
+            "wrs": 860
         },
         {
             "zone": [
@@ -61329,7 +61364,7 @@
                     "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 574
+            "wrs": 575
         },
         {
             "zone": [
@@ -67397,6 +67432,35 @@
         },
         {
             "user": {
+                "id": "b90e91eb-bd87-41fd-8c69-6560dbeedd2e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Poland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Kujawsko-Pomorskie",
+                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020ade2-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Magorian0212"
+            },
+            "wrs": 8
+        },
+        {
+            "user": {
                 "id": "8da51c17-1651-4ab1-af35-7d26e0e68e23",
                 "zone": [
                     {
@@ -68166,35 +68230,6 @@
                     }
                 ],
                 "name": "Vojteek55"
-            },
-            "wrs": 7
-        },
-        {
-            "user": {
-                "id": "b90e91eb-bd87-41fd-8c69-6560dbeedd2e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Poland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Kujawsko-Pomorskie",
-                        "parentId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020ade2-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Magorian0212"
             },
             "wrs": 7
         },
@@ -85287,6 +85322,35 @@
                     }
                 ],
                 "name": "SSanoTM"
+            },
+            "wrs": 1
+        },
+        {
+            "user": {
+                "id": "c2b06237-0994-4ec7-881e-52edf3a76f70",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United States",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ohio",
+                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022e90b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "FlimsyTM"
             },
             "wrs": 1
         },
@@ -114838,7 +114902,7 @@
                     "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 339
+            "wrs": 340
         },
         {
             "zone": [
@@ -114858,7 +114922,7 @@
                     "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 291
+            "wrs": 292
         },
         {
             "zone": [
