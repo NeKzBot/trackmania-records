@@ -562,7 +562,7 @@
                 ],
                 "name": "GNR-HASKELL"
             },
-            "wrs": 8,
+            "wrs": 9,
             "duration": 0
         },
         {
@@ -2417,7 +2417,7 @@
         },
         {
             "user": {
-                "id": "abea35a1-34d9-42e0-8b45-572d20b8f2d7",
+                "id": "db66bd24-dbfc-4919-9dc9-0f6350075dc5",
                 "zone": [
                     {
                         "name": "World",
@@ -2430,17 +2430,22 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Spain",
+                        "name": "United Kingdom",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Andalucía",
-                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225cbf-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "England",
+                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "London",
+                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a597-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "Pac042"
+                "name": "RiSK_Ion"
             },
             "wrs": 1,
             "duration": 0
@@ -2816,41 +2821,6 @@
                     }
                 ],
                 "name": "DubbyTM"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "53225d31-297f-49c7-8907-7bee7abad399",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Rheinland-Pfalz",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30201925-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Koblenz",
-                        "parentId": "30201925-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30201a3f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "InfTM"
             },
             "wrs": 1,
             "duration": 0
@@ -6680,7 +6650,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 96
+            "wrs": 95
         },
         {
             "zone": [
@@ -6740,7 +6710,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 32
+            "wrs": 33
         },
         {
             "zone": [
@@ -6960,7 +6930,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 10
+            "wrs": 11
         },
         {
             "zone": [
@@ -7190,14 +7160,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "Asia",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Spain",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "India",
+                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30205919-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 2
@@ -7210,17 +7180,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Asia",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "India",
-                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30205919-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Spain",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2
+            "wrs": 1
         },
         {
             "zone": [
@@ -7576,7 +7546,7 @@
                 ],
                 "name": "GranaDy."
             },
-            "wrs": 219,
+            "wrs": 220,
             "duration": 0
         },
         {
@@ -7996,6 +7966,36 @@
         },
         {
             "user": {
+                "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "São Paulo",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "825a3452-6a36-4fe1-94b5-637986936ef7"
+                    }
+                ],
+                "name": "GNR-HASKELL"
+            },
+            "wrs": 102,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
                 "zone": [
                     {
@@ -8025,36 +8025,6 @@
                     }
                 ],
                 "name": "Loupphok"
-            },
-            "wrs": 101,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "São Paulo",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "825a3452-6a36-4fe1-94b5-637986936ef7"
-                    }
-                ],
-                "name": "GNR-HASKELL"
             },
             "wrs": 101,
             "duration": 0
@@ -9516,6 +9486,36 @@
         },
         {
             "user": {
+                "id": "0cf03ab8-4e41-40fd-963e-d206a574762f",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Canada",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "British Columbia",
+                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6ee0-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Cinn007"
+            },
+            "wrs": 40,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "41122fb7-f264-448e-9660-a418f438e58b",
                 "zone": [
                     {
@@ -9547,36 +9547,6 @@
                 "name": "tm7ven"
             },
             "wrs": 40,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "0cf03ab8-4e41-40fd-963e-d206a574762f",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Canada",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "British Columbia",
-                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6ee0-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Cinn007"
-            },
-            "wrs": 39,
             "duration": 0
         },
         {
@@ -37716,6 +37686,41 @@
         },
         {
             "user": {
+                "id": "db66bd24-dbfc-4919-9dc9-0f6350075dc5",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "England",
+                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "London",
+                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a597-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "RiSK_Ion"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "72e1a6e3-9ea4-490e-9ccf-5739b661dd36",
                 "zone": [
                     {
@@ -60764,7 +60769,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2264
+            "wrs": 2265
         },
         {
             "zone": [
@@ -60804,7 +60809,7 @@
                     "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 787
+            "wrs": 788
         },
         {
             "zone": [
@@ -60864,7 +60869,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 625
+            "wrs": 626
         },
         {
             "zone": [
@@ -61124,7 +61129,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 165
+            "wrs": 166
         },
         {
             "zone": [
@@ -62811,7 +62816,7 @@
                 ],
                 "name": "GNR-HASKELL"
             },
-            "wrs": 41
+            "wrs": 42
         },
         {
             "user": {
@@ -84321,6 +84326,40 @@
                     }
                 ],
                 "name": "Pac042"
+            },
+            "wrs": 1
+        },
+        {
+            "user": {
+                "id": "db66bd24-dbfc-4919-9dc9-0f6350075dc5",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "England",
+                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "London",
+                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a597-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "RiSK_Ion"
             },
             "wrs": 1
         },
@@ -114073,7 +114112,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 271
+            "wrs": 272
         },
         {
             "zone": [
@@ -114353,7 +114392,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 73
+            "wrs": 74
         },
         {
             "zone": [
