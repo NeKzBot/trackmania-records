@@ -907,6 +907,26 @@
         },
         {
             "user": {
+                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "propanoia"
+            },
+            "wrs": 15,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a5af97bc-d185-404f-a7d1-5c4e48d05db6",
                 "zone": [
                     {
@@ -1076,26 +1096,6 @@
                     }
                 ],
                 "name": "DubbyTM"
-            },
-            "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "propanoia"
             },
             "wrs": 14,
             "duration": 0
@@ -2917,41 +2917,6 @@
         },
         {
             "user": {
-                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Val-de-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Roquett"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "cd32b288-a361-483a-9c48-68417eb83c74",
                 "zone": [
                     {
@@ -3846,6 +3811,41 @@
                     }
                 ],
                 "name": "WarL_TM"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Val-de-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Roquett"
             },
             "wrs": 4,
             "duration": 0
@@ -14385,7 +14385,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 447
+            "wrs": 446
         },
         {
             "zone": [
@@ -14853,6 +14853,16 @@
                     "name": "World",
                     "parentId": null,
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 11
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
                     "name": "Europe",
@@ -14866,16 +14876,6 @@
                 }
             ],
             "wrs": 11
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 10
         },
         {
             "zone": [
@@ -19066,6 +19066,26 @@
         },
         {
             "user": {
+                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "propanoia"
+            },
+            "wrs": 73,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "87e33fc8-fba3-4c15-894a-ed85c23b1e01",
                 "zone": [
                     {
@@ -19130,26 +19150,6 @@
                     }
                 ],
                 "name": "Yamii._."
-            },
-            "wrs": 72,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "propanoia"
             },
             "wrs": 72,
             "duration": 0
@@ -89059,7 +89059,7 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 64
+            "wrs": 65
         },
         {
             "zone": [
