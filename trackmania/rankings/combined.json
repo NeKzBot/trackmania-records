@@ -872,6 +872,41 @@
         },
         {
             "user": {
+                "id": "d3557ada-6d0c-40be-9208-8587d9293dff",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Val-de-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "deluluna_"
+            },
+            "wrs": 15,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
                 "zone": [
                     {
@@ -1031,41 +1066,6 @@
                     }
                 ],
                 "name": "Tauro.Raceta"
-            },
-            "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "d3557ada-6d0c-40be-9208-8587d9293dff",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Val-de-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Switch999"
             },
             "wrs": 14,
             "duration": 0
@@ -2857,31 +2857,6 @@
         },
         {
             "user": {
-                "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Asia",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South Korea",
-                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "choiwooje"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "41170542-b08b-402a-bbaa-806b21dffb41",
                 "zone": [
                     {
@@ -3396,6 +3371,31 @@
                     }
                 ],
                 "name": "kreth-"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Asia",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South Korea",
+                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "choiwooje"
             },
             "wrs": 4,
             "duration": 0
@@ -14465,7 +14465,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 448
+            "wrs": 449
         },
         {
             "zone": [
@@ -14965,26 +14965,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Asia",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "South Korea",
-                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 9
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
@@ -15016,6 +14996,26 @@
                 }
             ],
             "wrs": 9
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Asia",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "South Korea",
+                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 8
         },
         {
             "zone": [
@@ -16626,7 +16626,7 @@
                 ],
                 "name": "deluluna_"
             },
-            "wrs": 195,
+            "wrs": 196,
             "duration": 0
         },
         {
@@ -88574,7 +88574,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 7702
+            "wrs": 7703
         },
         {
             "zone": [
@@ -92062,6 +92062,40 @@
         },
         {
             "user": {
+                "id": "d3557ada-6d0c-40be-9208-8587d9293dff",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Val-de-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "deluluna_"
+            },
+            "wrs": 69
+        },
+        {
+            "user": {
                 "id": "cb137a6a-7112-4917-8e57-c457e082ea3d",
                 "zone": [
                     {
@@ -92190,40 +92224,6 @@
                 "name": "cLM_"
             },
             "wrs": 69
-        },
-        {
-            "user": {
-                "id": "d3557ada-6d0c-40be-9208-8587d9293dff",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Val-de-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "deluluna_"
-            },
-            "wrs": 68
         },
         {
             "user": {
@@ -161143,7 +161143,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 3878
+            "wrs": 3879
         },
         {
             "zone": [
