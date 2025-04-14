@@ -7097,7 +7097,7 @@
         },
         {
             "user": {
-                "id": "3a897ad5-555c-480c-8f0f-edc8f616b0cd",
+                "id": "5df2a40b-1333-4569-81bc-be91ee851ad8",
                 "zone": [
                     {
                         "name": "World",
@@ -7105,22 +7105,22 @@
                         "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "North America",
+                        "name": "Europe",
                         "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Spain",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "New York",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022e729-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Catalunya",
+                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30226ac4-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "Doodlebobcousin"
+                "name": "GunterTM"
             },
             "wrs": 1,
             "duration": 0
@@ -14765,7 +14765,7 @@
                     "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 44
+            "wrs": 43
         },
         {
             "zone": [
@@ -15025,6 +15025,26 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Spain",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 9
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Oceania",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
@@ -15053,26 +15073,6 @@
                     "name": "South Korea",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 8
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Spain",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 8
@@ -30246,6 +30246,36 @@
         },
         {
             "user": {
+                "id": "5df2a40b-1333-4569-81bc-be91ee851ad8",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Spain",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Catalunya",
+                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30226ac4-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "GunterTM"
+            },
+            "wrs": 9,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "79d49e8f-5126-474a-9648-34e72ebbe255",
                 "zone": [
                     {
@@ -31485,36 +31515,6 @@
                     }
                 ],
                 "name": "PiiAnissimo"
-            },
-            "wrs": 8,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "5df2a40b-1333-4569-81bc-be91ee851ad8",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Spain",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Catalunya",
-                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30226ac4-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "GunterTM"
             },
             "wrs": 8,
             "duration": 0
@@ -89049,7 +89049,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 544
+            "wrs": 545
         },
         {
             "zone": [
@@ -101625,6 +101625,35 @@
         },
         {
             "user": {
+                "id": "5df2a40b-1333-4569-81bc-be91ee851ad8",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Spain",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Catalunya",
+                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30226ac4-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "GunterTM"
+            },
+            "wrs": 8
+        },
+        {
+            "user": {
                 "id": "88e1407b-f578-4f1b-aa2f-d676293435b6",
                 "zone": [
                     {
@@ -102364,35 +102393,6 @@
                     }
                 ],
                 "name": "Sheinex"
-            },
-            "wrs": 7
-        },
-        {
-            "user": {
-                "id": "5df2a40b-1333-4569-81bc-be91ee851ad8",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Spain",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Catalunya",
-                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30226ac4-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "GunterTM"
             },
             "wrs": 7
         },
@@ -161670,7 +161670,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 331
+            "wrs": 332
         },
         {
             "zone": [
