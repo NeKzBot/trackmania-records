@@ -1217,6 +1217,31 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 12,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
                 "zone": [
                     {
@@ -1273,31 +1298,6 @@
                 "name": "Zypher.tm"
             },
             "wrs": 12,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
-            },
-            "wrs": 11,
             "duration": 0
         },
         {
@@ -1458,36 +1458,6 @@
                 "name": "JurixTM"
             },
             "wrs": 11,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "São Paulo",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "825a3452-6a36-4fe1-94b5-637986936ef7"
-                    }
-                ],
-                "name": "GNR-HASKELL"
-            },
-            "wrs": 10,
             "duration": 0
         },
         {
@@ -1661,6 +1631,36 @@
                     }
                 ],
                 "name": "Knyntsje"
+            },
+            "wrs": 9,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "6c26b761-bd62-42b5-8190-e3e732c2b937",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "São Paulo",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "825a3452-6a36-4fe1-94b5-637986936ef7"
+                    }
+                ],
+                "name": "GNR-HASKELL"
             },
             "wrs": 9,
             "duration": 0
@@ -14685,7 +14685,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 45
+            "wrs": 46
         },
         {
             "zone": [
@@ -14845,7 +14845,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 26
+            "wrs": 25
         },
         {
             "zone": [
@@ -18661,6 +18661,31 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 85,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "eb30a7cb-d9c0-49e7-92b4-1eadeeddcd12",
                 "zone": [
                     {
@@ -18687,31 +18712,6 @@
                 "name": "P0KER-"
             },
             "wrs": 85,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
-            },
-            "wrs": 84,
             "duration": 0
         },
         {
@@ -89034,7 +89034,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 511
+            "wrs": 512
         },
         {
             "zone": [
@@ -93411,6 +93411,30 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 42
+        },
+        {
+            "user": {
                 "id": "813a3917-8850-4393-92a0-cc442d9cc4a2",
                 "zone": [
                     {
@@ -93510,30 +93534,6 @@
                 "name": "solo23."
             },
             "wrs": 42
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
-            },
-            "wrs": 41
         },
         {
             "user": {
@@ -161739,7 +161739,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 249
+            "wrs": 250
         },
         {
             "zone": [
