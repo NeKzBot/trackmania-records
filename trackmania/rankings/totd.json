@@ -1082,6 +1082,31 @@
         },
         {
             "user": {
+                "id": "60e9eb34-0b7a-42bc-aecb-2d7bce734712",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Finland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "twist__"
+            },
+            "wrs": 10,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "4a983dc3-a938-4564-8a1c-8be20779f069",
                 "zone": [
                     {
@@ -1236,31 +1261,6 @@
                     }
                 ],
                 "name": "Knyntsje"
-            },
-            "wrs": 9,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "60e9eb34-0b7a-42bc-aecb-2d7bce734712",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Finland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "twist__"
             },
             "wrs": 9,
             "duration": 0
@@ -5476,36 +5476,6 @@
                     }
                 ],
                 "name": "henkisme"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "9219cc64-63ec-4cfe-8890-a4239093e71c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Texas",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ed9f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Trunoob.buh"
             },
             "wrs": 1,
             "duration": 0
@@ -11210,32 +11180,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Belgium",
+                    "name": "Finland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 33
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "North America",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "United States",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 32
         },
         {
             "zone": [
@@ -11250,12 +11200,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Finland",
+                    "name": "Belgium",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 32
+            "wrs": 33
         },
         {
             "zone": [
@@ -11276,6 +11226,26 @@
                 }
             ],
             "wrs": 32
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "North America",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "United States",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 31
         },
         {
             "zone": [
@@ -15286,6 +15256,31 @@
         },
         {
             "user": {
+                "id": "60e9eb34-0b7a-42bc-aecb-2d7bce734712",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Finland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "twist__"
+            },
+            "wrs": 50,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "fc54a67c-7bd3-4b33-aa7d-a77f13a7b621",
                 "zone": [
                     {
@@ -15340,31 +15335,6 @@
                     }
                 ],
                 "name": "Kakne.."
-            },
-            "wrs": 49,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "60e9eb34-0b7a-42bc-aecb-2d7bce734712",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Finland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "twist__"
             },
             "wrs": 49,
             "duration": 0
@@ -51759,7 +51729,7 @@
                     "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 353
+            "wrs": 354
         },
         {
             "zone": [
@@ -55707,6 +55677,30 @@
         },
         {
             "user": {
+                "id": "60e9eb34-0b7a-42bc-aecb-2d7bce734712",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Finland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "twist__"
+            },
+            "wrs": 33
+        },
+        {
+            "user": {
                 "id": "01fe5b11-5ada-48a0-9da7-367e153ac3ad",
                 "zone": [
                     {
@@ -55813,30 +55807,6 @@
                     }
                 ],
                 "name": "FeedTM"
-            },
-            "wrs": 32
-        },
-        {
-            "user": {
-                "id": "60e9eb34-0b7a-42bc-aecb-2d7bce734712",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Finland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "twist__"
             },
             "wrs": 32
         },
@@ -91623,7 +91593,7 @@
                     "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 245
+            "wrs": 246
         },
         {
             "zone": [
