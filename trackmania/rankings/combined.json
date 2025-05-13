@@ -872,6 +872,36 @@
         },
         {
             "user": {
+                "id": "2016f67a-0814-42ed-bea8-2e75da48840d",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Switzerland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Vaud",
+                        "parentId": "30228733-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30229617-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ikewolf"
+            },
+            "wrs": 15,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a5af97bc-d185-404f-a7d1-5c4e48d05db6",
                 "zone": [
                     {
@@ -983,36 +1013,6 @@
                 "name": "cry2me"
             },
             "wrs": 15,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2016f67a-0814-42ed-bea8-2e75da48840d",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Switzerland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Vaud",
-                        "parentId": "30228733-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229617-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ikewolf"
-            },
-            "wrs": 14,
             "duration": 0
         },
         {
@@ -7982,41 +7982,6 @@
         },
         {
             "user": {
-                "id": "c5a3ddc4-ff88-4bfb-9ff1-4f85a82f29c4",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "England",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South East England",
-                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a755-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "jdon."
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "28f89eae-4e8f-4207-9eed-68ee8d0a0bc5",
                 "zone": [
                     {
@@ -14565,7 +14530,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 107
+            "wrs": 106
         },
         {
             "zone": [
@@ -14740,6 +14705,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Switzerland",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 38
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Hungary",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
@@ -14766,26 +14751,6 @@
                 }
             ],
             "wrs": 38
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Switzerland",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 37
         },
         {
             "zone": [
@@ -16616,7 +16581,7 @@
                 ],
                 "name": "Ikewolf"
             },
-            "wrs": 196,
+            "wrs": 197,
             "duration": 0
         },
         {
@@ -18511,41 +18476,6 @@
         },
         {
             "user": {
-                "id": "91cad389-9897-41f7-bf37-65155151b012",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Occitanie",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Tarn",
-                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fe53d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Kerber0s"
-            },
-            "wrs": 87,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "715d87d3-9ffe-4fb1-9813-b3c95978b093",
                 "zone": [
                     {
@@ -18575,6 +18505,41 @@
                     }
                 ],
                 "name": "DarrahTM"
+            },
+            "wrs": 88,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "91cad389-9897-41f7-bf37-65155151b012",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Occitanie",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Tarn",
+                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fe53d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Kerber0s"
             },
             "wrs": 87,
             "duration": 0
@@ -88829,7 +88794,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1528
+            "wrs": 1529
         },
         {
             "zone": [
@@ -88909,7 +88874,7 @@
                     "zoneId": "30228733-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 898
+            "wrs": 899
         },
         {
             "zone": [
