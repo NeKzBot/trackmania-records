@@ -5482,7 +5482,7 @@
         },
         {
             "user": {
-                "id": "e387f7d8-afb0-4bf6-bb29-868d1a62de3b",
+                "id": "82323873-ddff-4ec7-9bf5-8329b5da0a91",
                 "zone": [
                     {
                         "name": "World",
@@ -5495,12 +5495,22 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Slovakia",
+                        "name": "Russia",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Северо-Западный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022445b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Санкт-Петербург",
+                        "parentId": "3022445b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "87b9e388-9b33-4743-95d6-ee90c6a0ebb9"
                     }
                 ],
-                "name": "TarporTM"
+                "name": "kMercuryTM"
             },
             "wrs": 1,
             "duration": 0
@@ -11170,7 +11180,7 @@
                     "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 36
+            "wrs": 37
         },
         {
             "zone": [
@@ -11435,26 +11445,6 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Slovakia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 8
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Spain",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
@@ -11478,6 +11468,26 @@
                     "name": "South Korea",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 7
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Slovakia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 7
@@ -25146,6 +25156,41 @@
         },
         {
             "user": {
+                "id": "82323873-ddff-4ec7-9bf5-8329b5da0a91",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Russia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Северо-Западный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022445b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Санкт-Петербург",
+                        "parentId": "3022445b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "87b9e388-9b33-4743-95d6-ee90c6a0ebb9"
+                    }
+                ],
+                "name": "kMercuryTM"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "fcae33dd-70f2-4da1-b493-cd77c4399d0e",
                 "zone": [
                     {
@@ -28265,41 +28310,6 @@
                     }
                 ],
                 "name": "Nuclearrr."
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "82323873-ddff-4ec7-9bf5-8329b5da0a91",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Russia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Северо-Западный федеральный округ",
-                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022445b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Санкт-Петербург",
-                        "parentId": "3022445b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "87b9e388-9b33-4743-95d6-ee90c6a0ebb9"
-                    }
-                ],
-                "name": "kMercuryTM"
             },
             "wrs": 3,
             "duration": 0
@@ -52034,12 +52044,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Croatia",
+                    "name": "Russia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 311
+            "wrs": 312
         },
         {
             "zone": [
@@ -52054,9 +52064,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Russia",
+                    "name": "Croatia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 311
@@ -65910,6 +65920,40 @@
         },
         {
             "user": {
+                "id": "82323873-ddff-4ec7-9bf5-8329b5da0a91",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Russia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Северо-Западный федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022445b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Санкт-Петербург",
+                        "parentId": "3022445b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "87b9e388-9b33-4743-95d6-ee90c6a0ebb9"
+                    }
+                ],
+                "name": "kMercuryTM"
+            },
+            "wrs": 3
+        },
+        {
+            "user": {
                 "id": "2773b050-7372-4cc9-85d3-6c6f6e220f78",
                 "zone": [
                     {
@@ -69899,40 +69943,6 @@
                     }
                 ],
                 "name": "Socks.-."
-            },
-            "wrs": 2
-        },
-        {
-            "user": {
-                "id": "82323873-ddff-4ec7-9bf5-8329b5da0a91",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Russia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Северо-Западный федеральный округ",
-                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022445b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Санкт-Петербург",
-                        "parentId": "3022445b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "87b9e388-9b33-4743-95d6-ee90c6a0ebb9"
-                    }
-                ],
-                "name": "kMercuryTM"
             },
             "wrs": 2
         },
@@ -92120,7 +92130,7 @@
                     "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 202
+            "wrs": 203
         },
         {
             "zone": [
