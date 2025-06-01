@@ -2597,6 +2597,31 @@
         },
         {
             "user": {
+                "id": "aeec1ef1-a77f-43d7-a5ae-5f1f0fed5051",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Finland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "PuWWa"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "10f4f0f2-91e9-4987-93b7-4e84ec1642ba",
                 "zone": [
                     {
@@ -3231,31 +3256,6 @@
                     }
                 ],
                 "name": "shieldbandit"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "aeec1ef1-a77f-43d7-a5ae-5f1f0fed5051",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Finland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "PuWWa"
             },
             "wrs": 3,
             "duration": 0
@@ -5478,41 +5478,6 @@
                 "name": "SapiTM"
             },
             "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "650309fc-981e-43ad-9af3-68ab189accdb",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "England",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "London",
-                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a597-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "drgnTM"
-            },
-            "wrs": 1,
             "duration": 0
         },
         {
@@ -11120,7 +11085,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 76
+            "wrs": 75
         },
         {
             "zone": [
@@ -11195,6 +11160,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Finland",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 35
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Croatia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
@@ -11218,26 +11203,6 @@
                     "name": "Austria",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 34
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Finland",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 34
@@ -17981,6 +17946,31 @@
         },
         {
             "user": {
+                "id": "aeec1ef1-a77f-43d7-a5ae-5f1f0fed5051",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Finland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "PuWWa"
+            },
+            "wrs": 21,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "938667c7-1e06-484d-9a61-d8f33a448e2d",
                 "zone": [
                     {
@@ -18107,31 +18097,6 @@
                 "name": "DAN.FS"
             },
             "wrs": 21,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "aeec1ef1-a77f-43d7-a5ae-5f1f0fed5051",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Finland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "PuWWa"
-            },
-            "wrs": 20,
             "duration": 0
         },
         {
@@ -52009,7 +51974,7 @@
                     "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 363
+            "wrs": 364
         },
         {
             "zone": [
@@ -58996,6 +58961,30 @@
         },
         {
             "user": {
+                "id": "aeec1ef1-a77f-43d7-a5ae-5f1f0fed5051",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Finland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "PuWWa"
+            },
+            "wrs": 14
+        },
+        {
+            "user": {
                 "id": "5be4a170-f48d-4f80-9e19-334b0cadf472",
                 "zone": [
                     {
@@ -59457,30 +59446,6 @@
                     }
                 ],
                 "name": "P3kingente"
-            },
-            "wrs": 13
-        },
-        {
-            "user": {
-                "id": "aeec1ef1-a77f-43d7-a5ae-5f1f0fed5051",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Finland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "PuWWa"
             },
             "wrs": 13
         },
@@ -92110,7 +92075,7 @@
                     "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 252
+            "wrs": 253
         },
         {
             "zone": [
