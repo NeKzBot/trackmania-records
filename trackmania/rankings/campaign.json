@@ -1222,6 +1222,36 @@
         },
         {
             "user": {
+                "id": "1785f9a8-1d7a-4546-9e7b-d20e5e7ab1d9",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Scotland",
+                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022aa3f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "r1nt3."
+            },
+            "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "ae6262f9-31ad-48a7-8445-3e701414a86a",
                 "zone": [
                     {
@@ -1877,36 +1907,6 @@
         },
         {
             "user": {
-                "id": "971bc868-078e-42ae-86e3-f01de96eca52",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Czechia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Středočeský kraj",
-                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f555b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SinetixCz"
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "2dd1e832-8f25-44c1-8189-ff28d7388806",
                 "zone": [
                     {
@@ -2156,36 +2156,6 @@
                     }
                 ],
                 "name": "Emelius."
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "1785f9a8-1d7a-4546-9e7b-d20e5e7ab1d9",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Scotland",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022aa3f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "r1nt3."
             },
             "wrs": 2,
             "duration": 0
@@ -3446,6 +3416,36 @@
                     }
                 ],
                 "name": "Jortim"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "971bc868-078e-42ae-86e3-f01de96eca52",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Středočeský kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f555b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SinetixCz"
             },
             "wrs": 1,
             "duration": 0
@@ -6375,7 +6375,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 35
+            "wrs": 36
         },
         {
             "zone": [
@@ -6605,14 +6605,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "South America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Czechia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Brazil",
+                    "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 10
@@ -6625,17 +6625,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "South America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Brazil",
-                    "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Czechia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 10
+            "wrs": 9
         },
         {
             "zone": [
@@ -8356,7 +8356,7 @@
                 ],
                 "name": "r1nt3."
             },
-            "wrs": 70,
+            "wrs": 71,
             "duration": 0
         },
         {
@@ -61319,7 +61319,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 663
+            "wrs": 664
         },
         {
             "zone": [
@@ -64780,6 +64780,35 @@
         },
         {
             "user": {
+                "id": "1785f9a8-1d7a-4546-9e7b-d20e5e7ab1d9",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Scotland",
+                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022aa3f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "r1nt3."
+            },
+            "wrs": 16
+        },
+        {
+            "user": {
                 "id": "1addcb03-37e7-4463-82ae-65d64e144015",
                 "zone": [
                     {
@@ -64969,35 +64998,6 @@
                     }
                 ],
                 "name": "DarkBringer94"
-            },
-            "wrs": 15
-        },
-        {
-            "user": {
-                "id": "1785f9a8-1d7a-4546-9e7b-d20e5e7ab1d9",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Scotland",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022aa3f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "r1nt3."
             },
             "wrs": 15
         },
@@ -115286,7 +115286,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 286
+            "wrs": 287
         },
         {
             "zone": [
