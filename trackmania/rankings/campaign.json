@@ -11361,6 +11361,41 @@
         },
         {
             "user": {
+                "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Asia",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Mainland China",
+                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f1651-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "西藏自治区",
+                        "parentId": "301f1651-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f3480-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "林芝地区",
+                        "parentId": "301f3480-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "4418d19c-7efc-11ea-be35-0242f42a9f7c"
+                    }
+                ],
+                "name": "fpxsheer"
+            },
+            "wrs": 24,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "e96e1b23-631f-4518-a367-3e6feae5b707",
                 "zone": [
                     {
@@ -11465,41 +11500,6 @@
                     }
                 ],
                 "name": "FIBRIX"
-            },
-            "wrs": 23,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Asia",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Mainland China",
-                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f1651-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "西藏自治区",
-                        "parentId": "301f1651-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f3480-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "林芝地区",
-                        "parentId": "301f3480-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "4418d19c-7efc-11ea-be35-0242f42a9f7c"
-                    }
-                ],
-                "name": "fpxsheer"
             },
             "wrs": 23,
             "duration": 0
@@ -64244,6 +64244,26 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Asia",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Mainland China",
+                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f1651-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 4
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
@@ -64292,26 +64312,6 @@
                     "name": "Bhutan",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e6309-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 3
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Asia",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Mainland China",
-                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f1651-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 3
