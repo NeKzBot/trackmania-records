@@ -8172,7 +8172,7 @@
         },
         {
             "user": {
-                "id": "c4d583af-15c4-4f6f-8188-a2b6aa0c5e09",
+                "id": "bb4af693-5190-44c5-8448-d4ec36d95400",
                 "zone": [
                     {
                         "name": "World",
@@ -8185,17 +8185,17 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Austria",
+                        "name": "Spain",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Styria",
-                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e54c0-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Euskadi",
+                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022700e-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "BURLYpog"
+                "name": "Nauu."
             },
             "wrs": 1,
             "duration": 0
@@ -14850,7 +14850,7 @@
                     "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 41
+            "wrs": 40
         },
         {
             "zone": [
@@ -15070,6 +15070,26 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Spain",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 9
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Oceania",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
@@ -15098,26 +15118,6 @@
                     "name": "South Korea",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 8
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Spain",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 8
@@ -24031,6 +24031,36 @@
         },
         {
             "user": {
+                "id": "bb4af693-5190-44c5-8448-d4ec36d95400",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Spain",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Euskadi",
+                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022700e-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Nauu."
+            },
+            "wrs": 26,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "3c87b975-1d05-4424-8f9a-9534898abb7c",
                 "zone": [
                     {
@@ -24245,36 +24275,6 @@
                     }
                 ],
                 "name": "AR_Mooney"
-            },
-            "wrs": 25,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "bb4af693-5190-44c5-8448-d4ec36d95400",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Spain",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Euskadi",
-                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022700e-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "NauuTM"
             },
             "wrs": 25,
             "duration": 0
@@ -91109,7 +91109,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 569
+            "wrs": 570
         },
         {
             "zone": [
@@ -99165,6 +99165,35 @@
         },
         {
             "user": {
+                "id": "bb4af693-5190-44c5-8448-d4ec36d95400",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Spain",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Euskadi",
+                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022700e-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Nauu."
+            },
+            "wrs": 20
+        },
+        {
+            "user": {
                 "id": "cf41f786-c382-46d6-a7a2-43ca9c55ef1f",
                 "zone": [
                     {
@@ -99373,35 +99402,6 @@
                     }
                 ],
                 "name": "Cinn007"
-            },
-            "wrs": 19
-        },
-        {
-            "user": {
-                "id": "bb4af693-5190-44c5-8448-d4ec36d95400",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Spain",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Euskadi",
-                        "parentId": "30225b07-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022700e-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "NauuTM"
             },
             "wrs": 19
         },
@@ -165699,7 +165699,7 @@
                     "zoneId": "30225b07-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 351
+            "wrs": 352
         },
         {
             "zone": [
