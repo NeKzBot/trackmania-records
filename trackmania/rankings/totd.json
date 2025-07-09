@@ -5582,7 +5582,7 @@
         },
         {
             "user": {
-                "id": "4fad434b-215a-40e2-9264-f91e6e9bd4f6",
+                "id": "cbe69c3d-dbf1-4d0f-8f1c-a554e5a81ff1",
                 "zone": [
                     {
                         "name": "World",
@@ -5590,22 +5590,22 @@
                         "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "North America",
+                        "name": "Europe",
                         "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Massachusetts",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022d1af-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Královéhradecký kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f4c1b-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "Kbabuser.US"
+                "name": "RYCHLIK_07065"
             },
             "wrs": 1,
             "duration": 0
@@ -11130,7 +11130,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 115
+            "wrs": 116
         },
         {
             "zone": [
@@ -11340,14 +11340,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "United States",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Belgium",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 33
@@ -11360,17 +11360,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Belgium",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e5bc8-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "United States",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 33
+            "wrs": 32
         },
         {
             "zone": [
@@ -16526,6 +16526,36 @@
         },
         {
             "user": {
+                "id": "cbe69c3d-dbf1-4d0f-8f1c-a554e5a81ff1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Královéhradecký kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f4c1b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "RYCHLIK_07065"
+            },
+            "wrs": 34,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a7727f7a-1d32-4a47-b14e-184a83e7e138",
                 "zone": [
                     {
@@ -16697,36 +16727,6 @@
                 "name": "hayiom.."
             },
             "wrs": 34,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "cbe69c3d-dbf1-4d0f-8f1c-a554e5a81ff1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Czechia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Královéhradecký kraj",
-                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f4c1b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "RYCHLIK_07065"
-            },
-            "wrs": 33,
             "duration": 0
         },
         {
@@ -52249,7 +52249,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1883
+            "wrs": 1884
         },
         {
             "zone": [
@@ -57164,6 +57164,35 @@
         },
         {
             "user": {
+                "id": "cbe69c3d-dbf1-4d0f-8f1c-a554e5a81ff1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Královéhradecký kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f4c1b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "RYCHLIK_07065"
+            },
+            "wrs": 28
+        },
+        {
+            "user": {
                 "id": "d0a811b4-5611-4948-8865-03c9d252bcf4",
                 "zone": [
                     {
@@ -57382,35 +57411,6 @@
                     }
                 ],
                 "name": "jdon."
-            },
-            "wrs": 27
-        },
-        {
-            "user": {
-                "id": "cbe69c3d-dbf1-4d0f-8f1c-a554e5a81ff1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Czechia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Královéhradecký kraj",
-                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f4c1b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "RYCHLIK_07065"
             },
             "wrs": 27
         },
@@ -92787,7 +92787,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 858
+            "wrs": 859
         },
         {
             "zone": [
