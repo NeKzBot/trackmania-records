@@ -862,6 +862,31 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 16,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "8977a4a0-3458-4e00-a1f4-864e4d1d4dbe",
                 "zone": [
                     {
@@ -911,31 +936,6 @@
                     }
                 ],
                 "name": "Eddiel33t"
-            },
-            "wrs": 15,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
             },
             "wrs": 15,
             "duration": 0
@@ -1033,41 +1033,6 @@
                 "name": "P0KER-"
             },
             "wrs": 15,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "5db172fc-21e4-4618-8039-fba4b2d421b9",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Paris",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fad4a-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "JurixTM"
-            },
-            "wrs": 14,
             "duration": 0
         },
         {
@@ -1216,6 +1181,41 @@
                     }
                 ],
                 "name": "Zypher.TM"
+            },
+            "wrs": 13,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "5db172fc-21e4-4618-8039-fba4b2d421b9",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Paris",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fad4a-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "JurixTM"
             },
             "wrs": 13,
             "duration": 0
@@ -14525,7 +14525,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 459
+            "wrs": 458
         },
         {
             "zone": [
@@ -14745,7 +14745,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 49
+            "wrs": 50
         },
         {
             "zone": [
@@ -18201,6 +18201,31 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 103,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "5d6f4e97-4759-47c8-906b-8577dbdbab51",
                 "zone": [
                     {
@@ -18232,31 +18257,6 @@
                 "name": "cLM_"
             },
             "wrs": 103,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
-            },
-            "wrs": 102,
             "duration": 0
         },
         {
@@ -91199,7 +91199,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 537
+            "wrs": 538
         },
         {
             "zone": [
@@ -95204,6 +95204,30 @@
         },
         {
             "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
+            },
+            "wrs": 49
+        },
+        {
+            "user": {
                 "id": "09747490-4eeb-410c-aa49-58ee38481760",
                 "zone": [
                     {
@@ -95228,30 +95252,6 @@
                     }
                 ],
                 "name": "Kakne.."
-            },
-            "wrs": 48
-        },
-        {
-            "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
             },
             "wrs": 48
         },
@@ -165941,7 +165941,7 @@
                     "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 260
+            "wrs": 261
         },
         {
             "zone": [
