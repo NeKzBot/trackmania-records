@@ -1882,6 +1882,36 @@
         },
         {
             "user": {
+                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Budapest",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "pusztitopako"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b05db0f8-d845-47d2-b0e5-795717038ac6",
                 "zone": [
                     {
@@ -2341,36 +2371,6 @@
                     }
                 ],
                 "name": "AR_Down"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "7fd38b8a-3d48-4eb7-b7fe-b473fe8e6b87",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Budapest",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204f35-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "pusztitopako"
             },
             "wrs": 5,
             "duration": 0
@@ -3147,41 +3147,6 @@
         },
         {
             "user": {
-                "id": "8b23a52e-a6fb-4cc9-a53b-0c46c08768fa",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Russia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Сибирский федеральный округ",
-                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302244ee-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Красноярский край",
-                        "parentId": "302244ee-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "d4ec28b5-386c-4451-9219-bcd11ec981f0"
-                    }
-                ],
-                "name": "Sqlc."
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "0c08bcd9-2f9b-42b3-b35d-069f8dbd0188",
                 "zone": [
                     {
@@ -3948,6 +3913,41 @@
                 "name": "Heav.ly"
             },
             "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "8b23a52e-a6fb-4cc9-a53b-0c46c08768fa",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Russia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Сибирский федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302244ee-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Красноярский край",
+                        "parentId": "302244ee-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "d4ec28b5-386c-4451-9219-bcd11ec981f0"
+                    }
+                ],
+                "name": "Sqlc."
+            },
+            "wrs": 2,
             "duration": 0
         },
         {
@@ -11300,7 +11300,7 @@
                     "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 38
+            "wrs": 37
         },
         {
             "zone": [
@@ -11460,7 +11460,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 20
+            "wrs": 21
         },
         {
             "zone": [
@@ -12756,7 +12756,7 @@
                 ],
                 "name": "pusztitopako"
             },
-            "wrs": 183,
+            "wrs": 184,
             "duration": 0
         },
         {
@@ -52694,7 +52694,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 310
+            "wrs": 311
         },
         {
             "zone": [
@@ -54463,7 +54463,7 @@
                 ],
                 "name": "pusztitopako"
             },
-            "wrs": 115
+            "wrs": 116
         },
         {
             "user": {
@@ -93259,9 +93259,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Denmark",
+                    "name": "Hungary",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 196
@@ -93279,12 +93279,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Hungary",
+                    "name": "Denmark",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 195
+            "wrs": 196
         },
         {
             "zone": [
