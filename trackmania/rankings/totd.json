@@ -1167,6 +1167,36 @@
         },
         {
             "user": {
+                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Santa Catarina",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
+                    }
+                ],
+                "name": "bepeze."
+            },
+            "wrs": 10,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "4a983dc3-a938-4564-8a1c-8be20779f069",
                 "zone": [
                     {
@@ -1492,36 +1522,6 @@
         },
         {
             "user": {
-                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Santa Catarina",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
-                    }
-                ],
-                "name": "bepeze."
-            },
-            "wrs": 9,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "04a64a68-7370-4f67-90b2-025e1006631a",
                 "zone": [
                     {
@@ -1758,36 +1758,6 @@
                 "name": "Chickenrunnn"
             },
             "wrs": 8,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "4b5253cd-2931-4ca5-845a-c81691d5a8c6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Czechia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Moravskoslezský kraj",
-                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f4dd4-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Flyer36"
-            },
-            "wrs": 7,
             "duration": 0
         },
         {
@@ -2091,6 +2061,36 @@
                     }
                 ],
                 "name": "GuzuLk_"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "4b5253cd-2931-4ca5-845a-c81691d5a8c6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Moravskoslezský kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f4dd4-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Flyer36"
             },
             "wrs": 6,
             "duration": 0
@@ -11140,7 +11140,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 116
+            "wrs": 115
         },
         {
             "zone": [
@@ -11480,7 +11480,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 18
+            "wrs": 19
         },
         {
             "zone": [
@@ -14686,6 +14686,36 @@
         },
         {
             "user": {
+                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Santa Catarina",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
+                    }
+                ],
+                "name": "bepeze."
+            },
+            "wrs": 64,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "fb312224-a051-4250-9085-286c65c4bbac",
                 "zone": [
                     {
@@ -14750,36 +14780,6 @@
                     }
                 ],
                 "name": "Yamii._."
-            },
-            "wrs": 63,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Santa Catarina",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
-                    }
-                ],
-                "name": "bepeze."
             },
             "wrs": 63,
             "duration": 0
@@ -52864,7 +52864,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 200
+            "wrs": 201
         },
         {
             "zone": [
@@ -57055,6 +57055,35 @@
         },
         {
             "user": {
+                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Santa Catarina",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
+                    }
+                ],
+                "name": "bepeze."
+            },
+            "wrs": 31
+        },
+        {
+            "user": {
                 "id": "16ee3d8e-ee78-4e77-b787-48f2247f96c3",
                 "zone": [
                     {
@@ -57380,35 +57409,6 @@
                     }
                 ],
                 "name": "hayiom.."
-            },
-            "wrs": 30
-        },
-        {
-            "user": {
-                "id": "2f4caa28-f8c2-4e6d-bda8-d2f3caab2ae7",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Brazil",
-                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Santa Catarina",
-                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "ab799c02-3a45-4027-9fad-9c9897f604ce"
-                    }
-                ],
-                "name": "bepeze."
             },
             "wrs": 30
         },
@@ -93640,7 +93640,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 120
+            "wrs": 121
         },
         {
             "zone": [
