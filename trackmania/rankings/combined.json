@@ -7412,7 +7412,7 @@
         },
         {
             "user": {
-                "id": "1251c39c-69a0-40b1-a6d1-3a1949819488",
+                "id": "ecfdf251-941f-4397-9287-e626aff5f196",
                 "zone": [
                     {
                         "name": "World",
@@ -7420,22 +7420,17 @@
                         "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "North America",
+                        "name": "Europe",
                         "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "New York",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022e729-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Ireland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "TheBesKnees"
+                "name": "KappaRiley"
             },
             "wrs": 1,
             "duration": 0
@@ -14660,7 +14655,7 @@
                     "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 46
+            "wrs": 45
         },
         {
             "zone": [
@@ -15180,6 +15175,26 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Ireland",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 2
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Asia",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
@@ -15408,26 +15423,6 @@
                     "name": "Costa Rica",
                     "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f3fa4-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 1
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Ireland",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -31896,6 +31891,31 @@
         },
         {
             "user": {
+                "id": "ecfdf251-941f-4397-9287-e626aff5f196",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ireland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "KappaRiley"
+            },
+            "wrs": 8,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a879dd6c-a096-4fdd-b8ec-6356e104bac1",
                 "zone": [
                     {
@@ -34330,31 +34350,6 @@
                     }
                 ],
                 "name": "FlimsyTM"
-            },
-            "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "ecfdf251-941f-4397-9287-e626aff5f196",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Ireland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "KappaRiley"
             },
             "wrs": 7,
             "duration": 0
@@ -91749,7 +91744,7 @@
                     "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 39
+            "wrs": 40
         },
         {
             "zone": [
@@ -107539,6 +107534,30 @@
         },
         {
             "user": {
+                "id": "ecfdf251-941f-4397-9287-e626aff5f196",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ireland",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "KappaRiley"
+            },
+            "wrs": 5
+        },
+        {
+            "user": {
                 "id": "ca7b3167-46a5-4124-a689-d8307eff9f88",
                 "zone": [
                     {
@@ -111753,30 +111772,6 @@
                     }
                 ],
                 "name": "Lukas.tm"
-            },
-            "wrs": 4
-        },
-        {
-            "user": {
-                "id": "ecfdf251-941f-4397-9287-e626aff5f196",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Ireland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "KappaRiley"
             },
             "wrs": 4
         },
@@ -166688,7 +166683,7 @@
                     "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 31
+            "wrs": 32
         },
         {
             "zone": [
