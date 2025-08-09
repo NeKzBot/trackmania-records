@@ -5657,7 +5657,7 @@
         },
         {
             "user": {
-                "id": "e07e9ea9-daa5-4496-9908-9680e35da02b",
+                "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
                 "zone": [
                     {
                         "name": "World",
@@ -5670,12 +5670,22 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Türkiye",
+                        "name": "France",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "BirdieTM"
+                "name": "NablaTM"
             },
             "wrs": 1,
             "duration": 0
@@ -11190,7 +11200,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 353
+            "wrs": 354
         },
         {
             "zone": [
@@ -11650,26 +11660,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Türkiye",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 7
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Asia",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
@@ -11721,6 +11711,26 @@
                 }
             ],
             "wrs": 7
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Türkiye",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30229e20-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 6
         },
         {
             "zone": [
@@ -15301,6 +15311,41 @@
         },
         {
             "user": {
+                "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "NablaTM"
+            },
+            "wrs": 56,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a1051c9f-2c93-42d8-ae72-2677a52cfc5b",
                 "zone": [
                     {
@@ -15402,41 +15447,6 @@
                 "name": "SapiTM"
             },
             "wrs": 56,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hauts-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nord",
-                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "NablaTM"
-            },
-            "wrs": 55,
             "duration": 0
         },
         {
@@ -52889,7 +52899,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4990
+            "wrs": 4991
         },
         {
             "zone": [
@@ -56693,6 +56703,40 @@
         },
         {
             "user": {
+                "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "NablaTM"
+            },
+            "wrs": 47
+        },
+        {
+            "user": {
                 "id": "bd45204c-80f1-4809-b983-38b3f0ffc1ef",
                 "zone": [
                     {
@@ -56738,40 +56782,6 @@
                 "name": "fishoo1"
             },
             "wrs": 47
-        },
-        {
-            "user": {
-                "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hauts-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nord",
-                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "NablaTM"
-            },
-            "wrs": 46
         },
         {
             "user": {
@@ -94009,7 +94019,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2739
+            "wrs": 2740
         },
         {
             "zone": [
