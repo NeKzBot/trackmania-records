@@ -7764,11 +7764,11 @@
                         ],
                         "name": "Sqlc."
                     },
-                    "date": "2025-08-18T12:42:33+00:00",
+                    "date": "2025-08-18T13:42:39+00:00",
                     "replay": "52debe48-8c0a-4579-a2cf-c5eac4e0ac6b",
                     "duration": 0,
-                    "score": 45625,
-                    "delta": 12
+                    "score": 45621,
+                    "delta": 4
                 }
             ],
             "history": [
@@ -8197,12 +8197,50 @@
                     "duration": 0,
                     "score": 45625,
                     "delta": 12
+                },
+                {
+                    "user": {
+                        "id": "8b23a52e-a6fb-4cc9-a53b-0c46c08768fa",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Russia",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Сибирский федеральный округ",
+                                "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "302244ee-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Красноярский край",
+                                "parentId": "302244ee-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "d4ec28b5-386c-4451-9219-bcd11ec981f0"
+                            }
+                        ],
+                        "name": "Sqlc."
+                    },
+                    "date": "2025-08-18T13:42:39+00:00",
+                    "replay": "52debe48-8c0a-4579-a2cf-c5eac4e0ac6b",
+                    "duration": 0,
+                    "score": 45621,
+                    "delta": 4
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 742221
+        "totalTime": 742217
     },
     "leaderboard": [
         {
@@ -9966,6 +10004,41 @@
         },
         {
             "user": {
+                "id": "8b23a52e-a6fb-4cc9-a53b-0c46c08768fa",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Russia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Сибирский федеральный округ",
+                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302244ee-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Красноярский край",
+                        "parentId": "302244ee-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "d4ec28b5-386c-4451-9219-bcd11ec981f0"
+                    }
+                ],
+                "name": "Sqlc."
+            },
+            "wrs": 2,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b175b28b-fa7a-44f5-a5bc-0080333fde51",
                 "zone": [
                     {
@@ -11373,41 +11446,6 @@
             },
             "wrs": 1,
             "duration": 0
-        },
-        {
-            "user": {
-                "id": "8b23a52e-a6fb-4cc9-a53b-0c46c08768fa",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Russia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Сибирский федеральный округ",
-                        "parentId": "3022427b-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302244ee-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Красноярский край",
-                        "parentId": "302244ee-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "d4ec28b5-386c-4451-9219-bcd11ec981f0"
-                    }
-                ],
-                "name": "Sqlc."
-            },
-            "wrs": 1,
-            "duration": 0
         }
     ],
     "historyCountryLeaderboard": [
@@ -11774,6 +11812,26 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
+                    "name": "Russia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 2
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
                     "name": "Italy",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
@@ -11857,26 +11915,6 @@
                     "name": "Portugal",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "3022328d-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 1
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Russia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022427b-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
