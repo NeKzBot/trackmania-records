@@ -487,31 +487,6 @@
         },
         {
             "user": {
-                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "levonn"
-            },
-            "wrs": 22,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "8977a4a0-3458-4e00-a1f4-864e4d1d4dbe",
                 "zone": [
                     {
@@ -537,7 +512,32 @@
                 ],
                 "name": "ComplexStatics_"
             },
-            "wrs": 21,
+            "wrs": 22,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "levonn"
+            },
+            "wrs": 22,
             "duration": 0
         },
         {
@@ -1942,41 +1942,6 @@
         },
         {
             "user": {
-                "id": "8f08302a-f670-463b-9f71-fbfacffb8bd1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Saarland",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30202234-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Saarbrücken",
-                        "parentId": "30202234-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302023d9-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "AR_Down"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "b05db0f8-d845-47d2-b0e5-795717038ac6",
                 "zone": [
                     {
@@ -2376,6 +2341,41 @@
                     }
                 ],
                 "name": "Dopamine98"
+            },
+            "wrs": 5,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "8f08302a-f670-463b-9f71-fbfacffb8bd1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Germany",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Saarland",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30202234-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Saarbrücken",
+                        "parentId": "30202234-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302023d9-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "AR_Down"
             },
             "wrs": 5,
             "duration": 0
@@ -11180,7 +11180,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 363
+            "wrs": 362
         },
         {
             "zone": [
@@ -11360,7 +11360,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 62
+            "wrs": 63
         },
         {
             "zone": [
@@ -12766,7 +12766,7 @@
                 ],
                 "name": "ComplexStatics_"
             },
-            "wrs": 207,
+            "wrs": 208,
             "duration": 0
         },
         {
@@ -53129,7 +53129,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1106
+            "wrs": 1107
         },
         {
             "zone": [
@@ -55687,7 +55687,7 @@
                 ],
                 "name": "ComplexStatics_"
             },
-            "wrs": 76
+            "wrs": 77
         },
         {
             "user": {
@@ -94395,7 +94395,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 598
+            "wrs": 599
         },
         {
             "zone": [
