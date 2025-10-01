@@ -1247,6 +1247,31 @@
         },
         {
             "user": {
+                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Denmark",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SolivaganTz"
+            },
+            "wrs": 13,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b52e0c98-387c-43eb-9acb-5c9b5e0f1286",
                 "zone": [
                     {
@@ -1388,31 +1413,6 @@
                 "name": "Knyntsje"
             },
             "wrs": 13,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "c0d0d93b-8396-40dd-a928-377c436e8a70",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Denmark",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SolivaganTz"
-            },
-            "wrs": 12,
             "duration": 0
         },
         {
@@ -2667,41 +2667,6 @@
         },
         {
             "user": {
-                "id": "ee763e0b-90a4-4707-825a-a0c62b308726",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "England",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South East England",
-                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a755-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "LordQuacked"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
                 "zone": [
                     {
@@ -3276,6 +3241,41 @@
                     }
                 ],
                 "name": "arppa."
+            },
+            "wrs": 5,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "ee763e0b-90a4-4707-825a-a0c62b308726",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "England",
+                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South East England",
+                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a755-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "LordQuacked"
             },
             "wrs": 5,
             "duration": 0
@@ -14760,7 +14760,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 130
+            "wrs": 129
         },
         {
             "zone": [
@@ -14920,7 +14920,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 47
+            "wrs": 48
         },
         {
             "zone": [
@@ -16541,7 +16541,7 @@
                 ],
                 "name": "SolivaganTz"
             },
-            "wrs": 255,
+            "wrs": 256,
             "duration": 0
         },
         {
@@ -92484,7 +92484,7 @@
                     "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 955
+            "wrs": 956
         },
         {
             "zone": [
