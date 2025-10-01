@@ -4240,7 +4240,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "d3d84336-fc5f-49fd-b866-b15ca80152a8",
+                        "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
                         "zone": [
                             {
                                 "name": "World",
@@ -4253,18 +4253,28 @@
                                 "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Norway",
+                                "name": "France",
                                 "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Île-de-France",
+                                "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Val-de-Marne",
+                                "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "Andybaguette"
+                        "name": "Roquett"
                     },
-                    "date": "2025-10-01T15:32:42+00:00",
-                    "replay": "169df162-2c5c-4dae-8cad-64ecfb3d9d55",
+                    "date": "2025-10-01T17:21:15+00:00",
+                    "replay": "3a217757-7902-4e9e-838c-5ef0b5684efa",
                     "duration": 0,
-                    "score": 30544,
-                    "delta": 224
+                    "score": 30421,
+                    "delta": 123
                 }
             ],
             "history": [
@@ -4417,6 +4427,44 @@
                     "duration": 0,
                     "score": 30544,
                     "delta": 224
+                },
+                {
+                    "user": {
+                        "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "France",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Île-de-France",
+                                "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Val-de-Marne",
+                                "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "Roquett"
+                    },
+                    "date": "2025-10-01T17:21:15+00:00",
+                    "replay": "3a217757-7902-4e9e-838c-5ef0b5684efa",
+                    "duration": 0,
+                    "score": 30421,
+                    "delta": 123
                 }
             ]
         },
@@ -9153,9 +9201,44 @@
         }
     ],
     "stats": {
-        "totalTime": 947407
+        "totalTime": 947284
     },
     "leaderboard": [
+        {
+            "user": {
+                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Val-de-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Roquett"
+            },
+            "wrs": 2,
+            "duration": 0
+        },
         {
             "user": {
                 "id": "a6ae76c9-9030-4a7b-b533-cacfd6e85cb2",
@@ -9348,41 +9431,6 @@
         },
         {
             "user": {
-                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Val-de-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Roquett"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "71124b01-aa42-4b2a-a018-211a1dc6ea75",
                 "zone": [
                     {
@@ -9457,31 +9505,6 @@
                     }
                 ],
                 "name": "Susuwi"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "d3d84336-fc5f-49fd-b866-b15ca80152a8",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Andybaguette"
             },
             "wrs": 1,
             "duration": 0
@@ -9941,27 +9964,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 7
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Norway",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 3
+            "wrs": 8
         },
         {
             "zone": [
@@ -9982,6 +9985,26 @@
                 }
             ],
             "wrs": 3
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Norway",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 2
         },
         {
             "zone": [
@@ -11412,6 +11435,41 @@
         },
         {
             "user": {
+                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Val-de-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Roquett"
+            },
+            "wrs": 2,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "0782eabd-e9ce-473b-a293-c1dd846e749b",
                 "zone": [
                     {
@@ -12196,41 +12254,6 @@
                     }
                 ],
                 "name": "fredwolftm"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Val-de-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Roquett"
             },
             "wrs": 1,
             "duration": 0
@@ -13140,7 +13163,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 38
+            "wrs": 39
         },
         {
             "zone": [
@@ -14228,6 +14251,40 @@
         },
         {
             "user": {
+                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Val-de-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Roquett"
+            },
+            "wrs": 2
+        },
+        {
+            "user": {
                 "id": "6d3f964f-ef2b-410f-b969-37b08f86f4d4",
                 "zone": [
                     {
@@ -15291,40 +15348,6 @@
                     }
                 ],
                 "name": "fredwolftm"
-            },
-            "wrs": 1
-        },
-        {
-            "user": {
-                "id": "6cdffc9d-5773-4ffd-a1f4-5ebb4e3b048a",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Val-de-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fafaa-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Roquett"
             },
             "wrs": 1
         },
@@ -16561,7 +16584,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 21
+            "wrs": 22
         },
         {
             "zone": [
