@@ -2277,31 +2277,6 @@
         },
         {
             "user": {
-                "id": "9f4b380f-5396-486a-a2ad-ea0b515bce72",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Sweden",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "kopro."
-            },
-            "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
                 "zone": [
                     {
@@ -2767,6 +2742,31 @@
         },
         {
             "user": {
+                "id": "9f4b380f-5396-486a-a2ad-ea0b515bce72",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "kopro."
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b06342dd-8676-4b9c-b75a-685f00f09cb3",
                 "zone": [
                     {
@@ -3128,6 +3128,41 @@
                 "name": "Legu18"
             },
             "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "de590c4e-f98c-4783-afa8-a01efb069ceb",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Provence-Alpes-Côte d'Azur",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Var",
+                        "parentId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff3c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "linkTM_"
+            },
+            "wrs": 5,
             "duration": 0
         },
         {
@@ -4181,41 +4216,6 @@
                     }
                 ],
                 "name": "ender.w6rst"
-            },
-            "wrs": 4,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "de590c4e-f98c-4783-afa8-a01efb069ceb",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Provence-Alpes-Côte d'Azur",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Var",
-                        "parentId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff3c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "linkTM_"
             },
             "wrs": 4,
             "duration": 0
@@ -14630,7 +14630,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 464
+            "wrs": 465
         },
         {
             "zone": [
@@ -14650,7 +14650,7 @@
                     "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 159
+            "wrs": 158
         },
         {
             "zone": [
@@ -16191,7 +16191,7 @@
                 ],
                 "name": "linkTM_"
             },
-            "wrs": 374,
+            "wrs": 375,
             "duration": 0
         },
         {
@@ -92319,7 +92319,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 8094
+            "wrs": 8095
         },
         {
             "zone": [
@@ -94639,7 +94639,7 @@
                 ],
                 "name": "linkTM_"
             },
-            "wrs": 216
+            "wrs": 217
         },
         {
             "user": {
@@ -168430,7 +168430,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4106
+            "wrs": 4107
         },
         {
             "zone": [
