@@ -947,6 +947,36 @@
         },
         {
             "user": {
+                "id": "acb625b9-26c4-4344-a5b0-5bc3ddbc8708",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Italy",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Emilia-Romagna",
+                        "parentId": "30205cc4-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30206543-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "DubbyTM"
+            },
+            "wrs": 15,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "4bb5de94-1093-4b17-8776-afe9773fee4a",
                 "zone": [
                     {
@@ -1296,36 +1326,6 @@
                     }
                 ],
                 "name": "Switch999"
-            },
-            "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "acb625b9-26c4-4344-a5b0-5bc3ddbc8708",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Italy",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Emilia-Romagna",
-                        "parentId": "30205cc4-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30206543-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "DubbyTM"
             },
             "wrs": 14,
             "duration": 0
@@ -7706,31 +7706,6 @@
                     }
                 ],
                 "name": "jujumasterr"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "a83d0c65-421e-4c16-b553-c07970f31047",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Albania",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2780-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "b0mbaclaat."
             },
             "wrs": 1,
             "duration": 0
@@ -15055,7 +15030,7 @@
                     "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 24
+            "wrs": 25
         },
         {
             "zone": [
@@ -15175,26 +15150,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Albania",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2780-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 8
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Asia",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
@@ -15243,6 +15198,26 @@
                     "name": "Malta",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30208b5b-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 7
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Albania",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2780-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 7
@@ -16761,7 +16736,7 @@
                 ],
                 "name": "DubbyTM"
             },
-            "wrs": 213,
+            "wrs": 214,
             "duration": 0
         },
         {
@@ -92799,7 +92774,7 @@
                     "zoneId": "30205cc4-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 403
+            "wrs": 404
         },
         {
             "zone": [
