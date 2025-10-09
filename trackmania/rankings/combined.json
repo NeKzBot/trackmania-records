@@ -3557,7 +3557,7 @@
         },
         {
             "user": {
-                "id": "cf41f786-c382-46d6-a7a2-43ca9c55ef1f",
+                "id": "98b7dfd7-6706-47f4-9b47-6362e9daf7a2",
                 "zone": [
                     {
                         "name": "World",
@@ -3565,17 +3565,22 @@
                         "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Europe",
+                        "name": "North America",
                         "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Sweden",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "United States",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oregon",
+                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ea33-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "Limpan."
+                "name": "shieldbandit"
             },
             "wrs": 4,
             "duration": 0
@@ -4367,6 +4372,31 @@
         },
         {
             "user": {
+                "id": "cf41f786-c382-46d6-a7a2-43ca9c55ef1f",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sweden",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Limpan."
+            },
+            "wrs": 3,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "0782eabd-e9ce-473b-a293-c1dd846e749b",
                 "zone": [
                     {
@@ -4856,36 +4886,6 @@
                     }
                 ],
                 "name": "Gus_Sillypants"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "98b7dfd7-6706-47f4-9b47-6362e9daf7a2",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oregon",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ea33-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "shieldbandit"
             },
             "wrs": 3,
             "duration": 0
@@ -14780,7 +14780,7 @@
                     "zoneId": "30228671-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 159
+            "wrs": 158
         },
         {
             "zone": [
@@ -14970,17 +14970,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Denmark",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "United States",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 48
+            "wrs": 49
         },
         {
             "zone": [
@@ -14990,14 +14990,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "United States",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Denmark",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f5723-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 48
@@ -20411,6 +20411,36 @@
         },
         {
             "user": {
+                "id": "98b7dfd7-6706-47f4-9b47-6362e9daf7a2",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United States",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oregon",
+                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ea33-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "shieldbandit"
+            },
+            "wrs": 63,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "09747490-4eeb-410c-aa49-58ee38481760",
                 "zone": [
                     {
@@ -20537,36 +20567,6 @@
                 "name": "kandzsika"
             },
             "wrs": 63,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "98b7dfd7-6706-47f4-9b47-6362e9daf7a2",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oregon",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ea33-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "shieldbandit"
-            },
-            "wrs": 62,
             "duration": 0
         },
         {
@@ -92699,7 +92699,7 @@
                     "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1220
+            "wrs": 1221
         },
         {
             "zone": [
@@ -98250,6 +98250,35 @@
         },
         {
             "user": {
+                "id": "98b7dfd7-6706-47f4-9b47-6362e9daf7a2",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United States",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oregon",
+                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022ea33-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "shieldbandit"
+            },
+            "wrs": 36
+        },
+        {
+            "user": {
                 "id": "90c4d8bc-fecb-43a2-8a8f-2c73b2e23be6",
                 "zone": [
                     {
@@ -98390,35 +98419,6 @@
                     }
                 ],
                 "name": "arppa."
-            },
-            "wrs": 35
-        },
-        {
-            "user": {
-                "id": "98b7dfd7-6706-47f4-9b47-6362e9daf7a2",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United States",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oregon",
-                        "parentId": "3022ab53-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022ea33-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "shieldbandit"
             },
             "wrs": 35
         },
@@ -168878,7 +168878,7 @@
                     "zoneId": "3022ab53-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 704
+            "wrs": 705
         },
         {
             "zone": [
