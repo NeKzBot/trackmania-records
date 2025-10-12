@@ -8277,7 +8277,7 @@
         },
         {
             "user": {
-                "id": "60c206c1-c3dd-4c53-8dfa-5befc76cfe44",
+                "id": "face21d7-101e-4197-acd9-972279f1b202",
                 "zone": [
                     {
                         "name": "World",
@@ -8285,22 +8285,22 @@
                         "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Asia",
+                        "name": "Oceania",
                         "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Japan",
-                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30207cd0-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Australia",
+                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "北海道",
-                        "parentId": "30207cd0-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "37697d23-2385-4f3f-b347-58fa67af18dc"
+                        "name": "Victoria",
+                        "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e3b69-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "sumi.ice"
+                "name": "ramuneTM"
             },
             "wrs": 1,
             "duration": 0
@@ -14935,7 +14935,7 @@
                     "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 58
+            "wrs": 59
         },
         {
             "zone": [
@@ -15535,26 +15535,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Asia",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Japan",
-                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30207cd0-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 2
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
@@ -15803,6 +15783,26 @@
                     "name": "Mainland China",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f1651-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 1
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Asia",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Japan",
+                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30207cd0-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -34161,6 +34161,36 @@
         },
         {
             "user": {
+                "id": "face21d7-101e-4197-acd9-972279f1b202",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oceania",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Australia",
+                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Victoria",
+                        "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e3b69-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "ramuneTM"
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "b6a9ef20-2a1c-4dd2-bb65-fb65f6dc4f1b",
                 "zone": [
                     {
@@ -36540,36 +36570,6 @@
                     }
                 ],
                 "name": "acidgurke_"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "face21d7-101e-4197-acd9-972279f1b202",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Australia",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Victoria",
-                        "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e3b69-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "ramuneTM"
             },
             "wrs": 6,
             "duration": 0
@@ -92949,7 +92949,7 @@
                     "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 638
+            "wrs": 639
         },
         {
             "zone": [
@@ -108440,6 +108440,35 @@
         },
         {
             "user": {
+                "id": "face21d7-101e-4197-acd9-972279f1b202",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Oceania",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Australia",
+                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Victoria",
+                        "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e3b69-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "ramuneTM"
+            },
+            "wrs": 6
+        },
+        {
+            "user": {
                 "id": "c2f8f55f-80d3-43e4-a4dd-22a39595be27",
                 "zone": [
                     {
@@ -110626,35 +110655,6 @@
                     }
                 ],
                 "name": "dazzzyy"
-            },
-            "wrs": 5
-        },
-        {
-            "user": {
-                "id": "face21d7-101e-4197-acd9-972279f1b202",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Oceania",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Australia",
-                        "parentId": "301e237a-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Victoria",
-                        "parentId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e3b69-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "ramuneTM"
             },
             "wrs": 5
         },
@@ -169259,7 +169259,7 @@
                     "zoneId": "301e2dc2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 294
+            "wrs": 295
         },
         {
             "zone": [
