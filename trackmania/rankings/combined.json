@@ -587,6 +587,31 @@
         },
         {
             "user": {
+                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "levonn"
+            },
+            "wrs": 24,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "2ed0997d-62bc-4a53-8c09-ffb793382ea2",
                 "zone": [
                     {
@@ -618,31 +643,6 @@
                 "name": "riolu-tm"
             },
             "wrs": 24,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "levonn"
-            },
-            "wrs": 23,
             "duration": 0
         },
         {
@@ -1537,36 +1537,6 @@
         },
         {
             "user": {
-                "id": "4b5253cd-2931-4ca5-845a-c81691d5a8c6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Czechia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Moravskoslezský kraj",
-                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f4dd4-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Flyer36"
-            },
-            "wrs": 11,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "c12c1789-af9a-444e-a261-5bd5b883ae4b",
                 "zone": [
                     {
@@ -1771,6 +1741,36 @@
                     }
                 ],
                 "name": "Hefest."
+            },
+            "wrs": 10,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "4b5253cd-2931-4ca5-845a-c81691d5a8c6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Czechia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Moravskoslezský kraj",
+                        "parentId": "301f45cd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f4dd4-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Flyer36"
             },
             "wrs": 10,
             "duration": 0
@@ -14835,7 +14835,7 @@
                     "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 127
+            "wrs": 126
         },
         {
             "zone": [
@@ -14855,7 +14855,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 122
+            "wrs": 123
         },
         {
             "zone": [
@@ -16866,7 +16866,7 @@
                 ],
                 "name": "levonn"
             },
-            "wrs": 206,
+            "wrs": 207,
             "duration": 0
         },
         {
@@ -92699,7 +92699,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2007
+            "wrs": 2008
         },
         {
             "zone": [
@@ -95393,6 +95393,30 @@
         },
         {
             "user": {
+                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "levonn"
+            },
+            "wrs": 106
+        },
+        {
+            "user": {
                 "id": "8977a4a0-3458-4e00-a1f4-864e4d1d4dbe",
                 "zone": [
                     {
@@ -95417,30 +95441,6 @@
                     }
                 ],
                 "name": "ComplexStatics_"
-            },
-            "wrs": 105
-        },
-        {
-            "user": {
-                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "levonn"
             },
             "wrs": 105
         },
@@ -168979,7 +168979,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1024
+            "wrs": 1025
         },
         {
             "zone": [
