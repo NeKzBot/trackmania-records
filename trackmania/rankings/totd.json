@@ -627,6 +627,41 @@
         },
         {
             "user": {
+                "id": "05477e79-25fd-48c2-84c7-e1621aa46517",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Germany",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Sachsen",
+                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30202744-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Dresden",
+                        "parentId": "30202744-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30202b1c-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "GranaDy."
+            },
+            "wrs": 17,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "d320a237-1b0a-4069-af83-f2c09fbf042e",
                 "zone": [
                     {
@@ -731,41 +766,6 @@
                     }
                 ],
                 "name": "Scrapie98"
-            },
-            "wrs": 16,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "05477e79-25fd-48c2-84c7-e1621aa46517",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Germany",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Sachsen",
-                        "parentId": "301ff622-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30202744-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Dresden",
-                        "parentId": "30202744-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30202b1c-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "GranaDy."
             },
             "wrs": 16,
             "duration": 0
@@ -4003,31 +4003,6 @@
                 "name": "Heav.ly"
             },
             "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "cab909e8-f033-4674-b367-afa3c3d20544",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Utenglutenguten"
-            },
-            "wrs": 2,
             "duration": 0
         },
         {
@@ -9192,6 +9167,31 @@
         },
         {
             "user": {
+                "id": "cab909e8-f033-4674-b367-afa3c3d20544",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Utenglutenguten"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "ac935c32-4986-4af7-ac4d-ab4314101bc1",
                 "zone": [
                     {
@@ -11500,7 +11500,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 365
+            "wrs": 366
         },
         {
             "zone": [
@@ -11600,7 +11600,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 107
+            "wrs": 106
         },
         {
             "zone": [
@@ -12506,7 +12506,7 @@
                 ],
                 "name": "GranaDy."
             },
-            "wrs": 641,
+            "wrs": 642,
             "duration": 0
         },
         {
@@ -54449,7 +54449,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4988
+            "wrs": 4989
         },
         {
             "zone": [
@@ -56124,7 +56124,7 @@
                 ],
                 "name": "GranaDy."
             },
-            "wrs": 327
+            "wrs": 328
         },
         {
             "user": {
@@ -96740,7 +96740,7 @@
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2644
+            "wrs": 2645
         },
         {
             "zone": [
