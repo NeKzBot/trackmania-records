@@ -5512,7 +5512,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
+                        "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
                         "zone": [
                             {
                                 "name": "World",
@@ -5520,28 +5520,23 @@
                                 "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "North America",
+                                "name": "Europe",
                                 "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Canada",
-                                "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "Quebec",
-                                "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
+                                "name": "Norway",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "L1ngotm"
+                        "name": "levonn"
                     },
-                    "date": "2025-11-13T18:44:25+00:00",
-                    "replay": "1efacabd-4074-44f1-a592-0c243c20baa1",
+                    "date": "2025-11-13T19:27:06+00:00",
+                    "replay": "978c8233-a541-4fb1-a6b7-d5b9f3ba9cf1",
                     "duration": 0,
-                    "score": 43195,
-                    "delta": 129
+                    "score": 43152,
+                    "delta": 43
                 }
             ],
             "history": [
@@ -5742,12 +5737,40 @@
                     "duration": 0,
                     "score": 43195,
                     "delta": 129
+                },
+                {
+                    "user": {
+                        "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Norway",
+                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "levonn"
+                    },
+                    "date": "2025-11-13T19:27:06+00:00",
+                    "replay": "978c8233-a541-4fb1-a6b7-d5b9f3ba9cf1",
+                    "duration": 0,
+                    "score": 43152,
+                    "delta": 43
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 615161
+        "totalTime": 615118
     },
     "leaderboard": [
         {
@@ -5797,7 +5820,7 @@
                 ],
                 "name": "levonn"
             },
-            "wrs": 2,
+            "wrs": 3,
             "duration": 0
         },
         {
@@ -5994,36 +6017,6 @@
             },
             "wrs": 1,
             "duration": 0
-        },
-        {
-            "user": {
-                "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Canada",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Quebec",
-                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "L1ngotm"
-            },
-            "wrs": 1,
-            "duration": 0
         }
     ],
     "countryLeaderboard": [
@@ -6045,7 +6038,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 6
+            "wrs": 7
         },
         {
             "zone": [
@@ -6146,26 +6139,6 @@
                 }
             ],
             "wrs": 1
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "North America",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Canada",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 1
         }
     ],
     "historyLeaderboard": [
@@ -6221,7 +6194,7 @@
                 ],
                 "name": "levonn"
             },
-            "wrs": 16,
+            "wrs": 17,
             "duration": 0
         },
         {
@@ -7779,7 +7752,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 34
+            "wrs": 35
         },
         {
             "zone": [
