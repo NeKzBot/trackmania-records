@@ -472,6 +472,31 @@
         },
         {
             "user": {
+                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "levonn"
+            },
+            "wrs": 28,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "0def209a-944b-40ac-8dc8-989af08c8ef4",
                 "zone": [
                     {
@@ -528,31 +553,6 @@
                 "name": "L1ngotm"
             },
             "wrs": 28,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "levonn"
-            },
-            "wrs": 27,
             "duration": 0
         },
         {
@@ -4742,41 +4742,6 @@
         },
         {
             "user": {
-                "id": "bf154307-85ef-4402-915d-415dc57cffc0",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Seine-et-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fade2-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Cocow_"
-            },
-            "wrs": 3,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "ae6262f9-31ad-48a7-8445-3e701414a86a",
                 "zone": [
                     {
@@ -7116,6 +7081,41 @@
                     }
                 ],
                 "name": "FlimsyTM"
+            },
+            "wrs": 2,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "bf154307-85ef-4402-915d-415dc57cffc0",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Essonne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fac1b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Cocow_"
             },
             "wrs": 2,
             "duration": 0
@@ -14910,7 +14910,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 466
+            "wrs": 465
         },
         {
             "zone": [
@@ -15010,7 +15010,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 130
+            "wrs": 131
         },
         {
             "zone": [
@@ -16961,7 +16961,7 @@
                 ],
                 "name": "levonn"
             },
-            "wrs": 228,
+            "wrs": 229,
             "duration": 0
         },
         {
@@ -93139,7 +93139,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2062
+            "wrs": 2063
         },
         {
             "zone": [
@@ -95824,7 +95824,7 @@
                 ],
                 "name": "levonn"
             },
-            "wrs": 114
+            "wrs": 115
         },
         {
             "user": {
@@ -169651,7 +169651,7 @@
                     "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1049
+            "wrs": 1050
         },
         {
             "zone": [
