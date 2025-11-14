@@ -837,6 +837,36 @@
         },
         {
             "user": {
+                "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Austria",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Vienna",
+                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e567e-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ikarus."
+            },
+            "wrs": 14,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "65341b56-1625-4df2-8fb4-ad7145c03c34",
                 "zone": [
                     {
@@ -993,36 +1023,6 @@
                 "name": "riolu-tm"
             },
             "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Austria",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Vienna",
-                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e567e-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ikarus."
-            },
-            "wrs": 13,
             "duration": 0
         },
         {
@@ -5896,41 +5896,6 @@
                     }
                 ],
                 "name": "Jean-Rene"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "e08a9807-0c89-4ea5-8def-8ef26128342e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "England",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South East England",
-                        "parentId": "3022a3c9-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a755-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "ABurntCroissant"
             },
             "wrs": 1,
             "duration": 0
@@ -11675,7 +11640,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 94
+            "wrs": 93
         },
         {
             "zone": [
@@ -11730,9 +11695,9 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Croatia",
+                    "name": "Austria",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 42
@@ -11750,12 +11715,12 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Austria",
+                    "name": "Croatia",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 41
+            "wrs": 42
         },
         {
             "zone": [
@@ -13256,7 +13221,7 @@
                 ],
                 "name": "Ikarus."
             },
-            "wrs": 191,
+            "wrs": 192,
             "duration": 0
         },
         {
@@ -54814,7 +54779,7 @@
                     "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 382
+            "wrs": 383
         },
         {
             "zone": [
@@ -57277,6 +57242,35 @@
         },
         {
             "user": {
+                "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Austria",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Vienna",
+                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e567e-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ikarus."
+            },
+            "wrs": 76
+        },
+        {
+            "user": {
                 "id": "6f67d602-f64b-4bed-a608-347adcf8cad1",
                 "zone": [
                     {
@@ -57330,35 +57324,6 @@
                     }
                 ],
                 "name": "Cinxsss"
-            },
-            "wrs": 75
-        },
-        {
-            "user": {
-                "id": "973dfde4-2e0c-4cd4-9da1-4f3cc472b203",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Austria",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Vienna",
-                        "parentId": "301e41fc-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e567e-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ikarus."
             },
             "wrs": 75
         },
@@ -97174,7 +97139,7 @@
                     "zoneId": "301e41fc-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 189
+            "wrs": 190
         },
         {
             "zone": [
