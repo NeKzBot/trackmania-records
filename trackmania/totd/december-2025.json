@@ -4057,7 +4057,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "b70e6c3f-f311-47c7-af0b-aeca691ed216",
+                        "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
                         "zone": [
                             {
                                 "name": "World",
@@ -4065,33 +4065,28 @@
                                 "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Europe",
+                                "name": "North America",
                                 "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                                "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "France",
-                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                                "name": "Canada",
+                                "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                             },
                             {
-                                "name": "Centre-Val de Loire",
-                                "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f9809-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "Indre",
-                                "parentId": "301f9809-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f99cb-7e13-11e8-8060-e284abfd2bc4"
+                                "name": "Quebec",
+                                "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "Sheinex"
+                        "name": "L1ngotm"
                     },
-                    "date": "2025-12-10T22:42:49+00:00",
-                    "replay": "5ae0d372-d279-4b06-886f-bdc114a54a18",
+                    "date": "2025-12-11T00:34:00+00:00",
+                    "replay": "77e3c51a-ed25-4763-a482-2f3ca4e13c3b",
                     "duration": 0,
-                    "score": 45292,
-                    "delta": 6
+                    "score": 45232,
+                    "delta": 60
                 }
             ],
             "history": [
@@ -4467,14 +4462,77 @@
                     "duration": 0,
                     "score": 45292,
                     "delta": 6
+                },
+                {
+                    "user": {
+                        "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "North America",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Canada",
+                                "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Quebec",
+                                "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "L1ngotm"
+                    },
+                    "date": "2025-12-11T00:34:00+00:00",
+                    "replay": "77e3c51a-ed25-4763-a482-2f3ca4e13c3b",
+                    "duration": 0,
+                    "score": 45232,
+                    "delta": 60
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 486368
+        "totalTime": 486308
     },
     "leaderboard": [
+        {
+            "user": {
+                "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "North America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Canada",
+                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Quebec",
+                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "L1ngotm"
+            },
+            "wrs": 2,
+            "duration": 0
+        },
         {
             "user": {
                 "id": "60e9eb34-0b7a-42bc-aecb-2d7bce734712",
@@ -4652,36 +4710,6 @@
         },
         {
             "user": {
-                "id": "b981e0b1-2d6a-4470-9b52-c1f6b0b1d0a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "North America",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Canada",
-                        "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Quebec",
-                        "parentId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e73a7-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "L1ngotm"
-            },
-            "wrs": 1,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "31126c79-a0f9-4b5a-9adc-e4e5b4a651d8",
                 "zone": [
                     {
@@ -4744,41 +4772,6 @@
             },
             "wrs": 1,
             "duration": 0
-        },
-        {
-            "user": {
-                "id": "b70e6c3f-f311-47c7-af0b-aeca691ed216",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Centre-Val de Loire",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f9809-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Indre",
-                        "parentId": "301f9809-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f99cb-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Sheinex"
-            },
-            "wrs": 1,
-            "duration": 0
         }
     ],
     "countryLeaderboard": [
@@ -4798,6 +4791,26 @@
                     "name": "Finland",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301f60f6-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 2
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "North America",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Canada",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 2
@@ -4890,26 +4903,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Canada",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 1
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Oceania",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e237a-7e13-11e8-8060-e284abfd2bc4"
@@ -4938,26 +4931,6 @@
                     "name": "Germany",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301ff622-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 1
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "France",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -4991,7 +4964,7 @@
                 ],
                 "name": "L1ngotm"
             },
-            "wrs": 20,
+            "wrs": 21,
             "duration": 0
         },
         {
@@ -6159,14 +6132,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "North America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Czechia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Canada",
+                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 21
@@ -6179,17 +6152,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "North America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2274-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Canada",
-                    "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e6dd7-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Czechia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301f45cd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 20
+            "wrs": 21
         },
         {
             "zone": [
