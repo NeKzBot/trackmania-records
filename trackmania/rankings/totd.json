@@ -5897,7 +5897,7 @@
         },
         {
             "user": {
-                "id": "fb334f08-cda5-4976-86ee-6e6cde426218",
+                "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
                 "zone": [
                     {
                         "name": "World",
@@ -5910,17 +5910,22 @@
                         "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Slovenia",
+                        "name": "France",
                         "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30225254-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Primorska",
-                        "parentId": "30225254-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302255bf-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
                     }
                 ],
-                "name": "lomasten"
+                "name": "NablaTM"
             },
             "wrs": 1,
             "duration": 0
@@ -11580,7 +11585,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 365
+            "wrs": 366
         },
         {
             "zone": [
@@ -12185,26 +12190,6 @@
                     "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Slovenia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30225254-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 3
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Lithuania",
                     "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "30208514-7e13-11e8-8060-e284abfd2bc4"
@@ -12268,6 +12253,26 @@
                     "name": "Taïwan",
                     "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "441a02c4-7efc-11ea-9e2d-0242f42a9f7c"
+                }
+            ],
+            "wrs": 2
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Slovenia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30225254-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 2
@@ -15581,36 +15586,6 @@
         },
         {
             "user": {
-                "id": "591ded1a-09d4-415b-8c31-1bf6a5f847aa",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Serbia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30224d28-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Novi Sad",
-                        "parentId": "30224d28-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30224f78-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Komy-"
-            },
-            "wrs": 61,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "34c6cbff-c169-4f75-9998-2c73b8ee3673",
                 "zone": [
                     {
@@ -15641,7 +15616,37 @@
                 ],
                 "name": "NablaTM"
             },
-            "wrs": 60,
+            "wrs": 61,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "591ded1a-09d4-415b-8c31-1bf6a5f847aa",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Serbia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30224d28-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Novi Sad",
+                        "parentId": "30224d28-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30224f78-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Komy-"
+            },
+            "wrs": 61,
             "duration": 0
         },
         {
@@ -54609,7 +54614,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 5157
+            "wrs": 5158
         },
         {
             "zone": [
@@ -58424,7 +58429,7 @@
                 ],
                 "name": "NablaTM"
             },
-            "wrs": 51
+            "wrs": 52
         },
         {
             "user": {
@@ -97016,7 +97021,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2840
+            "wrs": 2841
         },
         {
             "zone": [
