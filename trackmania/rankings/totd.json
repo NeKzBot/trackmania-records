@@ -1602,6 +1602,31 @@
         },
         {
             "user": {
+                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Slovakia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loso-"
+            },
+            "wrs": 8,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
                 "zone": [
                     {
@@ -1947,31 +1972,6 @@
         },
         {
             "user": {
-                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Slovakia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loso-"
-            },
-            "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "6f67d602-f64b-4bed-a608-347adcf8cad1",
                 "zone": [
                     {
@@ -2003,31 +2003,6 @@
                 "name": "Novu."
             },
             "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "174136a6-d618-4822-94f3-49a2950746a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Asia",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "South Korea",
-                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "KR_min2002"
-            },
-            "wrs": 6,
             "duration": 0
         },
         {
@@ -2646,6 +2621,31 @@
                     }
                 ],
                 "name": "kopro."
+            },
+            "wrs": 5,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "174136a6-d618-4822-94f3-49a2950746a6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Asia",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South Korea",
+                        "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "KR_min2002"
             },
             "wrs": 5,
             "duration": 0
@@ -11990,14 +11990,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Asia",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "South Korea",
-                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Slovakia",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 8
@@ -12030,14 +12030,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "Asia",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Slovakia",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "South Korea",
+                    "parentId": "301e2069-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "3022589f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 7
@@ -15111,7 +15111,7 @@
                 ],
                 "name": "Loso-"
             },
-            "wrs": 70,
+            "wrs": 71,
             "duration": 0
         },
         {
@@ -55049,7 +55049,7 @@
                     "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 115
+            "wrs": 116
         },
         {
             "zone": [
@@ -58746,6 +58746,30 @@
         },
         {
             "user": {
+                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Slovakia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loso-"
+            },
+            "wrs": 40
+        },
+        {
+            "user": {
                 "id": "e41ba7cb-8d8e-4492-9909-df973d08b8e0",
                 "zone": [
                     {
@@ -58915,30 +58939,6 @@
                     }
                 ],
                 "name": "crispp"
-            },
-            "wrs": 39
-        },
-        {
-            "user": {
-                "id": "87e4afbf-fb54-4d60-9ce1-b0698beab097",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Slovakia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loso-"
             },
             "wrs": 39
         },
@@ -97446,7 +97446,7 @@
                     "zoneId": "302251c1-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 75
+            "wrs": 76
         },
         {
             "zone": [
