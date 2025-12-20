@@ -1602,6 +1602,41 @@
         },
         {
             "user": {
+                "id": "6f67d602-f64b-4bed-a608-347adcf8cad1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Occitanie",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Haute-Garonne",
+                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fde16-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Novu."
+            },
+            "wrs": 8,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "cfebb36e-21a9-496d-933c-91f058fd0b99",
                 "zone": [
                     {
@@ -1966,41 +2001,6 @@
                     }
                 ],
                 "name": "Loso-"
-            },
-            "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "6f67d602-f64b-4bed-a608-347adcf8cad1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Occitanie",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Haute-Garonne",
-                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fde16-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Novu."
             },
             "wrs": 7,
             "duration": 0
@@ -11550,7 +11550,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 366
+            "wrs": 367
         },
         {
             "zone": [
@@ -13626,31 +13626,6 @@
         },
         {
             "user": {
-                "id": "d3d84336-fc5f-49fd-b866-b15ca80152a8",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Andybaguette"
-            },
-            "wrs": 150,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "6f67d602-f64b-4bed-a608-347adcf8cad1",
                 "zone": [
                     {
@@ -13681,7 +13656,32 @@
                 ],
                 "name": "Novu."
             },
-            "wrs": 149,
+            "wrs": 150,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "d3d84336-fc5f-49fd-b866-b15ca80152a8",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Andybaguette"
+            },
+            "wrs": 150,
             "duration": 0
         },
         {
@@ -54579,7 +54579,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 5168
+            "wrs": 5169
         },
         {
             "zone": [
@@ -57270,6 +57270,40 @@
         },
         {
             "user": {
+                "id": "6f67d602-f64b-4bed-a608-347adcf8cad1",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Occitanie",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Haute-Garonne",
+                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fde16-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Novu."
+            },
+            "wrs": 79
+        },
+        {
+            "user": {
                 "id": "8977a4a0-3458-4e00-a1f4-864e4d1d4dbe",
                 "zone": [
                     {
@@ -57323,40 +57357,6 @@
                     }
                 ],
                 "name": "Ikarus."
-            },
-            "wrs": 78
-        },
-        {
-            "user": {
-                "id": "6f67d602-f64b-4bed-a608-347adcf8cad1",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Occitanie",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Haute-Garonne",
-                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fde16-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Novu."
             },
             "wrs": 78
         },
@@ -96986,7 +96986,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 2848
+            "wrs": 2849
         },
         {
             "zone": [
