@@ -1172,6 +1172,36 @@
         },
         {
             "user": {
+                "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Heves",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205224-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ricso5"
+            },
+            "wrs": 12,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "16ee3d8e-ee78-4e77-b787-48f2247f96c3",
                 "zone": [
                     {
@@ -1308,36 +1338,6 @@
                 "name": "JurixTM"
             },
             "wrs": 12,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Heves",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205224-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ricso5"
-            },
-            "wrs": 11,
             "duration": 0
         },
         {
@@ -2447,41 +2447,6 @@
         },
         {
             "user": {
-                "id": "de590c4e-f98c-4783-afa8-a01efb069ceb",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Provence-Alpes-Côte d'Azur",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Var",
-                        "parentId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff3c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "linkTM_"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "abed9589-1509-4d56-83fa-7f2a72dbacb4",
                 "zone": [
                     {
@@ -2951,6 +2916,41 @@
                     }
                 ],
                 "name": "ender.w6rst"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "de590c4e-f98c-4783-afa8-a01efb069ceb",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Provence-Alpes-Côte d'Azur",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Var",
+                        "parentId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff3c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "linkTM_"
             },
             "wrs": 4,
             "duration": 0
@@ -11585,7 +11585,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 367
+            "wrs": 366
         },
         {
             "zone": [
@@ -11945,14 +11945,14 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "South America",
+                    "name": "Europe",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Brazil",
-                    "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Hungary",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 24
@@ -11965,17 +11965,17 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
+                    "name": "South America",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Hungary",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    "name": "Brazil",
+                    "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 23
+            "wrs": 24
         },
         {
             "zone": [
@@ -14741,6 +14741,36 @@
         },
         {
             "user": {
+                "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Heves",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205224-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ricso5"
+            },
+            "wrs": 83,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "3158a2bb-1dc5-4339-b11c-65766681d72d",
                 "zone": [
                     {
@@ -14805,36 +14835,6 @@
                     }
                 ],
                 "name": "Zenyy"
-            },
-            "wrs": 82,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Heves",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205224-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ricso5"
             },
             "wrs": 82,
             "duration": 0
@@ -55174,7 +55174,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 348
+            "wrs": 349
         },
         {
             "zone": [
@@ -58764,30 +58764,6 @@
         },
         {
             "user": {
-                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Croatia",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "SKY.T1"
-            },
-            "wrs": 46
-        },
-        {
-            "user": {
                 "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
                 "zone": [
                     {
@@ -58812,6 +58788,30 @@
                     }
                 ],
                 "name": "Ricso5"
+            },
+            "wrs": 47
+        },
+        {
+            "user": {
+                "id": "45d4a435-6111-431e-954a-ca98dcd390fd",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Croatia",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f40ae-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "SKY.T1"
             },
             "wrs": 46
         },
@@ -97755,7 +97755,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 220
+            "wrs": 221
         },
         {
             "zone": [

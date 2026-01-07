@@ -1002,6 +1002,36 @@
         },
         {
             "user": {
+                "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Heves",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205224-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ricso5"
+            },
+            "wrs": 16,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "04a64a68-7370-4f67-90b2-025e1006631a",
                 "zone": [
                     {
@@ -1081,36 +1111,6 @@
                     }
                 ],
                 "name": "DarkBringer94"
-            },
-            "wrs": 15,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Heves",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205224-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ricso5"
             },
             "wrs": 15,
             "duration": 0
@@ -3157,41 +3157,6 @@
         },
         {
             "user": {
-                "id": "de590c4e-f98c-4783-afa8-a01efb069ceb",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Provence-Alpes-Côte d'Azur",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Var",
-                        "parentId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301ff3c1-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "linkTM_"
-            },
-            "wrs": 5,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "27af4475-0ba8-44cc-8757-42ba3341d882",
                 "zone": [
                     {
@@ -4276,6 +4241,41 @@
                     }
                 ],
                 "name": "ender.w6rst"
+            },
+            "wrs": 4,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "de590c4e-f98c-4783-afa8-a01efb069ceb",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Provence-Alpes-Côte d'Azur",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Var",
+                        "parentId": "301ff0a1-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301ff3c1-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "linkTM_"
             },
             "wrs": 4,
             "duration": 0
@@ -14925,7 +14925,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 465
+            "wrs": 464
         },
         {
             "zone": [
@@ -15225,7 +15225,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 43
+            "wrs": 44
         },
         {
             "zone": [
@@ -18631,7 +18631,7 @@
                 ],
                 "name": "Ricso5"
             },
-            "wrs": 107,
+            "wrs": 108,
             "duration": 0
         },
         {
@@ -93739,7 +93739,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 666
+            "wrs": 667
         },
         {
             "zone": [
@@ -97587,6 +97587,35 @@
         },
         {
             "user": {
+                "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hungary",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Heves",
+                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "30205224-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Ricso5"
+            },
+            "wrs": 61
+        },
+        {
+            "user": {
                 "id": "2ed0997d-62bc-4a53-8c09-ffb793382ea2",
                 "zone": [
                     {
@@ -97669,35 +97698,6 @@
                     }
                 ],
                 "name": "SKY.T1"
-            },
-            "wrs": 60
-        },
-        {
-            "user": {
-                "id": "b131fcf6-d928-4df3-8ba0-3b39d411991c",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hungary",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Heves",
-                        "parentId": "30204b2f-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205224-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Ricso5"
             },
             "wrs": 60
         },
@@ -170654,7 +170654,7 @@
                     "zoneId": "30204b2f-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 337
+            "wrs": 338
         },
         {
             "zone": [
