@@ -407,6 +407,26 @@
         },
         {
             "user": {
+                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "propanoia"
+            },
+            "wrs": 30,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "cb137a6a-7112-4917-8e57-c457e082ea3d",
                 "zone": [
                     {
@@ -433,26 +453,6 @@
                 "name": "xTigershark777"
             },
             "wrs": 30,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "propanoia"
-            },
-            "wrs": 29,
             "duration": 0
         },
         {
@@ -922,36 +922,6 @@
         },
         {
             "user": {
-                "id": "23274648-738e-4216-a065-2a118f978c9d",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Netherlands",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Fryslân",
-                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020986b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Knyntsje"
-            },
-            "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "65341b56-1625-4df2-8fb4-ad7145c03c34",
                 "zone": [
                     {
@@ -1141,6 +1111,36 @@
                     }
                 ],
                 "name": "bepeze."
+            },
+            "wrs": 13,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "23274648-738e-4216-a065-2a118f978c9d",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Netherlands",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Fryslân",
+                        "parentId": "302094fd-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020986b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Knyntsje"
             },
             "wrs": 13,
             "duration": 0
@@ -11780,7 +11780,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 69
+            "wrs": 68
         },
         {
             "zone": [
@@ -11948,6 +11948,16 @@
                     "name": "World",
                     "parentId": null,
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 26
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
                     "name": "Oceania",
@@ -11961,16 +11971,6 @@
                 }
             ],
             "wrs": 26
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 25
         },
         {
             "zone": [
@@ -13921,7 +13921,7 @@
                 ],
                 "name": "propanoia"
             },
-            "wrs": 132,
+            "wrs": 133,
             "duration": 0
         },
         {
@@ -55354,7 +55354,7 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 126
+            "wrs": 127
         },
         {
             "zone": [
@@ -57712,6 +57712,25 @@
         },
         {
             "user": {
+                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "propanoia"
+            },
+            "wrs": 78
+        },
+        {
+            "user": {
                 "id": "a98c34ef-5896-417b-bdfe-35c8ed25c4bc",
                 "zone": [
                     {
@@ -57767,25 +57786,6 @@
                 "name": "Ikarus."
             },
             "wrs": 78
-        },
-        {
-            "user": {
-                "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "propanoia"
-            },
-            "wrs": 77
         },
         {
             "user": {
@@ -98046,6 +98046,16 @@
                     "name": "World",
                     "parentId": null,
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 72
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
                     "name": "North America",
@@ -98059,16 +98069,6 @@
                 }
             ],
             "wrs": 72
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 71
         },
         {
             "zone": [
