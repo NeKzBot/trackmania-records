@@ -5937,7 +5937,7 @@
         },
         {
             "user": {
-                "id": "ecfdf251-941f-4397-9287-e626aff5f196",
+                "id": "a6a6f19e-46ac-4f3a-8181-a61d9ad5e85e",
                 "zone": [
                     {
                         "name": "World",
@@ -5945,17 +5945,22 @@
                         "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Europe",
+                        "name": "South America",
                         "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
                     },
                     {
-                        "name": "Ireland",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Rio de Janeiro",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "01837336-3e54-4e56-aa14-62774634a52f"
                     }
                 ],
-                "name": "KappaRiley"
+                "name": "Lopshi"
             },
             "wrs": 1,
             "duration": 0
@@ -12015,7 +12020,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 24
+            "wrs": 25
         },
         {
             "zone": [
@@ -12325,26 +12330,6 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 },
                 {
-                    "name": "Europe",
-                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
-                    "name": "Ireland",
-                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                    "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 2
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                },
-                {
                     "name": "Asia",
                     "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "301e2069-7e13-11e8-8060-e284abfd2bc4"
@@ -12473,6 +12458,26 @@
                     "name": "Panama",
                     "parentId": "301e2274-7e13-11e8-8060-e284abfd2bc4",
                     "zoneId": "3020a531-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 1
+        },
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Europe",
+                    "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                },
+                {
+                    "name": "Ireland",
+                    "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                    "zoneId": "30205b79-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
             "wrs": 1
@@ -37281,6 +37286,36 @@
         },
         {
             "user": {
+                "id": "a6a6f19e-46ac-4f3a-8181-a61d9ad5e85e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Rio de Janeiro",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "01837336-3e54-4e56-aa14-62774634a52f"
+                    }
+                ],
+                "name": "Lopshi"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "4d6219cd-bfb3-47fd-b01e-b3a79a0f3e61",
                 "zone": [
                     {
@@ -55329,7 +55364,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 251
+            "wrs": 252
         },
         {
             "zone": [
@@ -78482,6 +78517,35 @@
         },
         {
             "user": {
+                "id": "a6a6f19e-46ac-4f3a-8181-a61d9ad5e85e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "South America",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e243e-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Brazil",
+                        "parentId": "301e243e-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Rio de Janeiro",
+                        "parentId": "301e6521-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "01837336-3e54-4e56-aa14-62774634a52f"
+                    }
+                ],
+                "name": "Lopshi"
+            },
+            "wrs": 1
+        },
+        {
+            "user": {
                 "id": "4d6219cd-bfb3-47fd-b01e-b3a79a0f3e61",
                 "zone": [
                     {
@@ -98023,7 +98087,7 @@
                     "zoneId": "301e6521-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 141
+            "wrs": 142
         },
         {
             "zone": [
