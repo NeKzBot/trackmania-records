@@ -227,6 +227,31 @@
         },
         {
             "user": {
+                "id": "e975fb83-c2b4-4830-9ec6-d8253f315865",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Erizel"
+            },
+            "wrs": 45,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "fb678553-f730-442a-a035-dfc50f4a5b7b",
                 "zone": [
                     {
@@ -252,32 +277,7 @@
                 ],
                 "name": "mime.cut"
             },
-            "wrs": 45,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "e975fb83-c2b4-4830-9ec6-d8253f315865",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Erizel"
-            },
-            "wrs": 45,
+            "wrs": 44,
             "duration": 0
         },
         {
@@ -2397,6 +2397,41 @@
         },
         {
             "user": {
+                "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "vrinho."
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "a9cbdeff-daa3-4bc2-998c-b2838183fb97",
                 "zone": [
                     {
@@ -2816,41 +2851,6 @@
                     }
                 ],
                 "name": "Mattlightning"
-            },
-            "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hauts-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nord",
-                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "vrinho."
             },
             "wrs": 6,
             "duration": 0
@@ -14950,7 +14950,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 466
+            "wrs": 467
         },
         {
             "zone": [
@@ -15010,7 +15010,7 @@
                     "zoneId": "3020aa8e-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 143
+            "wrs": 142
         },
         {
             "zone": [
@@ -21211,6 +21211,41 @@
         },
         {
             "user": {
+                "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Nord",
+                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "vrinho."
+            },
+            "wrs": 57,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "7bbb9fac-f887-4a3f-8e41-be3121b39a7d",
                 "zone": [
                     {
@@ -21302,41 +21337,6 @@
                 "name": "Chickenrunnn"
             },
             "wrs": 57,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Hauts-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa812-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Nord",
-                        "parentId": "301fa812-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fa93b-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "vrinho."
-            },
-            "wrs": 56,
             "duration": 0
         },
         {
@@ -93544,7 +93544,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 8246
+            "wrs": 8247
         },
         {
             "zone": [
