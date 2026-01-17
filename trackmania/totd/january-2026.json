@@ -6744,7 +6744,7 @@
             "wrs": [
                 {
                     "user": {
-                        "id": "504616a9-bf6b-437e-b04d-1f5d599577a6",
+                        "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
                         "zone": [
                             {
                                 "name": "World",
@@ -6755,30 +6755,15 @@
                                 "name": "Europe",
                                 "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
                                 "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "France",
-                                "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "Île-de-France",
-                                "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                            },
-                            {
-                                "name": "Yvelines",
-                                "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                                "zoneId": "301fb040-7e13-11e8-8060-e284abfd2bc4"
                             }
                         ],
-                        "name": "ScarPurp"
+                        "name": "propanoia"
                     },
-                    "date": "2026-01-17T13:09:15+00:00",
-                    "replay": "68756b7f-16a1-434e-a9a4-a7d3fcd74d37",
+                    "date": "2026-01-17T13:19:45+00:00",
+                    "replay": "9b4c8d4b-e432-4764-b52d-d2d521406166",
                     "duration": 0,
-                    "score": 40522,
-                    "delta": 26
+                    "score": 40508,
+                    "delta": 14
                 }
             ],
             "history": [
@@ -7159,12 +7144,35 @@
                     "duration": 0,
                     "score": 40522,
                     "delta": 26
+                },
+                {
+                    "user": {
+                        "id": "d11bb874-d79b-43cd-93c1-8f02b0b5d636",
+                        "zone": [
+                            {
+                                "name": "World",
+                                "parentId": null,
+                                "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                            },
+                            {
+                                "name": "Europe",
+                                "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                                "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                            }
+                        ],
+                        "name": "propanoia"
+                    },
+                    "date": "2026-01-17T13:19:45+00:00",
+                    "replay": "9b4c8d4b-e432-4764-b52d-d2d521406166",
+                    "duration": 0,
+                    "score": 40508,
+                    "delta": 14
                 }
             ]
         }
     ],
     "stats": {
-        "totalTime": 681318
+        "totalTime": 681304
     },
     "leaderboard": [
         {
@@ -7184,7 +7192,7 @@
                 ],
                 "name": "propanoia"
             },
-            "wrs": 3,
+            "wrs": 4,
             "duration": 0
         },
         {
@@ -7531,44 +7539,19 @@
             },
             "wrs": 1,
             "duration": 0
-        },
-        {
-            "user": {
-                "id": "504616a9-bf6b-437e-b04d-1f5d599577a6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Yvelines",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fb040-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "ScarPurp"
-            },
-            "wrs": 1,
-            "duration": 0
         }
     ],
     "countryLeaderboard": [
+        {
+            "zone": [
+                {
+                    "name": "World",
+                    "parentId": null,
+                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                }
+            ],
+            "wrs": 4
+        },
         {
             "zone": [
                 {
@@ -7587,17 +7570,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 5
-        },
-        {
-            "zone": [
-                {
-                    "name": "World",
-                    "parentId": null,
-                    "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                }
-            ],
-            "wrs": 3
+            "wrs": 4
         },
         {
             "zone": [
@@ -7768,7 +7741,7 @@
                 ],
                 "name": "propanoia"
             },
-            "wrs": 9,
+            "wrs": 10,
             "duration": 0
         },
         {
@@ -10451,7 +10424,7 @@
                     "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 9
+            "wrs": 10
         },
         {
             "zone": [
