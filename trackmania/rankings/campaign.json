@@ -782,6 +782,41 @@
         },
         {
             "user": {
+                "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Bretagne",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Ille-et-Vilaine",
+                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Loupphok"
+            },
+            "wrs": 6,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "304adf00-90f1-4a73-8494-ce5210689a1d",
                 "zone": [
                     {
@@ -873,41 +908,6 @@
                 "name": "WinkyFace-"
             },
             "wrs": 6,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "faedcf21-d61a-4305-9ffe-680b2ee5d65e",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Bretagne",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f9522-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Ille-et-Vilaine",
-                        "parentId": "301f9522-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f96de-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Loupphok"
-            },
-            "wrs": 5,
             "duration": 0
         },
         {
@@ -1976,36 +1976,6 @@
                     }
                 ],
                 "name": "Ssnake01"
-            },
-            "wrs": 2,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "88e1407b-f578-4f1b-aa2f-d676293435b6",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "United Kingdom",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Northern Ireland",
-                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3022a9b5-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Mattlightning"
             },
             "wrs": 2,
             "duration": 0
@@ -5207,6 +5177,36 @@
         },
         {
             "user": {
+                "id": "88e1407b-f578-4f1b-aa2f-d676293435b6",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Northern Ireland",
+                        "parentId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3022a9b5-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Mattlightning"
+            },
+            "wrs": 1,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "bf5f13a3-3be5-457b-88fa-2b4fee777fd6",
                 "zone": [
                     {
@@ -6680,7 +6680,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 103
+            "wrs": 104
         },
         {
             "zone": [
@@ -6720,7 +6720,7 @@
                     "zoneId": "3022a1b2-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 49
+            "wrs": 48
         },
         {
             "zone": [
@@ -8036,7 +8036,7 @@
                 ],
                 "name": "Loupphok"
             },
-            "wrs": 114,
+            "wrs": 115,
             "duration": 0
         },
         {
@@ -65879,7 +65879,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 3116
+            "wrs": 3117
         },
         {
             "zone": [
@@ -68689,7 +68689,7 @@
                 ],
                 "name": "Loupphok"
             },
-            "wrs": 28
+            "wrs": 29
         },
         {
             "user": {
@@ -124128,7 +124128,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 1351
+            "wrs": 1352
         },
         {
             "zone": [
