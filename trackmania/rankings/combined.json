@@ -2382,6 +2382,41 @@
         },
         {
             "user": {
+                "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Île-de-France",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Seine-et-Marne",
+                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fade2-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Heav.3Y"
+            },
+            "wrs": 7,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "e4149e93-7666-42bf-a21a-e7a4dc2c4730",
                 "zone": [
                     {
@@ -2858,41 +2893,6 @@
                 "name": "Vixxa.apX"
             },
             "wrs": 7,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Île-de-France",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fab89-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Seine-et-Marne",
-                        "parentId": "301fab89-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fade2-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Heav.3Y"
-            },
-            "wrs": 6,
             "duration": 0
         },
         {
@@ -15310,7 +15310,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 475
+            "wrs": 476
         },
         {
             "zone": [
@@ -17931,31 +17931,6 @@
         },
         {
             "user": {
-                "id": "bd45204c-80f1-4809-b983-38b3f0ffc1ef",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "WirtualTM"
-            },
-            "wrs": 171,
-            "duration": 0
-        },
-        {
-            "user": {
                 "id": "943245e6-cc01-40ec-80f9-77bb2cbb5914",
                 "zone": [
                     {
@@ -17986,7 +17961,32 @@
                 ],
                 "name": "Heav.3Y"
             },
-            "wrs": 170,
+            "wrs": 171,
+            "duration": 0
+        },
+        {
+            "user": {
+                "id": "bd45204c-80f1-4809-b983-38b3f0ffc1ef",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "WirtualTM"
+            },
+            "wrs": 171,
             "duration": 0
         },
         {
@@ -95269,7 +95269,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 8345
+            "wrs": 8346
         },
         {
             "zone": [
@@ -98126,7 +98126,7 @@
                 ],
                 "name": "Heav.3Y"
             },
-            "wrs": 109
+            "wrs": 110
         },
         {
             "user": {
@@ -173561,7 +173561,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4248
+            "wrs": 4249
         },
         {
             "zone": [
