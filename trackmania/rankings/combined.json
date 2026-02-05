@@ -552,6 +552,31 @@
         },
         {
             "user": {
+                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Norway",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "levonn"
+            },
+            "wrs": 27,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "8977a4a0-3458-4e00-a1f4-864e4d1d4dbe",
                 "zone": [
                     {
@@ -577,32 +602,7 @@
                 ],
                 "name": "ComplexStatics_"
             },
-            "wrs": 27,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "2a17ca02-ce1e-413a-b847-3befb60f4b4b",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Norway",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "3020a27d-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "levonn"
-            },
-            "wrs": 27,
+            "wrs": 26,
             "duration": 0
         },
         {
@@ -1207,6 +1207,41 @@
         },
         {
             "user": {
+                "id": "b52e0c98-387c-43eb-9acb-5c9b5e0f1286",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Occitanie",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Gers",
+                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fdc52-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Roa_TMU"
+            },
+            "wrs": 14,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "445a6375-a8aa-4b56-b3b5-18d4bff53351",
                 "zone": [
                     {
@@ -1383,41 +1418,6 @@
                 "name": "Ikarus."
             },
             "wrs": 14,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "b52e0c98-387c-43eb-9acb-5c9b5e0f1286",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Occitanie",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Gers",
-                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fdc52-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Roa_TMU"
-            },
-            "wrs": 13,
             "duration": 0
         },
         {
@@ -15245,7 +15245,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 475
+            "wrs": 476
         },
         {
             "zone": [
@@ -15405,7 +15405,7 @@
                     "zoneId": "302094fd-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 102
+            "wrs": 101
         },
         {
             "zone": [
@@ -20596,6 +20596,41 @@
         },
         {
             "user": {
+                "id": "b52e0c98-387c-43eb-9acb-5c9b5e0f1286",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Occitanie",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Gers",
+                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fdc52-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Roa_TMU"
+            },
+            "wrs": 72,
+            "duration": 0
+        },
+        {
+            "user": {
                 "id": "4a13477e-5b7a-4a74-85ce-f8157565e577",
                 "zone": [
                     {
@@ -20657,41 +20692,6 @@
                 "name": "Narbex"
             },
             "wrs": 72,
-            "duration": 0
-        },
-        {
-            "user": {
-                "id": "b52e0c98-387c-43eb-9acb-5c9b5e0f1286",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Occitanie",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Gers",
-                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fdc52-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Roa_TMU"
-            },
-            "wrs": 71,
             "duration": 0
         },
         {
@@ -95214,7 +95214,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 8351
+            "wrs": 8352
         },
         {
             "zone": [
@@ -101066,6 +101066,40 @@
         },
         {
             "user": {
+                "id": "b52e0c98-387c-43eb-9acb-5c9b5e0f1286",
+                "zone": [
+                    {
+                        "name": "World",
+                        "parentId": null,
+                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Europe",
+                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "France",
+                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Occitanie",
+                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
+                    },
+                    {
+                        "name": "Gers",
+                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
+                        "zoneId": "301fdc52-7e13-11e8-8060-e284abfd2bc4"
+                    }
+                ],
+                "name": "Roa_TMU"
+            },
+            "wrs": 37
+        },
+        {
+            "user": {
                 "id": "90c4d8bc-fecb-43a2-8a8f-2c73b2e23be6",
                 "zone": [
                     {
@@ -101172,40 +101206,6 @@
                     }
                 ],
                 "name": "kopro."
-            },
-            "wrs": 36
-        },
-        {
-            "user": {
-                "id": "b52e0c98-387c-43eb-9acb-5c9b5e0f1286",
-                "zone": [
-                    {
-                        "name": "World",
-                        "parentId": null,
-                        "zoneId": "301e1b69-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Europe",
-                        "parentId": "301e1b69-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301e2106-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "France",
-                        "parentId": "301e2106-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Occitanie",
-                        "parentId": "301f6188-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fd300-7e13-11e8-8060-e284abfd2bc4"
-                    },
-                    {
-                        "name": "Gers",
-                        "parentId": "301fd300-7e13-11e8-8060-e284abfd2bc4",
-                        "zoneId": "301fdc52-7e13-11e8-8060-e284abfd2bc4"
-                    }
-                ],
-                "name": "Roa_TMU"
             },
             "wrs": 36
         },
@@ -173516,7 +173516,7 @@
                     "zoneId": "301f6188-7e13-11e8-8060-e284abfd2bc4"
                 }
             ],
-            "wrs": 4254
+            "wrs": 4255
         },
         {
             "zone": [
